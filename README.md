@@ -1,14 +1,56 @@
-# The Standardized Definition of AI Governance – Public Reference Text
+# The Standardized Definition of AI Governance — Version 1.0
+Public Reference Standard · Canonical Repository
 
-This repository contains the public reference version of The Standardized Definition of AI Governance (v1.0), a definition-standard hybrid establishing governance as a verifiable condition of control.
+## Purpose
+This repository hosts the authoritative text of **The Standardized Definition of AI Governance (v1.0)**. It defines AI governance as a verifiable condition, supported by annexes and verification materials. The repository exists to provide a stable, citable source of truth.
 
-**Scope**: The definition, 15 Structural Tests, glossary, and certification architecture constitute a single governance reference standard.
+## Canonical Source
+The PDF and DOCX in `/Definition/` are the **only** canonical texts. No other file in this repository modifies, replaces, or supersedes them.
 
-**License**: CC BY-ND 4.0 – may be cited, referenced, and redistributed with attribution; modification prohibited to preserve canonical integrity.
+- `Definition/Standardized_Definition_v1.0.pdf`  ← canonical
+- `Definition/Standardized_Definition_v1.0.docx` ← canonical
 
-**Citation**:
-Parrott, R. (2025). The Standardized Definition of AI Governance – Version 1.0. Open Reference Standard. DOI pending.
+## Repository Structure
 
-**Purpose**: This repository ensures transparent versioning, open access, and reproducible reference for regulators, auditors, and research bodies.
+```text
+/ (root)
+├── README.md
+├── LICENSE.md
+├── VERSION.txt
+├── Definition/
+│   ├── Standardized_Definition_v1.0.pdf
+│   └── Standardized_Definition_v1.0.docx
+├── Annexes/
+│   ├── AnnexA_Glossary_Definitions.md
+│   ├── AnnexB_15_Structural_Tests.md
+│   └── AnnexC_Certification_Framework.md
+├── Governance/
+│   ├── Change_Log.md
+│   ├── Contributions_Policy.md
+│   └── Issue_Resolution_Protocol.md
+└── References/
+    ├── Citations.md
+    └── External_Alignment.md
+```
+## Use
+- For **regulatory or contractual citation**, cite the PDF in `/Definition/`.
+- For **verification**, refer to Annex B (15 Structural Tests) and Annex C (Certification & Continuous Verification).
+- For terminology, refer to Annex A (Glossary).
 
-**Status**: Public Release (v1.0). Future revisions logged in /Governance/Change_Log.md.
+## Conformance (scope statement)
+Conformance is determined against the canonical PDF. Any assessment method must reference the 15 Structural Tests as described in Annex B. This repository does not alter those requirements.
+
+## Citation
+**Recommended citation:**
+> Parrott, R. (2025). *The Standardized Definition of AI Governance — Version 1.0.* Public Reference Standard. CC BY-ND 4.0. DOI: [insert DOI when available].
+
+## License
+All materials in this repository are released under **Creative Commons Attribution–NoDerivatives 4.0 International (CC BY-ND 4.0)**. See `LICENSE.md`. Redistribution with attribution is permitted; modification of the core standard is not.
+
+## Versioning
+- Current release: see `VERSION.txt`.
+- Changes are recorded in `Governance/Change_Log.md`.
+- The canonical PDF/DOCX filenames above must remain unchanged for v1.0.
+
+## Contact
+Maintainer: Russell Parrott
