@@ -11,4 +11,4 @@ Parrott, R. (2025). The Standardized Definition of AI Governance – Version 1.0
 
 **Purpose**: This repository ensures transparent versioning, open access, and reproducible reference for regulators, auditors, and research bodies.
 
-**Statusv: Public Release (v1.0). Future revisions logged in /Governance/Change_Log.md.
+**Status**: Public Release (v1.0). Future revisions logged in /Governance/Change_Log.md.
