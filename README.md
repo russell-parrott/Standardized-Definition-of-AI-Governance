@@ -23,6 +23,7 @@ The PDF and DOCX in `/Definition/` are the **only** canonical texts. No other fi
 ├── README.md
 ├── LICENSE.md
 ├── VERSION.txt
+├── Standardized_Definition_of_AI_Governance_v1.0.md
 ├── Standardized_Definition_of_AI_Governance_v1.0.pdf
 ├── AnnexA_Glossary_Definitions.md
 ├── AnnexB_15_Structural_Tests.md
