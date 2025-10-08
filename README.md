@@ -17,20 +17,10 @@ The PDF and DOCX in `/Definition/` are the **only** canonical texts. No other fi
 ├── README.md
 ├── LICENSE.md
 ├── VERSION.txt
-├── Definition/
-│   ├── Standardized_Definition_v1.0.pdf
-│   └── Standardized_Definition_v1.0.docx
-├── Annexes/
-│   ├── AnnexA_Glossary_Definitions.md
-│   ├── AnnexB_15_Structural_Tests.md
-│   └── AnnexC_Certification_Framework.md
-├── Governance/
-│   ├── Change_Log.md
-│   ├── Contributions_Policy.md
-│   └── Issue_Resolution_Protocol.md
-└── References/
-    ├── Citations.md
-    └── External_Alignment.md
+├── Standardized_Definition_of_AI_Governance_v1.0.pdf
+├── AnnexA_Glossary_Definitions.md
+├── AnnexB_15_Structural_Tests.md
+└── AnnexC_Certification_Framework.md
 ```
 ## Use
 - For **regulatory or contractual citation**, cite the PDF in `/Definition/`.
