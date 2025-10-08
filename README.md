@@ -7,7 +7,7 @@ This repository hosts the authoritative text of **The Standardized Definition of
 ## Canonical Source
 The PDF and DOCX in `/Definition/` are the **only** canonical texts. No other file in this repository modifies, replaces, or supersedes them.
 
-- `Standardized_Definition_v1.0.pdf`  ← canonical
+- `Standardized_Definition_of_AI_Governance_v1.0.pdf`  ← canonical
 
 ## Repository Structure
 
