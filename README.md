@@ -31,7 +31,8 @@ Conformance is determined against the canonical PDF. Any assessment method must 
 
 ## Citation
 **Recommended citation:**
-> Parrott, R. (2025). *The Standardized Definition of AI Governance — Version 1.0.* Public Reference Standard. CC BY-ND 4.0. DOI: [insert DOI when available].
+> Parrott, R. (2025). *The Standardized Definition of AI Governance — Version 1.0.*
+> Public Reference Standard. CC BY-ND 4.0. DOI: [10.5281/zenodo.16881638].
 
 ## License
 All materials in this repository are released under **Creative Commons Attribution–NoDerivatives 4.0 International (CC BY-ND 4.0)**. See `LICENSE.md`. Redistribution with attribution is permitted; modification of the core standard is not.
