@@ -38,7 +38,7 @@ All materials in this repository are released under **Creative Commons Attributi
 
 ## Versioning
 - Current release: see `VERSION.txt`.
-- Changes are recorded in `Governance/Change_Log.md`.
+- Changes are recorded in `Change_Log.md`.
 - The canonical PDF/DOCX filenames above must remain unchanged for v1.0.
 
 ## Contact
