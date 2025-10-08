@@ -12,10 +12,11 @@ Public Reference Standard · Canonical Repository
 This repository hosts the authoritative text of **The Standardized Definition of AI Governance (v1.0)**. It defines AI governance as a verifiable condition, supported by annexes and verification materials. The repository exists to provide a stable, citable source of truth.
 
 ## Canonical Source
-The PDF is the **only** canonical texts. No other file in this repository modifies, replaces, or supersedes them.
+The PDF and .md are the **only** canonical texts. No other file in this repository modifies, replaces, or supersedes them.
 
 - `Standardized_Definition_of_AI_Governance_v1.0.pdf`  ← canonical
-
+- `Standardized_Definition_of_AI_Governance_v1.0.md`  ← canonical
+- 
 ## Repository Structure
 
 ```text
