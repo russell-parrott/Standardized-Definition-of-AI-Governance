@@ -3,6 +3,7 @@ Public Reference Standard · Canonical Repository
 
 [![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-blue.svg)](https://creativecommons.org/licenses/by-nd/4.0/)
 [![Version](https://img.shields.io/badge/Version-1.0.0-green.svg)](https://github.com/RussellParrott/Standardized-Definition-of-AI-Governance/releases)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17293299.svg)](https://doi.org/10.5281/zenodo.17293299)
 [![Status](https://img.shields.io/badge/Status-Public%20Reference%20Standard-darkgreen.svg)](#)
 [![Last Updated](https://img.shields.io/badge/Updated-October%202025-lightgrey.svg)](#)
 [![GitHub Pages](https://img.shields.io/badge/View%20Online-GitHub%20Pages-blueviolet.svg)](https://russellparrott.github.io/Standardized-Definition-of-AI-Governance/)
