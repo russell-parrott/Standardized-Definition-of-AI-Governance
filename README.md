@@ -1,6 +1,14 @@
 # The Standardized Definition of AI Governance — Version 1.0
 Public Reference Standard · Canonical Repository
 
+[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-blue.svg)](https://creativecommons.org/licenses/by-nd/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16881638.svg)](https://doi.org/10.5281/zenodo.16881638)
+[![Version](https://img.shields.io/badge/Version-1.0.0-green.svg)](https://github.com/RussellParrott/Standardized-Definition-of-AI-Governance/releases)
+[![Status](https://img.shields.io/badge/Status-Public%20Reference%20Standard-darkgreen.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Updated-October%202025-lightgrey.svg)](#)
+[![GitHub Pages](https://img.shields.io/badge/View%20Online-GitHub%20Pages-blueviolet.svg)](https://russellparrott.github.io/Standardized-Definition-of-AI-Governance/)
+[![Archive](https://img.shields.io/badge/Archived-Zenodo-orange.svg)](https://zenodo.org/)
+
 ## Purpose
 This repository hosts the authoritative text of **The Standardized Definition of AI Governance (v1.0)**. It defines AI governance as a verifiable condition, supported by annexes and verification materials. The repository exists to provide a stable, citable source of truth.
 
@@ -32,10 +40,13 @@ Conformance is determined against the canonical PDF. Any assessment method must 
 ## Citation
 **Recommended citation:**
 > Parrott, R. (2025). *The Standardized Definition of AI Governance — Version 1.0.*
+
 > Public Reference Standard. CC BY-ND 4.0. DOI: [10.5281/zenodo.16881638].
 
 ## License
-All materials in this repository are released under **Creative Commons Attribution–NoDerivatives 4.0 International (CC BY-ND 4.0)**. See `LICENSE.md`. Redistribution with attribution is permitted; modification of the core standard is not.
+All materials in this repository are released under **Creative Commons Attribution–NoDerivatives 4.0 International (CC BY-ND 4.0)**. 
+
+See `LICENSE.md`. Redistribution with attribution is permitted; modification of the core standard is not.
 
 ## Versioning
 - Current release: see `VERSION.txt`.
