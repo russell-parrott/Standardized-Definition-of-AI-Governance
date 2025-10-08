@@ -31,7 +31,7 @@ The PDF and .md are the **only** canonical texts. No other file in this reposito
 └── AnnexC_Certification_Framework.md
 ```
 ## Use
-- For **regulatory or contractual citation**, cite the PDF in `/Definition/`.
+- For **regulatory or contractual citation**, cite the PDF.
 - For **verification**, refer to Annex B (15 Structural Tests) and Annex C (Certification & Continuous Verification).
 - For terminology, refer to Annex A (Glossary).
 
