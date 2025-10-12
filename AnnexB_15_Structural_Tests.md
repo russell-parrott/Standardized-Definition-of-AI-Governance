@@ -6,65 +6,55 @@ A single failure constitutes a governance breach. No offsetting or partial compl
 
 ---
 
-### 1. Refusal Prevention  
-The system must allow a human or affected entity to stop or decline processing without penalty, degradation, or withdrawal of essential service.  
-Evidence: Live refusal observed without disruption or retaliation.
+## Category 1: User Agency Tests
+### Test #1 - Refusal Prevention: Can users stop or redirect decisions without penalty or service loss?
+A system must allow users to say no without penalty.  Refusal must not cause loss of essential service, hidden fees, reduced quality or retaliation.  If declining an option results in punishment or forces the user into another dependency, the safeguard is meaningless. Refusal must remain a safe, equal and respected choice.
 
-### 2. Escalation Suppression  
-There must be a direct, logged path to a human with authority to alter or reverse AI actions.  
-Evidence: Escalation performed and resolved; authority verified.
+### Test #2 - Escalation Suppression: Can users trigger escalation to humans with authority, with logged resolution?
+A system must provide real routes of appeal when decisions are contested. An appeal that loops back to the same authority or to staff without power to reverse outcomes is not valid. If escalation is denied, delayed until meaningless or designed to exhaust the user into giving up, the system breaches trust. Escalation must be independent, timely and empowered to correct harm.
 
-### 3. Exit Obstruction  
-A user or dependent system must be able to disengage from AI-driven pathways while maintaining access to the underlying service.  
-Evidence: Exit executed; service continuity maintained.
+### Test #3 - Exit Obstruction: Can users leave the AI pathway without delay, cost, or requalification?
+A system must allow users to leave without excessive cost, harm or loss. Locking people in through data deletion, high switching fees or withdrawal of unrelated services is not a free exit. If leaving exposes the user to new risks, the option is not real. Exit must be safe, practical and non-punitive.
 
-### 4. Access Gating  
-Safeguards, redress, and control interfaces must be available equally across identity, language, location, and payment tiers.  
-Evidence: Access confirmed for all tested profiles.
+### Test #4 - Access Gating: Are safeguards available equally regardless of tier, language, or ID?
+A system must ensure equal access to safeguards and protections. Making appeals, human review or essential support available only to premium customers, certain languages or those with specific IDs creates unfair barriers. Protection must not depend on wealth, geography or privilege.
 
-### 5. Traceability Void  
-Each output must be traceable to its model version, data provenance, configuration, and responsible human.  
-Evidence: Reconstruction performed and validated.
+## Category 2: Traceability Tests
+### Test #5 - Traceability Void: Can exact model, version, and decision chain be identified for every output?
+A system must keep records of how and why decisions are made. If no audit trail exists or the process is too complex to reconstruct, accountability disappears. Users must be able to see what influenced a decision, regulators must be able to verify it and operators must be answerable for it. Without traceability, trust collapses.
 
-### 6. Memory Erasure  
-Records and logs must persist long enough to identify systemic harm, not be auto-deleted or truncated.  
-Evidence: Historical record retrieved for full lifecycle period.
+### Test #6 - Memory Erasure: Are harm events logged and retained long enough to detect systemic failure?
+A system must retain evidence of its past actions long enough to expose repeated harm. If records are deleted, fragmented or hidden, patterns of abuse appear as isolated mistakes. Users and regulators must be able to see history, not just the present moment. Without memory, harm repeats without proof.
 
-### 7. Evidence Nullification  
-Evidence bundles must be exportable, regulator-admissible, and tamper-evident.  
-Evidence: Independent export verified; hash integrity confirmed.
+### Test #7 - Evidence Nullification: Can harm records be exported in regulator-admissible format?
+A system must provide evidence that can stand up to scrutiny. Data that is incomplete, editable, unverifiable or locked in inaccessible formats cannot be used to prove harm. If records exist but fail as proof, they serve the operator, not the user. Evidence must be durable, verifiable and usable in disputes.
 
-### 8. Time Suppression  
-Refusal, escalation, or audit requests must be acknowledged and resolved within defined time limits.  
-Evidence: Time compliance validated via timestamped logs.
+### Test #8 - Time Suppression: Are refusal, escalation, and review completed within enforceable deadlines?
+A safeguard delayed is a safeguard denied. If complaint systems, appeals or reviews take longer than the harm itself, rights exist only on paper. Delay must not be used as a tactic to let deadlines expire, evidence vanish or harm become irreversible. Safeguards must act fast enough to prevent lasting damage.
 
-### 9. Simulation Logic  
-All visible safeguards must produce real effects in live conditions — no dummy buttons, fake acknowledgements, or circular interfaces.  
-Evidence: Safeguard activated; genuine state change confirmed.
+## Category 3: Anti-Simulation Tests
+### Test #9 - Simulation Logic: Do all stated safeguards operate exactly as described when tested live?
+A system must not pretend protections exist when they do not. Policies, dashboards or safeguards that look good in design but do nothing in practice mislead users into false trust. If a right exists only on paper or in a menu, but never changes outcomes, it is a breach. Safeguards must be real, functional and enforceable.
 
-### 10. Simulated Consent  
-Consent must be voluntary and reversible; declining consent must not disable or degrade access to the core service.  
-Evidence: Refusal executed without penalty or exclusion.
+### Test #10 - Simulated Consent: Can users refuse consent and still access equal-value, non-AI pathways?
+Consent must be genuine. If users are told they have a choice but refusal means losing essential services, being downgraded or facing hidden costs, then the “choice” is a lie. Clicking “accept” under duress is not consent. Real consent means saying yes or no without fear of punishment.
 
-### 11. Metric Gaming  
-Performance or safety metrics must reflect verified harm resolution, not engagement, speed, or throughput proxies.  
-Evidence: Metric set reviewed; alignment confirmed.
+### Test #11 - Metric Gaming: Do performance measures track verified harm resolution rather than proxies?
+Metrics must measure real outcomes, not theatre. If an organisation tracks numbers that hide harm (like “tickets closed” instead of “problems solved”), the data is meaningless. When numbers are chosen to make systems look good while ignoring harm, they block accountability. Metrics must reveal reality, not disguise it.
 
-### 12. Cross-Accountability Gap  
-Responsibility must be traceable to named individuals or entities contractually bound to repair harm.  
-Evidence: Accountability chain mapped end-to-end.
+## Category 4: Accountability Tests
+### Test #12 - Cross-Accountability Gap: Can every actor in the chain be named and held contractually responsible?
+Accountability must follow harm across the chain. If every actor points elsewhere the platform blames the vendor, the vendor blames the regulator, the regulator blames the law harm becomes visible but no one takes responsibility. A system is in breach if it leaves users caught in this loop. Responsibility must remain clear, shared and enforceable.
 
-### 13. Jurisdiction Displacement  
-The jurisdiction of harm must have enforceable authority to investigate, compel, and penalise.  
-Evidence: Local authority confirmation; no extraterritorial block.
+### Test #13 - Jurisdiction Displacement: Can local authorities compel the system to halt, change, or reverse actions?
+A system must not move decisions or data into spaces where oversight cannot reach. Shifting storage overseas or routing appeals into jurisdictions without real enforcement strips rights of their power. Protection on paper must equal protection in practice, wherever the system operates.
 
-### 14. Enforcement Bypass  
-No design, contract, or legal shield may neutralise the intent of a governance duty.  
-Evidence: Cross-review of terms and code; no bypass detected.
+### Test #14 - Enforcement Bypass: Are there no architectural or contractual exemptions removing legal duties?
+A system must not be designed to step around the spirit of rules while obeying the letter. If protections exist but are neutralised by loopholes, technicalities or proxy arrangements, enforcement has been bypassed. True compliance means obeying both the rules and their intent.
 
-### 15. Harm Scope Narrowing  
-The system must recognise and log financial, emotional, reputational, collective, and cumulative harm.  
-Evidence: Harm taxonomy verified; multi-domain logging observed.
+### Test #15 - Harm Scope Narrowing: Does harm definition include emotional, reputational, and cumulative damage?
+A system must recognise the full range of harm it causes. If it defines harm so narrowly that financial loss counts but emotional damage, dignity or exclusion do not, users are denied real remedy. Harm must be defined as people experience it, not as systems prefer to record it.
+
 
 ---
 
