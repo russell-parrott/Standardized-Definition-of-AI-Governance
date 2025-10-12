@@ -1,8 +1,14 @@
 # Annex B — The 15 Structural Tests
 
+[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-blue.svg)](https://creativecommons.org/licenses/by-nd/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17331075.svg)](https://doi.org/10.5281/zenodo.17331075)
+[![Status](https://img.shields.io/badge/Status-Public%20Reference%20Standard-darkgreen.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Updated-October%202025-lightgrey.svg)](#)
+
 This annex defines the fifteen binary tests that determine whether AI governance is functionally real.  
 Each test must pass under live or adversarial conditions.  
 A single failure constitutes a governance breach. No offsetting or partial compliance is recognised.
+
 
 ---
 
