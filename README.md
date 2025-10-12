@@ -24,6 +24,7 @@ The PDF and .md are the **only** canonical texts. No other file in this reposito
 ├── README.md
 ├── LICENSE.md
 ├── VERSION.txt
+├── Standard_Structure_and_Citation_Guide.md
 ├── Standardized_Definition_of_AI_Governance_v1.0.md
 ├── Standardized_Definition_of_AI_Governance_v1.0.pdf
 ├── AnnexA_Glossary_Definitions.md
