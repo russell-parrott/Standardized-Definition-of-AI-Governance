@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "CreativeWork",
+  "name": "The Standardized Definition of AI Governance – Version 1.0",
+  "author": "Russell Parrott",
+  "datePublished": "2025-10-08",
+  "identifier": "https://doi.org/10.xxxx/zenodo.xxxxxx",
+  "description": "Defines the 15 Structural Tests for verifiable AI governance.",
+  "keywords": [
+    "AI governance",
+    "compliance",
+    "accountability",
+    "standardized definition",
+    "AI Act",
+    "governability"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+  "url": "https://github.com/russell-parrott/Standardized-Definition-of-AI-Governance"
+}
