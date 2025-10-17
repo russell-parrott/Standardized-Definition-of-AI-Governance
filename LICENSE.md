@@ -1,18 +1,18 @@
 # LICENSE
 
 ## Preamble
-This repository and all associated materials — including *The Standardized Definition of AI Governance (v1.0)* and its annexes — are released under the **Creative Commons Attribution–NoDerivatives 4.0 International License (CC BY-ND 4.0)**.
+This repository and all associated materials — including *The Standardized Definition of AI Governance (v1.0)* and its annexes — are released under the **This work is licensed under the Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.
 
-You are free to copy and redistribute the material in any medium or format, including for commercial use, **provided that** you give proper credit and do **not** modify, transform, or build upon the material.  
-This ensures the standard remains public, citable, and immutable.
+You are free to copy and redistribute the material in any medium or format for non-commercial purposes only, provided that you give proper credit and do not modify, transform, or build upon the material.
+This ensures the standard remains public, citable, immutable, and protected from unlicensed commercial use.
 
 Official license text begins below.
 
 ---
 
-## Creative Commons Attribution–NoDerivatives 4.0 International Public License
+## Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International Public License
 
-By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution–NoDerivatives 4.0 International Public License ("Public License"). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.
+By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International Public License ("Public License"). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.
 
 ### Section 1 – Definitions
 *(abridged headings retained for readability; full text at the URL below)*  
@@ -23,12 +23,14 @@ By exercising the Licensed Rights (defined below), You accept and agree to be bo
 (Full definitions remain as in the official license.)
 
 ### Section 2 – Scope
-You may reproduce and share the Licensed Material for any purpose, even commercially.  
+You may reproduce and share the Licensed Material **only for non-commercial purposes**.  
 You may **not** share adapted material.  
-You must retain notices, attributions, and the license link.
+You must retain notices, attributions, and the license link.  
+**Commercial use, certification, or implementation requires written authorisation from the author.**
 
 ### Section 3 – License Conditions
 - **Attribution** – Credit the author, link to this license, and indicate if changes were made.  
+- **NonCommercial** – You may not use the material for commercial purposes.  
 - **No Derivatives** – Do not distribute modified versions.  
 - **No additional restrictions** – Do not apply legal or technical barriers that prevent others from exercising these freedoms.
 
@@ -49,9 +51,8 @@ If any provision is unenforceable, the rest remains in effect. Nothing in this l
 
 ---
 
-Full, authoritative license text:  
-**<https://creativecommons.org/licenses/by-nd/4.0/legalcode>**
-
+**Full, authoritative license text:**  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode>
 ---
 
 ### Recommended Attribution
