@@ -1,7 +1,7 @@
 # The Standardized Definition of AI Governance — Version 1.0
 Public Reference Standard · Canonical Repository
 
-[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Version](https://img.shields.io/badge/Version-1.0.0-green.svg)](https://github.com/RussellParrott/Standardized-Definition-of-AI-Governance/releases)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17293299.svg)](https://doi.org/10.5281/zenodo.17293299)
 [![Status](https://img.shields.io/badge/Status-Public%20Reference%20Standard-darkgreen.svg)](#)
