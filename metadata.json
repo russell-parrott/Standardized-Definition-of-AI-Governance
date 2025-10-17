@@ -8,7 +8,7 @@
     "name": "Russell Parrott"
   },
   "datePublished": "2025-10-08",
-  "identifier": "https://doi.org/10.xxxx/zenodo.xxxxxx",
+  "identifier": "https://doi.org/10.5281/zenodo.17293299",
   "url": "https://github.com/russell-parrott/Standardized-Definition-of-AI-Governance",
   "description": "This repository hosts the authoritative text of The Standardized Definition of AI Governance (v1.0). It defines AI governance as a verifiable condition, supported by annexes and the Fifteen Structural Tests. The repository provides a stable, citable, and version-controlled source of truth for regulators, auditors, and system designers.",
   "keywords": [
@@ -38,5 +38,5 @@
     "@type": "CreativeWork",
     "url": "https://github.com/russell-parrott/Standardized-Definition-of-AI-Governance"
   },
-  "citation": "Parrott, R. (2025). The Standardized Definition of AI Governance – Version 1.0. DOI: 10.xxxx/zenodo.xxxxxx"
+  "citation": "Parrott, R. (2025). The Standardized Definition of AI Governance – Version 1.0. DOI: https://doi.org/10.5281/zenodo.17293299"
 }
