@@ -14,7 +14,7 @@ This repository hosts the authoritative text of **The Standardized Definition of
 ## Canonical Source
 The PDF and .md are the **only** canonical texts. No other file in this repository modifies, replaces, or supersedes them.
 
-- `Standardized_Definition_of_AI_Governance_v1.0.pdf`  ← canonical
+- `Standardized_Definition_of_AI_Governance_v1.0.2.pdf`  ← canonical
 - `Standardized_Definition_of_AI_Governance_v1.0.md`  ← canonical
 - 
 ## Repository Structure
@@ -26,7 +26,7 @@ The PDF and .md are the **only** canonical texts. No other file in this reposito
 ├── VERSION.txt
 ├── Standard_Structure_and_Citation_Guide.md
 ├── Standardized_Definition_of_AI_Governance_v1.0.md
-├── Standardized_Definition_of_AI_Governance_v1.0.pdf
+├── Standardized_Definition_of_AI_Governance_v1.0.2.pdf
 ├── AnnexA_Glossary_Definitions.md
 ├── AnnexB_15_Structural_Tests.md
 └── AnnexC_Certification_Framework.md
