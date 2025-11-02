@@ -1,6 +1,6 @@
 # Annex A — Glossary and Definitions
 
-This annex provides standardised definitions for all key terms used in *The Standardized Definition of AI Governance (v1.0)*.  
+This annex provides standardised definitions for all key terms used in *The Standardized Definition of AI Governance*.  
 These terms are normative where referenced in the main text or annexes.
 
 ---
