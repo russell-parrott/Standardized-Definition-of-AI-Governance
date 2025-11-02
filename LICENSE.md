@@ -1,7 +1,7 @@
 # LICENSE
 
 ## Preamble
-This repository and all associated materials — including *The Standardized Definition of AI Governance (v1.0)* and its annexes — are released under the **This work is licensed under the Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.
+This repository and all associated materials — including *The Standardized Definition of AI Governance* and its annexes — are released under the **This work is licensed under the Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.
 
 You are free to copy and redistribute the material in any medium or format for non-commercial purposes only, provided that you give proper credit and do not modify, transform, or build upon the material.
 This ensures the standard remains public, citable, immutable, and protected from unlicensed commercial use.
@@ -56,4 +56,4 @@ If any provision is unenforceable, the rest remains in effect. Nothing in this l
 ---
 
 ### Recommended Attribution
-> Parrott, R. (2025). *The Standardized Definition of AI Governance — Version 1.0.* Licensed under CC BY-ND 4.0.
+> Parrott, R. (2025). *The Standardized Definition of AI Governance* Licensed under CC BY-ND 4.0.
