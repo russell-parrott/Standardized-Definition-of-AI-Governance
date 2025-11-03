@@ -16,7 +16,7 @@ The framework replaces policy language with structure. It tests whether power ca
 
 ## What It Does
 
-The definition works through a three-part sequence:
+The definition works through a four-part sequence:
 
 - Definition → Structural Tests → Metrics
 - Definition – establishes what “governance” means as a verifiable condition.
