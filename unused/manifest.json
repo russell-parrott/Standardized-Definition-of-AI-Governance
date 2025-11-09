@@ -1,0 +1,49 @@
+{
+  "name": "Standardized Definition of AI Governance",
+  "short_name": "AI Governance",
+  "description": "Refusal logic, traceable trust, and enforceable accountability — curated by Russell Parrott.",
+  "id": "https://standardizedaigovernance.org/",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "dir": "ltr",
+  "lang": "en-GB",
+  "categories": ["education", "news", "productivity"],
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#0c1a24",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/home-1200x630.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Home"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "About",
+      "short_name": "About",
+      "url": "/about.html",
+      "icons": [{ "src": "/icons/shortcut-about.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Field Papers",
+      "short_name": "Papers",
+      "url": "/field_papers.html",
+      "icons": [{ "src": "/icons/shortcut-papers.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Engagement & Access",
+      "short_name": "Access",
+      "url": "/services.html",
+      "icons": [{ "src": "/icons/shortcut-services.png", "sizes": "96x96", "type": "image/png" }]
+    }
+  ]
+}

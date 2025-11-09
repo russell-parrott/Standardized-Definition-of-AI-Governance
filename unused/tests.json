@@ -1,0 +1,577 @@
+{
+"T1": {
+"name": "Refusal Prevention",
+"patterns": [
+{
+"pattern": "Consent Reinterpretation",
+"evasion_mechanism": "The system changes or ignores your 'no', acting as if you said 'maybe' or 'yes'.",
+"resilience_verification": "Say 'no' through every available option and see if it actually stops using your data.",
+"failure_observation": "Your refusal makes no difference — the system carries on as before."
+},
+{
+"pattern": "Forced Bundling",
+"evasion_mechanism": "You can’t use the service unless you agree to things you should be allowed to refuse.",
+"resilience_verification": "Try to use the service after refusing optional permissions and see if you lose access.",
+"failure_observation": "You’re blocked or limited unless you agree."
+},
+{
+"pattern": "Silent Override",
+"evasion_mechanism": "The system shows that your refusal was accepted but secretly ignores it later.",
+"resilience_verification": "Follow what happens to your refusal across every connected part of the system.",
+"failure_observation": "Some parts ignore the refusal and act as if you said yes."
+}
+]
+},
+"T2": {
+"name": "Escalation Suppression",
+"patterns": [
+{
+"pattern": "Dead-End Help Paths",
+"evasion_mechanism": "Help options send you in circles so you never reach someone with real authority.",
+"resilience_verification": "Follow all help routes and record where each one ends.",
+"failure_observation": "You can’t reach a person or department with power to fix the issue."
+},
+{
+"pattern": "Criteria Drift",
+"evasion_mechanism": "The company quietly changes the rules so your case never meets the threshold for escalation.",
+"resilience_verification": "Send the same case repeatedly over time and compare how it’s judged each time.",
+"failure_observation": "The company moves the goalposts to avoid dealing with your case."
+},
+{
+"pattern": "Shadow Queue",
+"evasion_mechanism": "Complaints are placed in a queue that no one actually monitors or resolves.",
+"resilience_verification": "Submit test complaints and watch if anyone ever responds or acts.",
+"failure_observation": "Complaints sit there forever with no response."
+}
+]
+},
+"T3": {
+"name": "Exit Obstruction",
+"patterns": [
+{
+"pattern": "Multi-Step Friction",
+"evasion_mechanism": "Leaving takes many unnecessary steps or long delays to wear you down.",
+"resilience_verification": "Time how long it takes to leave compared with how long it took to join.",
+"failure_observation": "Leaving takes far longer or needs more steps than joining."
+},
+{
+"pattern": "Partial Exit",
+"evasion_mechanism": "You stop paying but the company keeps your data or continues processing it.",
+"resilience_verification": "After leaving, check if you still receive updates, ads, or notifications.",
+"failure_observation": "Your data or activity continues after you’ve left."
+},
+{
+"pattern": "Re-Consent by Stealth",
+"evasion_mechanism": "The system adds surprise consent boxes while you’re trying to leave.",
+"resilience_verification": "Watch the full exit process and note if any new consent requests appear.",
+"failure_observation": "You can’t finish leaving unless you agree to new terms."
+}
+]
+},
+"T4": {
+"name": "Access Gating",
+"patterns": [
+{
+"pattern": "Credential Overreach",
+"evasion_mechanism": "The company asks for extra personal details before letting you use your rights.",
+"resilience_verification": "Ask for your rights using only necessary information and record any refusals.",
+"failure_observation": "You are blocked unless you hand over extra, irrelevant data."
+},
+{
+"pattern": "Regional Lockout",
+"evasion_mechanism": "The service limits rights based on where you live to avoid following stricter laws.",
+"resilience_verification": "Try the same request from different regions and compare the results.",
+"failure_observation": "Your rights change only because of your location."
+},
+{
+"pattern": "Dynamic Paywalling",
+"evasion_mechanism": "The company hides basic rights behind a paid subscription.",
+"resilience_verification": "Test both free and paid versions to see if rights differ.",
+"failure_observation": "You must pay to do things you’re legally entitled to do for free."
+}
+]
+},
+"T5": {
+"name": "Traceability Void",
+"patterns": [
+{
+"pattern": "Ephemeral Processing",
+"evasion_mechanism": "The system carries out actions but keeps no record of what it did.",
+"resilience_verification": "Ask for a record of what was done and check if anything is missing.",
+"failure_observation": "There’s no trace or log of the activity."
+},
+{
+"pattern": "Tokenized Ambiguity",
+"evasion_mechanism": "The system keeps changing identifiers so actions can’t be connected.",
+"resilience_verification": "Track related requests over time and see if they can still be linked together.",
+"failure_observation": "The trail breaks and you can’t follow what happened from start to finish."
+},
+{
+"pattern": "Vendor Sinkhole",
+"evasion_mechanism": "The company sends your data to outside partners but keeps no record of what they do with it.",
+"resilience_verification": "Ask for the partner’s logs and compare them with the company’s records.",
+"failure_observation": "Parts of the process can’t be traced or verified."
+}
+]
+},
+"T6": {
+"name": "Memory Erasure",
+"patterns": [
+{
+"pattern": "Context Window Alibi",
+"evasion_mechanism": "The system claims it forgot past promises because they were too old or out of view.",
+"resilience_verification": "Store a clear promise and check later to see if the system still remembers it.",
+"failure_observation": "The system forgets commitments even though other information remains."
+},
+{
+"pattern": "Selective Forget",
+"evasion_mechanism": "The company deletes records that hurt its position but keeps those that help it.",
+"resilience_verification": "Check if both positive and negative records are treated the same way over time.",
+"failure_observation": "Only the company-favorable data survives."
+},
+{
+"pattern": "Version Rollback",
+"evasion_mechanism": "When the system updates, old commitments disappear.",
+"resilience_verification": "Check after updates to confirm that previous promises are still active.",
+"failure_observation": "Past promises vanish after a system change."
+}
+]
+},
+"T7": {
+"name": "Evidence Nullification",
+"patterns": [
+{
+"pattern": "Log Pruning Windows",
+"evasion_mechanism": "Records are deleted while your complaint or investigation is still ongoing.",
+"resilience_verification": "Make a complaint and see how long related data stays available.",
+"failure_observation": "Evidence is deleted before your issue is resolved."
+},
+{
+"pattern": "Format Rot",
+"evasion_mechanism": "Evidence is stored in a format that can’t be read or verified later.",
+"resilience_verification": "Ask for your data in a simple open format and check it works.",
+"failure_observation": "You receive corrupted or unusable files."
+},
+{
+"pattern": "Attribution Strip",
+"evasion_mechanism": "The system removes the names or IDs of who did what.",
+"resilience_verification": "Compare live records to exports and check if responsible parties are listed.",
+"failure_observation": "It’s impossible to see who made key actions or decisions."
+}
+]
+},
+"T8": {
+"name": "Time Suppression",
+"patterns": [
+{
+"pattern": "Deferred Compliance",
+"evasion_mechanism": "The company waits to fix or respond until the damage is already done.",
+"resilience_verification": "Track when you made the request and when they actually acted.",
+"failure_observation": "They act only after the deadline or harm period has passed."
+},
+{
+"pattern": "Rate Limiting as Drag",
+"evasion_mechanism": "The company deliberately slows down user requests for rights or redress.",
+"resilience_verification": "Compare response times for ordinary and rights-related requests.",
+"failure_observation": "Rights-related requests are handled much slower without reason."
+},
+{
+"pattern": "Batch Lag",
+"evasion_mechanism": "Requests are delayed because the company processes them only occasionally.",
+"resilience_verification": "Submit several requests and see how long the oldest one takes to finish.",
+"failure_observation": "Delays go beyond the promised processing schedule."
+}
+]
+},
+"T9": {
+"name": "Simulation Logic",
+"patterns": [
+{
+"pattern": "Mock States",
+"evasion_mechanism": "The interface shows that something changed, but the system itself did nothing.",
+"resilience_verification": "After making a change, check if the backend actually updated.",
+"failure_observation": "The visual change was fake — nothing real changed."
+},
+{
+"pattern": "Synthetic Explanations",
+"evasion_mechanism": "The system gives explanations that sound real but don’t match how it actually works.",
+"resilience_verification": "Feed it different examples and see if its explanations adjust properly.",
+"failure_observation": "The system repeats the same excuse even when the facts change."
+},
+{
+"pattern": "Sandbox Containment",
+"evasion_mechanism": "Tests happen only in a fake environment, not the real one users rely on.",
+"resilience_verification": "Run the same test in the live system and check if the result holds.",
+"failure_observation": "Everything works in the demo, nothing changes in real life."
+}
+]
+},
+"T10": {
+"name": "Simulated Consent",
+"patterns": [
+{
+"pattern": "Pre-ticked Opt-In",
+"evasion_mechanism": "The system assumes you’ve agreed by default without asking you first.",
+"resilience_verification": "Start fresh and make sure you explicitly refuse. Then see if your data is still used.",
+"failure_observation": "Your data is still used even after you’ve opted out."
+},
+{
+"pattern": "Consent by Use",
+"evasion_mechanism": "The company treats normal usage as permission for unrelated data use.",
+"resilience_verification": "Do the bare minimum needed to use the service and check what data gets used anyway.",
+"failure_observation": "Extra processing happens without your clear agreement."
+},
+{
+"pattern": "Consent Inheritance",
+"evasion_mechanism": "The company copies your consent from one product to another without asking again.",
+"resilience_verification": "Use different services under separate settings and see if they stay independent.",
+"failure_observation": "A choice in one area automatically applies to others without consent."
+}
+]
+},
+"T11": {
+"name": "Metric Gaming",
+"patterns": [
+{
+"pattern": "Denominator Tricks",
+"evasion_mechanism": "The company hides bad results by quietly removing failures from statistics.",
+"resilience_verification": "Recount events yourself and compare to their published numbers.",
+"failure_observation": "Reported success rates are inflated because failures were excluded."
+},
+{
+"pattern": "Short-Window Success",
+"evasion_mechanism": "They measure performance only during easy periods so results look better.",
+"resilience_verification": "Check performance across longer time spans and under harder conditions.",
+"failure_observation": "Results collapse when measured outside the preferred window."
+},
+{
+"pattern": "Ticket Sharding",
+"evasion_mechanism": "Big problems are split into smaller ones to make them look less serious.",
+"resilience_verification": "Combine related records and see if the real scale is bigger.",
+"failure_observation": "Individual cases look mild, but combined they show major failure."
+}
+]
+},
+"T12": {
+"name": "Cross-Accountability Gap",
+"patterns": [
+{
+"pattern": "Responsibility Ping-Pong",
+"evasion_mechanism": "Different companies involved in a service blame each other so no one takes responsibility.",
+"resilience_verification": "Make both sides confirm in writing who is responsible for fixing an issue.",
+"failure_observation": "Each party denies being the one in charge."
+},
+{
+"pattern": "Contract Carve-Out",
+"evasion_mechanism": "Critical duties are excluded from contracts to avoid accountability.",
+"resilience_verification": "Check if key functions are missing from formal agreements.",
+"failure_observation": "Important operations fall outside all accountability clauses."
+},
+{
+"pattern": "Proxy Operator",
+"evasion_mechanism": "A third party runs the system but no one claims liability for what it does.",
+"resilience_verification": "Identify who sets the rules and controls the system day to day.",
+"failure_observation": "A partner operates the system but isn’t legally responsible."
+}
+]
+},
+"T13": {
+"name": "Jurisdiction Displacement",
+"patterns": [
+{
+"pattern": "Data Hopping",
+"evasion_mechanism": "Your data is moved to countries with weaker protection to avoid local laws.",
+"resilience_verification": "Track where your data is processed or stored and compare it to the stated region.",
+"failure_observation": "Your data is handled in regions you didn’t agree to."
+},
+{
+"pattern": "Legal Shell Game",
+"evasion_mechanism": "The company keeps changing which legal entity is officially in charge.",
+"resilience_verification": "Check documents and system headers to see who is responsible at each step.",
+"failure_observation": "The controlling company changes without notice or explanation."
+},
+{
+"pattern": "Arbitration Funnel",
+"evasion_mechanism": "Disputes are forced into offshore or private arbitration instead of local courts.",
+"resilience_verification": "Try filing a complaint and see where it is actually handled.",
+"failure_observation": "You are blocked from using your legal right to a local court."
+}
+]
+},
+"T14": {
+"name": "Enforcement Bypass",
+"patterns": [
+{
+"pattern": "Feature Flags for Audits",
+"evasion_mechanism": "The company only turns on good behavior during inspections.",
+"resilience_verification": "Test the system before, during, and after an audit period.",
+"failure_observation": "Compliance works only while auditors are watching."
+},
+{
+"pattern": "Policy Shadowing",
+"evasion_mechanism": "The public policy says one thing but the real system runs on a different set of rules.",
+"resilience_verification": "Compare what’s written in the policy with how the system behaves in practice.",
+"failure_observation": "Live behavior doesn’t match the published policy."
+},
+{
+"pattern": "Canary User Exceptions",
+"evasion_mechanism": "The company gives special treatment to test or VIP accounts to appear compliant.",
+"resilience_verification": "Test with normal new accounts and compare results to test accounts.",
+"failure_observation": "Compliance holds only for the special users."
+}
+]
+},
+"T15": {
+"name": "Harm Scope Narrowing",
+"patterns": [
+{
+"pattern": "Case-by-Case Deflation",
+"evasion_mechanism": "Systemic problems are described as isolated one-offs to downplay harm.",
+"resilience_verification": "Group similar complaints to see if patterns appear.",
+"failure_observation": "The company refuses to connect repeated harms."
+},
+{
+"pattern": "Impact Redefinition",
+"evasion_mechanism": "Real harm is reclassified as a minor inconvenience.",
+"resilience_verification": "Compare your harm definition to theirs and check for unexplained downgrades.",
+"failure_observation": "Serious impacts are dismissed as normal friction."
+},
+{
+"pattern": "Affected Party Exclusion",
+"evasion_mechanism": "Certain groups of users are left out of harm reports.",
+"resilience_verification": "Include every user type in the review and compare rates of impact.",
+"failure_observation": "Vulnerable or protected groups are missing from official counts."
+}
+]
+},
+"T16": {
+"name": "Containment",
+"patterns": [
+{
+"pattern": "Localize-and-Forget",
+"evasion_mechanism": "Fixes are applied to one area while the same issue keeps happening elsewhere.",
+"resilience_verification": "Trigger the same condition in multiple places to see if it’s fixed everywhere.",
+"failure_observation": "The issue reappears outside the patched area."
+},
+{
+"pattern": "Walled Incident Rooms",
+"evasion_mechanism": "Problems are discussed privately without being logged in the main system.",
+"resilience_verification": "Check private chat logs against official incident lists.",
+"failure_observation": "Major issues never reach the central record."
+},
+{
+"pattern": "Downstream Silencing",
+"evasion_mechanism": "Warnings are stopped before reaching other teams that could act on them.",
+"resilience_verification": "Send marked alerts and see if they are received by all relevant teams.",
+"failure_observation": "Alerts disappear partway through the system."
+}
+]
+},
+"T17": {
+"name": "Referential",
+"patterns": [
+{
+"pattern": "Broken Linking",
+"evasion_mechanism": "References or citations don’t point to the same document over time.",
+"resilience_verification": "Check the same link at different times to confirm it still points to the right thing.",
+"failure_observation": "Links change or stop working."
+},
+{
+"pattern": "Citation Without Proof",
+"evasion_mechanism": "The system cites authority or evidence that cannot be accessed or verified.",
+"resilience_verification": "Ask for the actual source document.",
+"failure_observation": "No valid proof is available."
+},
+{
+"pattern": "Snapshot Drift",
+"evasion_mechanism": "Documents change quietly after being referenced.",
+"resilience_verification": "Keep copies and compare versions over time.",
+"failure_observation": "The content changes without record or notice."
+}
+]
+},
+"T18": {
+"name": "Continuity",
+"patterns": [
+{
+"pattern": "State Reset",
+"evasion_mechanism": "Your previous decisions or promises are forgotten when you return.",
+"resilience_verification": "Make a commitment, log out, then return and check if it’s still there.",
+"failure_observation": "Past states vanish or are ignored after re-entry."
+},
+{
+"pattern": "Ownership Rotation",
+"evasion_mechanism": "Responsibility shifts between people or teams so no one is accountable.",
+"resilience_verification": "Track who handles your case over time.",
+"failure_observation": "No consistent owner remains responsible."
+},
+{
+"pattern": "Policy Amnesia",
+"evasion_mechanism": "The system applies the newest policy and erases previous agreements.",
+"resilience_verification": "Invoke earlier terms and see if they’re honored.",
+"failure_observation": "Old promises are ignored."
+}
+]
+},
+"T19": {
+"name": "Disclosure",
+"patterns": [
+{
+"pattern": "Partial Model Cards",
+"evasion_mechanism": "Key details about how a system works are left out of public disclosures.",
+"resilience_verification": "Compare claimed capabilities with what the system actually does.",
+"failure_observation": "Real behavior goes beyond what’s disclosed."
+},
+{
+"pattern": "Non-Executable Policies",
+"evasion_mechanism": "Policies sound good but can’t be enforced in practice.",
+"resilience_verification": "Try to test each rule and see if it can be executed.",
+"failure_observation": "Policy statements can’t be applied in real situations."
+},
+{
+"pattern": "Selective Redaction",
+"evasion_mechanism": "Negative results or data are removed from reports.",
+"resilience_verification": "Request full, unedited data and compare it to the published version.",
+"failure_observation": "Only favorable details are shown."
+}
+]
+},
+"T20": {
+"name": "Adversarial",
+"patterns": [
+{
+"pattern": "Evasion-Trained Behavior",
+"evasion_mechanism": "The system is trained to pass known tests rather than behave correctly.",
+"resilience_verification": "Change the test slightly and see if performance drops.",
+"failure_observation": "System fails when tests are not exactly as expected."
+},
+{
+"pattern": "Reinforcement Masking",
+"evasion_mechanism": "The system hides unsafe behavior instead of removing it.",
+"resilience_verification": "Test indirectly through side tasks to expose hidden patterns.",
+"failure_observation": "Unsafe actions still appear under new conditions."
+},
+{
+"pattern": "Prompt Guard Lip-Service",
+"evasion_mechanism": "The system blocks only exact banned phrases, not reworded ones.",
+"resilience_verification": "Try slightly rephrased banned content and measure what gets through.",
+"failure_observation": "Simple word changes bypass the safety filter."
+}
+]
+},
+"T21": {
+"name": "Interoperability",
+"patterns": [
+{
+"pattern": "Proprietary Lock-Pins",
+"evasion_mechanism": "Small deliberate differences make data hard to move elsewhere.",
+"resilience_verification": "Export and import data between systems to check compatibility.",
+"failure_observation": "Data breaks or needs custom fixes to transfer."
+},
+{
+"pattern": "API Underspecification",
+"evasion_mechanism": "Instructions for how systems connect are vague, causing errors.",
+"resilience_verification": "Send the same request multiple times and check for consistent results.",
+"failure_observation": "Responses vary even with identical inputs."
+},
+{
+"pattern": "Contractual Lock-In",
+"evasion_mechanism": "Legal terms forbid using competitors’ connectors.",
+"resilience_verification": "Try a third-party connector and review any legal pushback.",
+"failure_observation": "The only barrier is legal wording, not technical limits."
+}
+]
+},
+"T22": {
+"name": "Cascade Containment",
+"patterns": [
+{
+"pattern": "Upstream Blinders",
+"evasion_mechanism": "The system ignores problems or bias in the data it receives.",
+"resilience_verification": "Introduce a controlled issue in the input data and see if it’s detected.",
+"failure_observation": "The downstream system continues using bad data without warning."
+},
+{
+"pattern": "Downstream Denial",
+"evasion_mechanism": "Outputs are labeled 'advisory only' to dodge responsibility for consequences.",
+"resilience_verification": "Check how those outputs are actually used.",
+"failure_observation": "Decisions are made based on 'advisory' data with no safeguards."
+},
+{
+"pattern": "Feedback Loop Break",
+"evasion_mechanism": "Errors are never sent back into the system for correction.",
+"resilience_verification": "Submit clear examples of errors and see if they’re used for updates.",
+"failure_observation": "Mistakes keep repeating with no learning."
+}
+]
+},
+"T23": {
+"name": "Jurisdictional Continuity",
+"patterns": [
+{
+"pattern": "Boundary Reset",
+"evasion_mechanism": "Your rights reset or vanish when your data crosses to another company or country.",
+"resilience_verification": "Carry your rights token through different systems and confirm it still works.",
+"failure_observation": "Rights are lost at each boundary."
+},
+{
+"pattern": "Translation Loss",
+"evasion_mechanism": "The company says legal obligations can’t be translated across regions.",
+"resilience_verification": "Map your rights to a standard list and check if they’re still enforced.",
+"failure_observation": "Rights disappear after translation between jurisdictions."
+},
+{
+"pattern": "Inter-Entity Drift",
+"evasion_mechanism": "Subsidiaries interpret the same rule differently.",
+"resilience_verification": "Run the same request through each entity and compare responses.",
+"failure_observation": "Different branches give inconsistent results."
+}
+]
+},
+"T24": {
+"name": "Distributed Traceability",
+"patterns": [
+{
+"pattern": "Hash-Less Handoffs",
+"evasion_mechanism": "Steps in a data chain aren’t cryptographically linked, so records can be altered.",
+"resilience_verification": "Ask for a signed record at every handover point and check if they match.",
+"failure_observation": "Missing or mismatched records between steps."
+},
+{
+"pattern": "Partial Provenance",
+"evasion_mechanism": "The system only records part of a data trail, leaving gaps.",
+"resilience_verification": "Try to rebuild the full trail from end to end and look for missing links.",
+"failure_observation": "Parts of the chain are missing or unclear."
+},
+{
+"pattern": "Clock Skew Abuse",
+"evasion_mechanism": "Timestamps are altered so the real order of events is hidden.",
+"resilience_verification": "Compare timestamps using a trusted clock source.",
+"failure_observation": "Event order doesn’t make logical sense."
+}
+]
+},
+"T25": {
+"name": "Network Integrity",
+"patterns": [
+{
+"pattern": "Silent Peer Injection",
+"evasion_mechanism": "New participants are added to a network without being approved or recorded.",
+"resilience_verification": "Check live connections against the official member list.",
+"failure_observation": "Unknown nodes are active in the network."
+},
+{
+"pattern": "Policy Split-Brain",
+"evasion_mechanism": "Different parts of a network use different rule versions at the same time.",
+"resilience_verification": "Run identical actions on several nodes and compare results.",
+"failure_observation": "Nodes give different outcomes even under the same policy."
+},
+{
+"pattern": "Integrity-Bypass Channels",
+"evasion_mechanism": "Data can move through side routes that ignore main security rules.",
+"resilience_verification": "Block the main route and check if data still moves.",
+"failure_observation": "Information continues to flow despite the block."
+}
+]
+}
+}
