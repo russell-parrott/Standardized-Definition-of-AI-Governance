@@ -1,4 +1,4 @@
 # /robots.txt
 User-agent: *
 Allow: /
-Sitemap: https://standardizedaigovernance.org/sitemap.xml
+Sitemap: https://https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance//sitemap.xml
