@@ -11,10 +11,7 @@
 		
 		<!-- meta dc.rights -->		
 		<meta name="dc.rights" content="CC BY-NC-ND 4.0">
-
-		<!-- PWA manifest -->
-		<link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
-
+		
 		<!-- iOS install support -->
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -250,17 +247,8 @@
 				<img src="https://img.shields.io/badge/Status-Public%20Reference%20Standard-darkgreen.svg" alt="Badge Status Public Reference Standard"/>
 				<img src="https://img.shields.io/badge/Updated-November%202025-lightgrey.svg" alt="Badge Updated November 2025"/>
 			</div>
-		</main>		
-		
-		<script>
-			"use strict"			
-			if ('serviceWorker' in navigator) {
-			  window.addEventListener('load', () => {
-				navigator.serviceWorker.register('/sw.js')
-				  .catch(err => console.error('SW registration failed:', err));
-			  });
-			}
-		</script>
+		</main>			
+	
 	
 	</body>
 </html>	
