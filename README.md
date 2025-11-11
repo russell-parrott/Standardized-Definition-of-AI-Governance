@@ -32,7 +32,7 @@ The order only matters when the tests and metrics are used together. Partial use
 
 ## Citation
 **Recommended citation:**
-> Parrott, R. (2025). *The Standardized Definition of AI Governance. DOI 10.5281/zenodo.17293299*
+> Parrott, R. (2025). *The Standardized Definition of AI Governance. DOI 10.5281/zenodo.17505286*
 
 ## License
 All materials in this repository are released under **Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 Internation**. 
