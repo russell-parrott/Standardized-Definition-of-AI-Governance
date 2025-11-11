@@ -9,7 +9,9 @@ Public Reference Standard · Canonical Repository
 [![GitHub Pages](https://img.shields.io/badge/View%20Online-GitHub%20Pages-blueviolet.svg)](https://russellparrott.github.io/Standardized-Definition-of-AI-Governance/)
 
 ## Purpose
-This repository hosts the authoritative text of *The Standardized Definition of AI Governance*, the first framework that defines AI governance as a measurable structural condition. It sets out how integrity, accountability and control can be proven inside any system, government or AI platform.
+This repository hosts the authoritative text of *The Standardized Definition of AI Governance*, the first open framework that defines AI governance as a measurable structural condition.
+
+It establishes how integrity, accountability and control can be proven inside any organisation, government or AI platform — not as ethical aspiration but as verifiable architecture.
 
 The framework replaces policy language with structure. It tests whether power can be refused, traced and held to account. It measures not what organisations claim to believe, but what their architecture actually allows them to do.
 
