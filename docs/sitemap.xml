@@ -1,8 +1,12 @@
 <!-- /sitemap.xml -->
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance/</loc><lastmod>2025-11-08</lastmod></url>
-  <url><loc>https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance/about.html</loc><lastmod>2025-11-08</lastmod></url>
-  <url><loc>https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance/services.html</loc><lastmod>2025-11-08</lastmod></url>
-  <url><loc>https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance/field_papers.html</loc><lastmod>2025-11-08</lastmod></url>
+	<url><loc>https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance/</loc><lastmod>2025-11-08</lastmod></url>
+	<url><loc>https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance/about.html</loc><lastmod>2025-11-08</lastmod></url>
+	<url><loc>https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance/services.html</loc><lastmod>2025-11-08</lastmod></url>
+	<url><loc>https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance/field_papers.html</loc><lastmod>2025-11-08</lastmod></url>  
+	<url><loc>https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance/ai-governance-measurement.html</loc><lastmod>2025-11-12</lastmod></url>
+	<url><loc>https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance/turning-code-into-compliance.html</loc><lastmod>2025-11-12</lastmod></url>
+	<url><loc>https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance/turning-governance-into-advantage.html</loc><lastmod>2025-11-12</lastmod></url>
+	<url><loc>https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance/turning-oversight-into-infrastructure.html</loc><lastmod>2025-11-12</lastmod></url>
 </urlset>
