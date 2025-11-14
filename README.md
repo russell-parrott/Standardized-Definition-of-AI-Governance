@@ -102,6 +102,7 @@ DOI: 10.5281/zenodo.17552324
 ├── Standardized_Definition_of_AI_Governance.pdf
 ├── AI_Governance_Measurement_Framework.pdf
 ├── CHANGE_LOG.md
+├── COMMERCIAL-LICENCE.md
 ├── LICENSE.md
 ├── PRICING.md
 ├── VERSION.txt
