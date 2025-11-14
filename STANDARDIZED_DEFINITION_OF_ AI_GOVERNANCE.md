@@ -3,6 +3,8 @@ Version 1.0.4 · Public Reference Standard
 DOI: 10.5281/zenodo.17505286  
 License: CC BY-NC-ND 4.0
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17505286.svg)](https://doi.org/10.5281/zenodo.17505286)
+
 ## Overview
 The **Standardized Definition of AI Governance** establishes the structural boundary of what “AI governance” is, how it functions, and the conditions under which it can be verified.  
 It defines the core object of governance (control, accountability, truth integrity and systemic continuity) and sets the structural logic that underpins the entire Sovereign AI Governance Kit.
