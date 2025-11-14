@@ -106,6 +106,7 @@ DOI: 10.5281/zenodo.17552324
 ├── LICENSE.md
 ├── PRICING.md
 ├── VERSION.txt
+├── why_this_framework_cant_be_bought.md
 └── README.md
 ```
 No scripts.  
