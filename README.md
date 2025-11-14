@@ -101,9 +101,10 @@ DOI: 10.5281/zenodo.17552324
 ```text
 ├── Standardized_Definition_of_AI_Governance.pdf
 ├── AI_Governance_Measurement_Framework.pdf
-├── LICENSE.md
-├── VERSION.txt
 ├── CHANGE_LOG.md
+├── LICENSE.md
+├── PRICING.md
+├── VERSION.txt
 └── README.md
 ```
 No scripts.  
