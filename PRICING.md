@@ -126,4 +126,4 @@ Does not include:
 
 To request an authorised Commercial, Enterprise or Professional licence:
 
-**[Insert contact address or link here]**
+📧 parrott.russell@gmail.com
