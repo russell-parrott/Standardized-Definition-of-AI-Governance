@@ -162,5 +162,6 @@ Legal action may follow.
 
 ## 10. Contact
 
-To request an authorised licence, contact:  
-**[Insert licence email or form link here]**
+For licence, citation or structural integrity questions only, contact:
+
+📧 parrott.russell@gmail.com
