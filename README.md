@@ -166,8 +166,6 @@ For authorised integrations, controlled editions, publications, or lawful econom
 
 Maintainer: Russell Parrott
 
-For licence, citation or structural integrity questions only, contact:
-
 📧 parrott.russell@gmail.com
 
 **Authored interpretive editions are available separately.**
