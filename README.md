@@ -134,27 +134,42 @@ The doctrine remains **above corporate tooling**, **outside vendor capture**, an
 
 ---
 
-## Licence (CC BY-NC-ND 4.0)
+# Licence (CC BY-NC-ND 4.0)
 
 Both documents are licensed under  
-**Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International**.
+**Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International.**
 
-### Permitted
+This licence allows **free internal use** but prohibits **commercial exploitation** and **derivatives**.
 
-- Downloading  
-- Sharing, citing, teaching  
-- Public or private redistribution  
-- Non-commercial research and oversight
+---
 
-### Not Permitted
+## Permitted
+- Downloading and reading  
+- Sharing and citation (with attribution)  
+- Teaching and non-commercial education  
+- Public or private redistribution of the unmodified documents  
+- Internal organisational use and implementation  
+- Non-commercial research, analysis, and oversight
 
-- Editing, adapting, translating, summarising, extracting  
-- Any form of commercial use (direct or indirect)  
-- Integration into products or services  
+---
+
+## Not Permitted
+- Editing, adapting, translating, summarising, or extracting  
+- Any commercial use (direct or indirect)  
+- Use in paid consulting, auditing, training, or client work  
+- Integration into commercial products, software, or SaaS  
+- Rebranding, repackaging, or derivative frameworks  
 - Removal of attribution or licence terms  
-- Any derivative or modified version  
+- Any form of certification, accreditation, or paid implementation
 
-Commercial application, certification, or implementation requires written authorisation from the author.
+---
+
+## Commercial Use
+Commercial exploitation — including consulting, client work, software integration, product use, and any revenue-generating application — **requires a paid licence** from the author.
+
+Internal organisational use remains **free under CC BY-NC-ND 4.0**.
+
+---
 
 ## Versioning
 - Current release: see `VERSION.txt`.
