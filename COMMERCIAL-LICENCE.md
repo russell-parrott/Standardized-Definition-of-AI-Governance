@@ -1,25 +1,19 @@
-# COMMERCIAL IMPLEMENTATION LICENCE
-For the Standardized Definition of AI Governance and the Sovereign AI Governance Kit
+# COMMERCIAL USE LICENCE
+_For the Standardized Definition of AI Governance and the Sovereign AI Governance Kit_
 
-This licence is required for any organisation that **implements**, **operationalises**, or **relies on**:
+The governance system is free to read, download, study, teach, and use internally under  
+**Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 (CC BY-NC-ND 4.0).**
 
-- the *Standardized Definition of AI Governance*, and/or  
-- the *Sovereign AI Governance Kit* (Policy, User Guide, Tests, Metrics, Forms)
+**Internal organisational use does not require a licence.**  
+A licence is only required when the material is used commercially.
 
-These documents form **one unified governance system**.
-
-They are free to read under  
-**Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 (CC BY-NC-ND 4.0)**.  
-Implementation requires this licence.
-
-This licence lifts the **non-commercial restriction** solely for authorised internal or professional use.  
+This licence lifts the “NonCommercial” restriction solely for authorised commercial use.  
 All other CC BY-NC-ND terms remain in force.
 
 ---
 
 ## 1. Scope of Licensed Material
-
-This licence covers the full Governance System:
+This licence covers commercial use of:
 
 - Standardized Definition of AI Governance  
 - 25 Structural Tests  
@@ -27,129 +21,104 @@ This licence covers the full Governance System:
 - AI Governance Policy  
 - AI Governance User Guide  
 - Standard Forms, Checklists, Training Sheets  
-- All diagrams, definitions and boundary conditions  
+- All diagrams, definitions, and structural boundary conditions  
 
-(Collectively: **“the Governance System”**.)
+(Collectively: **“the Governance System.”**)
 
 ---
 
-## 2. What This Licence Allows
+## 2. What This Licence Allows (Commercial Use)
+The licensee may use the Governance System commercially for:
 
-The licensee may:
+- consulting, auditing, or advisory work  
+- client projects or external engagements  
+- paid training or professional education  
+- applying tests and metrics for clients  
+- using the structure as a service methodology  
+- integrating the Governance System into commercial workflows  
 
-- adopt the Governance System as their internal AI governance structure  
-- insert organisational details (names, roles, contacts, etc.)  
-- implement refusal gates, safeguards, custody registry and user rights  
-- run the 25 Tests and 7 Solvency Metrics  
-- operate the Cascade Response  
-- use the structure for internal compliance, oversight and risk management  
-- train internal staff on the Governance System  
-
-This is **implementation**, not alteration.
+This permission covers **commercial use**, not alteration.
 
 ---
 
 ## 3. What This Licence Does *Not* Allow
+The licensee may not:
 
-The licensee may **not**:
-
-- edit, rewrite, adapt, translate or derive new versions  
-- create internal “variants” or modified policy frameworks  
+- edit, rewrite, adapt, translate, or create derivatives  
 - rebrand or repackage the Governance System  
-- embed it into software or SaaS for external use  
-- certify or accredit clients using the Governance System  
+- embed it into software, SaaS, or platforms  
 - distribute it to third parties  
-- sublicense, resell or rent access  
-- claim authorship, co-authorship or derivative ownership  
+- certify or accredit clients  
+- resell, sublicense, or rent access  
+- claim authorship or derivative ownership  
 
-The doctrine remains **immutable**.
+The doctrine remains immutable.
 
 ---
 
-## 4. When Commercial Implementation Begins
+## 4. When Commercial Use Begins
+A licence is required when the Governance System is used to generate revenue, including:
 
-Commercial implementation begins when the organisation:
+- paid consulting or client engagements  
+- paid audits or governance reviews  
+- paid training or workshops  
+- integration into commercial tools or service offerings  
+- use inside any product, SaaS, or platform  
+- any commercial activity involving the tests, metrics, or documents  
 
-- inserts its name into the Policy  
-- instructs staff to operate under the structure  
-- deploys safeguards, refusal gates, or custody registry  
-- runs the tests or metrics internally  
-- uses the system in risk, compliance or regulatory processes  
-- relies on it for decisions affecting customers, staff or the public  
-- integrates it into internal governance or audit processes  
-- uses it within commercial operations of any kind  
-
-**Reading is free.  
-Using it is licensed.**
+**Internal organisational use is free.  
+Commercial use requires a licence.**
 
 ---
 
 ## 5. Licence Types and Fees
 
-### 5.1 Commercial Implementation Licence  
-**€4,500 per year**  
-For standard organisations implementing the Governance System internally.
+### 5.1 Professional Use Licence  
+_For consultancies, auditors, integrators, training providers_  
+**€50,000 per year**
 
-### 5.2 Enterprise Licence  
-**€15,000 per year**  
-For large-scale or regulated organisations (finance, healthcare, energy, telecom, government, critical infrastructure).
+### 5.2 Product Integration Licence  
+_For SaaS, platforms, software tools_  
+**€25,000 per year**
 
-### 5.3 Professional Use Enterprise Licence  
-**€50,000 per year**  
-For consulting firms, auditors, integrators or training providers.
-
-Authorises:
-
-- professional internal use  
-- applying the Governance System in client work  
-- running tests and metrics for clients  
-- internal consultant training  
-
-**Clients must hold their own Commercial or Enterprise Licence.**
-
-No redistribution.  
-No derivatives.  
-No certification.  
-No embedding in tools or SaaS.
+### 5.3 Interpretation Access (Optional)  
+_For definitional clarity and structured written Q&A_  
+**€2,500 per year**
 
 ---
 
 ## 6. Attribution Requirements
-
-The licensee must retain:
+All commercial users must retain:
 
 - Author: **Russell Parrott**  
 - Work titles  
 - CC BY-NC-ND licence reference  
 - Link to the canonical repository  
 
-Attribution must remain visible in all internal reproductions.
+Attribution must remain visible.
 
 ---
 
 ## 7. No Redistribution or Sublicensing
+Commercial licensees may not:
 
-The licensee may **not**:
+- distribute the Governance System to external parties  
+- embed it in products or SaaS  
+- include it in client-facing materials  
+- resell, sublicense, or modify it  
 
-- provide the Governance System to external organisations  
-- embed it in commercial tools or platforms  
-- include it in client-facing training or products  
-- sublicense or distribute it in any form  
-
-Each organisation requires its **own licence**.
+Each commercial user requires their own licence.
 
 ---
 
 ## 8. Term and Renewal
-
-- Licence is valid for **12 months** from the date of issue  
-- Renewal required for continued implementation  
+- Licence valid for 12 months  
+- Renewal required for continued commercial use  
 - Termination revokes commercial-use rights immediately
 
 ---
 
 ## 9. Enforcement
-
 Unauthorised commercial use constitutes:
 
 - breach of CC BY-NC-ND 4.0  
@@ -157,6 +126,7 @@ Unauthorised commercial use constitutes:
 - copyright infringement  
 
 Legal action may follow.
+
 
 ---
 
