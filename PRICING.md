@@ -1,124 +1,75 @@
 # PRICING
 
-For the Standardized Definition of AI Governance and the Sovereign AI Governance Kit  
+The governance system is released under **CC BY-NC-ND 4.0**.
 
-The governance system is free to **read, download, study and share** under  
-**Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International (CC BY-NC-ND 4.0).**
+**Internal organisational use is free.**  
+Reading, downloading, studying, and implementing the framework internally requires **no licence**.
 
-However:
-
-**Any organisation that implements the governance system internally requires a Commercial Implementation Licence.**  
-This applies to:
-
-- the *Standardized Definition of AI Governance*, and/or  
-- the *Sovereign AI Governance Kit* (Policy, User Guide, Tests, Metrics, Forms)
-
-These documents form **one unified governance system**.
+Payment applies **only** to commercial exploitation.
 
 ---
 
-## 1. Commercial Implementation Licence  
-### **€4,500 per year**
+## 1. Professional Use Licence  
+_For consultancies, auditors, integrators, trainers_  
+**€50,000 per year**
 
-For standard organisations.
+**Permitted:**  
+- Use in paid client work  
+- Running tests and metrics for clients  
+- Internal consultant training  
+- Use as a governance methodology
 
-Covers:
+**Not permitted:**  
+- Derivatives or modifications  
+- Rebranding or repackaging  
+- Certification or accreditation services  
+- Embedding in software/SaaS  
+- Resale or sublicensing
 
-- internal operational use  
-- internal audit and compliance use  
-- application of the 25 Structural Tests  
-- application of the 7 Solvency Metrics  
-- installation of safeguards, refusal gates and custody registry  
-- staff training  
-- organisation-wide internal use (single legal entity)
-
-Not permitted:
-
-- redistribution to external parties  
-- consulting or certification use  
-- integration into products or SaaS  
-- derivative versions  
-- resale or sublicensing
+Clients rely on their own free internal-use rights under CC BY-NC-ND.
 
 ---
 
-## 2. Enterprise Licence  
-### **€15,000 per year**
+## 2. Product Integration Licence  
+_For software, SaaS, platforms, and tools_  
+**€25,000 per year**
 
-For large-scale or regulated organisations.
+**Permitted:**  
+- Embedding tests or metrics inside a product  
+- Integration into dashboards or governance tooling
 
-Covers:
-
-- all rights in the €4,500 licence  
-- multi-division or multi-region internal use  
-- regulated sectors (finance, healthcare, energy, telecom, government, critical infrastructure)  
-- large engineering or operational environments  
-- cross-border internal operations
-
-Not permitted:
-
-- redistribution  
-- client-facing use  
-- derivative works  
-- product or SaaS integration
+**Not permitted:**  
+- Altered versions  
+- Rebranded or derivative frameworks  
+- Bundled offerings without attribution
 
 ---
 
-## 3. Professional Use Enterprise Licence  
-### **€50,000 per year**
+## 3. Interpretation Access (Optional)  
+**€2,500 per year**
 
-For consulting firms, auditors, integrators and training organisations.
+Provides structured written Q&A, definitional clarity, and guidance on interpreting tests and metrics.
 
-Covers:
-
-- internal professional use across the firm  
-- use of the Governance System as a methodology in client work  
-- ability to run the tests and metrics for clients  
-- internal consultant training  
-- use across multiple client engagements
-
-Restrictions:
-
-- clients must hold their own Commercial or Enterprise licence  
-- no derivatives, tailoring or modified versions  
-- no redistribution, resale or sublicensing  
-- no embedding in software or SaaS  
-- no certification or accreditation services  
-- no rebranding or repackaging  
-
-This licence authorises **professional use**, not redistribution.
+**Not included:**  
+consulting, customisation, implementation, derivative development, or tailoring.
 
 ---
 
-## 4. Interpretation Access (Optional Add-On)  
-### **€2,500 per year**
+## Summary Table
 
-Provides:
-
-- structured written Q&A  
-- definitional clarity  
-- guidance on interpreting tests and metrics
-
-Does not include:
-
-- consulting  
-- customisation  
-- implementation work  
-- derivative development  
-- system-specific tailoring
+| Use Case | Licence Required? |
+|----------|-------------------|
+| Internal organisational use | **FREE** |
+| Commercial consulting / client work | Professional Use Licence |
+| Embedding in software or SaaS | Product Integration Licence |
+| Paid training | Professional Use Licence |
+| Interpretation only | Interpretation Access |
 
 ---
 
-## Summary
-
-| Licence Type | Fee | Internal Use | Regulated Use | Client Work | External Use | Derivatives | Consulting Use |
-|--------------|-----|--------------|----------------|-------------|--------------|-------------|----------------|
-| Commercial Implementation | €4,500/year | ✔ | Standard | ✖ | ✖ | ✖ | ✖ |
-| Enterprise | €15,000/year | ✔ (large-scale) | ✔ | ✖ | ✖ | ✖ | ✖ |
-| Professional Use | €50,000/year | ✔ | ✔ | ✔ (clients must be licensed) | ✖ | ✖ | Limited\* |
-| Interpretation Access | €2,500/year | Q&A only | – | ✖ | ✖ | ✖ | ✖ |
-
-\* “Consulting use” = allowed only as methodology; doctrine cannot be altered, resold or embedded.
+## Rule of Use  
+**Internal = free.  
+Commercial = licensed.**
 
 ---
 
