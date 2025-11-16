@@ -25,23 +25,6 @@ Both documents are immutable, open, and non-derivable under **CC BY-NC-ND 4.0**.
 
 ---
 
-## Additional Public Resources
-
-**Structural Surface Review (Location of Materials)**
-
-/Structural-Surface-Review/
-
-This directory contains:
-
-- README.md — overview of the review
-- FAQ.md — scope, evidence boundaries, operational clarity
-- PRICING.md — fixed fee and turnaround
-
-These files describe the public-evidence review process and how to interpret the output.
-They sit alongside the core standards but are not part of the standards themselves.
-
----
-
 ## Purpose of the Repository
 
 This repository provides a **canonical**, cross-jurisdictional reference for:
@@ -110,6 +93,23 @@ DOI: 10.5281/zenodo.17505286
 
 **Parrott, Russell. (2025). AI Governance Measurement Framework (v1.0.1).**  
 DOI: 10.5281/zenodo.17552324
+
+---
+
+## Additional Public Resources
+
+**Structural Surface Review (Location of Materials)**
+
+/Structural-Surface-Review/
+
+This directory contains:
+
+- README.md — overview of the review
+- FAQ.md — scope, evidence boundaries, operational clarity
+- PRICING.md — fixed fee and turnaround
+
+These files describe the public-evidence review process and how to interpret the output.
+They sit alongside the core standards but are not part of the standards themselves.
 
 ---
 
