@@ -96,22 +96,21 @@ DOI: 10.5281/zenodo.17552324
 
 ---
 
-## Additional Public Resources
+### Structural-Surface-Review (paid report)
 
-**Structural Surface Review (Location of Materials)**
+This folder is **not** another free standard.
+It points to a paid, one-off review that sits on top of the two core documents above.
 
-```text
-├── Structural-Surface-Review/
-```
+The Structural Surface Review is a written report on a single system or website. It:
 
-This directory contains:
+- only uses information that is already public (website, docs, policies, marketing);
+- applies the structural logic from the standards to that public material; and
+- returns a clear, evidence-based report you can show to regulators, boards, or buyers.
 
-- README.md — overview of the review
-- FAQ.md — scope, evidence boundaries, operational clarity
-- PRICING.md — fixed fee and turnaround
+The standards themselves remain open under **CC BY-NC-ND 4.0**.
+The review report, its templates, and any deliverables are **commercial** and are **not** covered by that licence.
 
-These files describe the public-evidence review process and how to interpret the output.
-They sit alongside the core standards but are not part of the standards themselves.
+Commissioning or using a report does **not** change the licence on this repository and does **not** grant extra rights over the standards.
 
 ---
 
