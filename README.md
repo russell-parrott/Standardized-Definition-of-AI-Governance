@@ -96,7 +96,7 @@ DOI: 10.5281/zenodo.17552324
 
 ---
 
-### Structural-Surface-Review (paid report)
+## Structural-Surface-Review (paid report)
 
 This folder is **not** another free standard.
 It points to a paid, one-off review that sits on top of the two core documents above.
