@@ -99,8 +99,7 @@ Each review delivers a single report containing:
 
 - **System Metadata**
 
-  Top-level context for institutional tracking:
-  
+  Top-level context for institutional tracking:  
   - system name
   - domain
   - review date
