@@ -5,7 +5,7 @@ A Structural Surface Review is not consultancy and not commentary. It is an exte
 ## Fixed Fee
 The Structural Surface Review is offered at a **fixed price**:
 
-**€2170 per system**  (one domain, one public documentation set)
+**€3450 per system**  (one domain, one public documentation set)
 
 - No tiers.  
 - No add-ons.  
@@ -31,5 +31,6 @@ You receive:
 Up-front payment only.  
 
 Simple, transparent, external.
+
 
 
