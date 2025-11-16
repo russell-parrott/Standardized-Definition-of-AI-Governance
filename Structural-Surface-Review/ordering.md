@@ -16,7 +16,7 @@ This page explains how to request a Structural Surface Review, what information 
    I verify that the system is suitable for a Surface Review and that all provided links are accessible.
 
 4. **Payment request issued**  
-   You receive a fixed-fee payment request for **€2,170**.
+   You receive a fixed-fee payment request for **€3,450**.
 
 5. **Work begins on receipt of payment**  
    Turnaround time: **24–72 hours**, depending on the size and complexity of the public evidence.
