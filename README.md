@@ -144,8 +144,7 @@ Both
 - The Standardized Definition of AI Governance
 - The AI Governance Measurement Framework  
 
-are licensed under  
-**Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International.**
+are licensed under **Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International.**
 
 This licence allows **free internal use** but prohibits **commercial exploitation** and **derivatives**.
 
