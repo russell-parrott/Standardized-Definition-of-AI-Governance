@@ -143,6 +143,7 @@ The doctrine remains **above corporate tooling**, **outside vendor capture**, an
 Both 
 - The Standardized Definition of AI Governance
 - The AI Governance Measurement Framework  
+
 are licensed under  
 **Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International.**
 
