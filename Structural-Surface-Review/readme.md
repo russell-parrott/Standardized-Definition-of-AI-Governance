@@ -56,7 +56,60 @@ Each review delivers a single report containing:
 
 - **Structural Summary**  
   A final block stating whether the public structure supports the claims made and where the main fractures are.
+  
+- **Structured Test Results**
 
+  Each review also includes a machine-readable JSON file designed for engineering, compliance, and risk teams who need to operationalise the findings without further engagement.
+  
+  Each of the 12 tests represented as a discrete object, including:
+  
+  - test ID and name
+  - Pass / Partial / Fail result
+  - structural risk level
+  - 1–2 sentence finding
+  - evidence URLs and observations
+  - the required structural outcome (what must be true for the test to pass)
+  
+  This converts the diagnostic into a format teams can track internally.
+
+- **Evidence Map**
+
+  A clear mapping of every public URL used, the observed text, and which test it supports.
+  This preserves the full evidence chain for audit and supervisory review.
+
+- **Actionable Implementation Hooks**
+
+  Machine-readable action items written as neutral structural conditions:
+  
+  - unique action IDs
+  - description of the structural correction
+  - responsible role (not person)
+  - priority level
+  - definition of “done”
+  - dependencies
+  - suggested timelines
+  
+  These entries can be imported directly into:
+  - Jira
+  - GitHub Issues
+  - ServiceNow
+  - internal GRC systems
+  
+  without further explanation or consulting.
+
+- **System Metadata**
+
+  Top-level context for institutional tracking:
+  
+  - system name
+  - domain
+  - review date
+  - report version
+  - method name
+  - author (fixed to maintain provenance)
+
+    This allows traceability across internal governance cycles
+    
 ---
 
 ## Turnaround
