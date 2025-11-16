@@ -100,7 +100,9 @@ DOI: 10.5281/zenodo.17552324
 
 **Structural Surface Review (Location of Materials)**
 
-/Structural-Surface-Review/
+```text
+├── Structural-Surface-Review/
+```
 
 This directory contains:
 
