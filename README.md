@@ -140,7 +140,10 @@ The doctrine remains **above corporate tooling**, **outside vendor capture**, an
 
 # Licence (CC BY-NC-ND 4.0)
 
-Both documents are licensed under  
+Both 
+- The Standardized Definition of AI Governance
+- The AI Governance Measurement Framework  
+are licensed under  
 **Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International.**
 
 This licence allows **free internal use** but prohibits **commercial exploitation** and **derivatives**.
@@ -169,6 +172,12 @@ This licence allows **free internal use** but prohibits **commercial exploitatio
 ---
 
 ## Commercial Use
+
+This applies to:
+
+- The Standardized Definition of AI Governance
+- The AI Governance Measurement Framework
+  
 Commercial exploitation — including consulting, client work, software integration, product use, and any revenue-generating application — **requires a paid licence** from the author.
 
 Internal organisational use remains **free under CC BY-NC-ND 4.0**.
