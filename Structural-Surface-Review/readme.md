@@ -100,12 +100,12 @@ Each review delivers a single report containing:
 - **System Metadata**
 
   Top-level context for institutional tracking:  
-  - system name
-  - domain
-  - review date
-  - report version
-  - method name
-  - author (fixed to maintain provenance)
+  - System name
+  - Domain
+  - Review date
+  - Report version
+  - Method name
+  - Author (fixed to maintain provenance)
 
     This allows traceability across internal governance cycles
     
