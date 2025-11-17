@@ -9,6 +9,15 @@ It is designed to be neutral, external, and non-entangling.
 This is not consulting, not a workshop, and not a “best practices” deck.  
 It is a fixed, repeatable test that turns your public posture into a structural map regulators, investors and buyers can interrogate.
 
+The 25 Structural Governance Tests are published openly because the core of governance must sit in public view. They establish the full shape of a governed system: how refusal works, how traceability is maintained, where accountability lives, how knowledge is validated and how harm is contained across networks. They give anyone the ability to understand the structural principles a system must satisfy.
+
+But having a blueprint is not the same as proving a system follows it.
+
+The Structural Surface Review uses a concentrated set of 12 operational checks that detect whether those principles are functioning in a real deployment. These checks operate at the level where systems cannot hide: evidence retention, decision-chain visibility, regulatory reach, epistemic stability and cross-boundary integrity. They reveal what is actually happening beneath the interface and the policy language.
+
+The difference is functional.
+The 25 tests describe the full architecture; the 12 tests interrogate how a specific system behaves when you inspect it. Applying the surface set requires interpretive work: identifying what counts as credible evidence, distinguishing genuine safeguards from simulated ones and tracing how a failure propagates through the chain of responsibility. This requires human judgement, not automation or templates.
+
 ---
 
 ## What this is
