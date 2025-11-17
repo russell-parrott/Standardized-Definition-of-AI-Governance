@@ -98,6 +98,18 @@ DOI: 10.5281/zenodo.17552324
 
 ## Structural-Surface-Review (paid report)
 
+The full set of 25 Structural Governance Tests is freely available because governance only works when its foundations are open, inspectable and non-exclusive. These tests define what ethical AI governance must be: refusal logic, traceability, accountability, epistemic integrity and system-level containment. They are the common reference standard, the architecture anyone can use to understand how a system should behave.
+
+But understanding a standard is not the same as verifying a live system against it.
+
+The 12 tests are the surface-level enforcement layer, a fast, high-impact checks that expose whether governance exists in practice. They reveal structural breaches that operators cannot hide: missing traceability, accountability gaps, evidence failure, and epistemic instability.
+
+Unlike the 25, which describe the full doctrine, the 12 require skilled application, forensic reading and structural interpretation. They cannot be automated or delegated. They demand judgement: 
+- what counts as admissible evidence; 
+- what constitutes a breach; 
+- how to interpret the consequence chain.
+
+
 This folder is **not** another free standard.
 It points to a paid, one-off review that sits on top of the two core documents above.
 
