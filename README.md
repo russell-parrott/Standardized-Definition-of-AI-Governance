@@ -102,9 +102,9 @@ The full set of 25 Structural Governance Tests is freely available because gover
 
 But understanding a standard is not the same as verifying a live system against it.
 
-The 12 tests are the surface-level enforcement layer, a fast, high-impact checks that expose whether governance exists in practice. They reveal structural breaches that operators cannot hide: missing traceability, accountability gaps, evidence failure, and epistemic instability.
+The Structural Surface Review which uses 12 tests that are the surface-level enforcement layer, a fast, high-impact checks that expose whether governance exists in practice. They reveal structural breaches that operators cannot hide: missing traceability, accountability gaps, evidence failure and epistemic instability.
 
-Unlike the 25, which describe the full doctrine, the 12 require skilled application, forensic reading and structural interpretation. They cannot be automated or delegated. They demand judgement: 
+Unlike the 25, which describe the full doctrine, these 12 tests require skilled application, forensic reading and structural interpretation. They cannot be automated or delegated. They demand judgement: 
 - what counts as admissible evidence; 
 - what constitutes a breach; 
 - how to interpret the consequence chain.
