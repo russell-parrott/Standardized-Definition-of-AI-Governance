@@ -96,34 +96,30 @@ DOI: 10.5281/zenodo.17552324
 
 ---
 
-## Structural-Surface-Review (paid report)
+## Structural Surface Reviews (paid report)
 
-The full set of 25 Structural Governance Tests is freely available because governance only works when its foundations are open, inspectable and non-exclusive. These tests define what ethical AI governance must be: refusal logic, traceability, accountability, epistemic integrity and system-level containment. They are the common reference standard, the architecture anyone can use to understand how a system should behave.
+I perform two forms of external structural analysis, both based solely on public information and requiring disciplined interpretation:
 
-But understanding a standard is not the same as verifying a live system against it.
+**Basic Structural Reading** — a short, surface-level structural interpretation.
 
-The Structural Surface Review which uses 12 tests that are the surface-level enforcement layer, a fast, high-impact checks that expose whether governance exists in practice. They reveal structural breaches that operators cannot hide: missing traceability, accountability gaps, evidence failure and epistemic instability.
+**Full Structural Surface Reading** — a deeper analysis using the externally-runnable components of the Definition.
 
-Unlike the 25, which describe the full doctrine, these 12 tests require skilled application, forensic reading and structural interpretation. They cannot be automated or delegated. They demand judgement: 
-- what counts as admissible evidence; 
-- what constitutes a breach; 
-- how to interpret the consequence chain.
+These are not audits, validations or compliance assessments. They are structured interpretations of what an organisation’s public surface implies under independent inspection.
 
+Further detail on the standards that underpin these readings is available at:
 
-This folder is **not** another free standard.
-It points to a paid, one-off review that sits on top of the two core documents above.
+[https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance](https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance)
 
-The Structural Surface Review is a written report on a single system or website. It:
+**What Structural Surface Reviews Are NOT**
 
-- only uses information that is already public (website, docs, policies, marketing);
-- applies the structural logic from the standards to that public material; and
-- returns a clear, evidence-based report you can show to regulators, boards, or buyers.
-
-The standards themselves remain open under **CC BY-NC-ND 4.0**.
-The review report, its templates, and any deliverables are **commercial** and are **not** covered by that licence.
-
-Commissioning or using a report does **not** change the licence on this repository and does **not** grant extra rights over the standards.
-
+- Certification
+- Validation
+- Compliance advice
+- Audit
+- Risk scoring
+- Legal opinion
+- Expert witness output
+- Internal system testing
 ---
 
 ## Repository Structure
