@@ -135,12 +135,8 @@ Further detail on the standards that underpin these readings is available at:
 ├── PRICING.md
 ├── VERSION.txt
 ├── why_this_framework_cant_be_bought.md
-├── Structural-Surface-Review
-    ├── ORDERING.md
-    ├── PRICING.md
-    ├── FAQ.md
-    └── README.md
 └── README.md
+
 ```
 No scripts.  
 No SDK.  
