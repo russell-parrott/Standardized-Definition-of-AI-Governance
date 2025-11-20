@@ -1,6 +1,6 @@
 # Full Structural Surface Reading
 
-The Full Structural Surface Reading provides a deeper interpretation using a wider set of externally runnable components from the Standardized Definition. It traces how the organisation presents its control structure, decision logic, evidential position and accountability routes, based entirely on what is observable at the surface.
+The Full Structural Surface Reading provides a deep interpretation and uses a wider set of externally runnable components from the Standardized Definition. It traces how the organisation presents its control structure, decision logic, evidential position and accountability routes, based entirely on what is observable at the surface.
 
 This reading examines the internal coherence of the picture the organisation presents: how authority is distributed, how decisions flow, how evidence is positioned and how the boundary between human and system agency is described. Where the surface is clear, the reading shows how that supports a credible governance posture; where it is fragmented or silent, the reading identifies the structural gaps that become visible to external authorities.
 
