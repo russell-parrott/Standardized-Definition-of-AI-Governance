@@ -108,7 +108,7 @@ These are not audits, validations or compliance assessments. They are structured
 
 Further detail on the standards that underpin these readings is available at:
 
-[https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance](https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance)
+[https://github.com/russell-parrott/Standardized-Definition-of-AI-Governance/edit/main/Structural-Surface-Reviews](https://github.com/russell-parrott/Standardized-Definition-of-AI-Governance/edit/main/Structural-Surface-Reviews)
 
 **What Structural Surface Reviews Are NOT**
 
