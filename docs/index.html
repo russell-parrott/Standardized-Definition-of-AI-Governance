@@ -317,9 +317,23 @@
 			<label for="panel-slide" class="close">X</label>
 			<div id="panel-content"></div>
 		</div>
+		
+		<div id="no-cookies-banner" class="show">
+			This site uses no cookies and no tracking. Nothing is stored on your device.
+			<p/>
+			<button id="no-cookies-close">Close</button>
+		</div>
+
 		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 		<script>
 			"use strict"
+						
+			document.getElementById("no-cookies-close").addEventListener("click", function(e) {
+			  e.preventDefault();
+			  e.stopImmediatePropagation();   // kills ANY site-wide anchor listeners
+			  document.getElementById("no-cookies-banner").remove();
+			});
+						
 			let menu = document.querySelector('nav ul li:last-of-type a');			
 			menu.addEventListener('click', function (evt) {
 				fetch('terms.txt')
@@ -363,6 +377,11 @@
 				});
 			});
 			
+			
+
+		  
+
+		 
 		
 			
 		</script>
