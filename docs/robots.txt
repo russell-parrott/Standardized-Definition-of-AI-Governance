@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://russell-parrott.github.io/Standardized-Definition-of-AI-Governance/
