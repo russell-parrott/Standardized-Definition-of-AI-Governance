@@ -120,10 +120,29 @@ main section:nth-child(5) div{
 }
 		
 main section:nth-child(2) ul,		
-main section:nth-child(4) ul{
+main section:nth-child(4) ul,
+main section:nth-child(5) ul,
+main section:nth-child(6) ul{
 	list-style:none;
 	margin:0;
 	padding:0;
+}
+
+
+main section#s6 ul li{
+	border-left:10px solid rgba(255,255,255,0.25);
+	padding-left:15px;
+	margin-bottom:1rem
+}
+
+main section#s8 ul li ul li{
+	background:unset;
+	border-left:unset;
+	padding-left:unset;
+	margin-bottom:unset;
+	margin-left:0;
+	width:100%
+	
 }
 
 main section:nth-child(2) .category{
@@ -149,7 +168,8 @@ main section:nth-child(2) .category ol a:hover{
 	color:#FFF;
 }
 
-main section:nth-child(4) ul li{
+main section:nth-child(4) ul li,
+main section:nth-child(6) ul li{
 	background:rgba(0,0,0,0.1);
 	border-left:10px solid #B74E90;
 	margin-bottom:2rem;
@@ -157,7 +177,8 @@ main section:nth-child(4) ul li{
 	width:80%;
 }
 
-main section:nth-child(4) ul li:nth-child(even){
+main section:nth-child(4) ul li:nth-child(even),
+main section:nth-child(6) ul li:nth-child(even){
 	margin-left:20%;
 }
 		
@@ -351,6 +372,9 @@ article{
 
 .hidden { display: none; }
 
+[target="_blank"]{
+	color:#FFF;
+}
 
 @media (max-width:1700px){
 	main,#panel-content{
