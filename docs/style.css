@@ -170,6 +170,12 @@ footer p{
 	width:100%;
 }
 
+
+.carousel p,
+.carousel p:last-of-type{
+	margin:1rem 0;
+}
+
 #what-i-do{
 	
 }
