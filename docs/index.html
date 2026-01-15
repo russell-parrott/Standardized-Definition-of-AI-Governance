@@ -378,14 +378,7 @@
 		<script>
 			"use strict"
 						
-			AOS.init();
-			 
-			document.getElementById("no-cookies-close").addEventListener("click", function(e) {
-				e.preventDefault();
-				e.stopImmediatePropagation(); 
-				document.getElementById("no-cookies-banner").remove();
-			});						
-			
+			AOS.init();			
 
 			emailjs.init({	publicKey: "3Bb98Nyu6Gi7MoJqx" });
 			document.getElementById('form-enquiry').addEventListener('submit', function (evt) {
