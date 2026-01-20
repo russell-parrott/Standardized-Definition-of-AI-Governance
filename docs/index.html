@@ -23,7 +23,7 @@
 		<meta property="og:locale" content="en_GB">	
 		
 		<!-- Canonical -->
-		<link rel="canonical" href="https://russellparrott.eu/index.html">
+		<link rel="canonical" href="https://russellparrott.eu">
 		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,7 +75,7 @@
           "description": "Publishes explainers and public standards on AI accountability and evidentiary failure modes."
         }
       ],
-	    "publishingPrinciples": "https://russellparrott.eu/#principles",
+	  "publishingPrinciples": "https://russellparrott.eu/#principles",
       "makesOffer": [
         {
           "@type": "Offer",
@@ -94,13 +94,15 @@
           }
         },
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "SocialMediaPosting",
-            "name": "Short posts (LinkedIn)",
-            "description": "Short posts surfacing a single idea, boundary or failure point, often pointing to longer explainers or underlying standards."
-          }
-        }
+		  "@type": "Offer",
+		  "itemOffered": {
+			"@type": "Service",
+			"name": "Short posts (LinkedIn)",
+			"description": "Short posts surfacing a single idea, boundary or failure point, often pointing to longer explainers or underlying standards.",
+			"provider": { "@id": "https://russellparrott.eu/#person" },
+			"areaServed": "Worldwide"
+		  }
+		}
       ],
       "sameAs": [
         "https://www.linkedin.com/in/russell-parrott/",
