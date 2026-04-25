@@ -4,35 +4,35 @@
 	box-sizing: border-box;
 }
 
-body{	
-	background:#cacec8;
-	font-family: "Roboto", sans-serif;
+body{		
+	font-family: "Source Sans 3";
 	font-optical-sizing: auto;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	font-weight:400;
 	line-height:1.4;
 	overflow-x:hidden;
 	width:100%;
 }
 				
-h2,h3,h4,h5,h6{
-	color:#000;
+h1,h2,h3,h4,h5,h6{
+	border-left:0.5rem solid #6685B7;
+	font-family: "Inter";
+	font-size:175%;	
 	line-height:1.2;
-	margin-bottom:2rem;
+	margin:1.5rem 0;
+	padding-left:1rem;
 	text-transform:uppercase;
 }
-
-		h1{
-			font-size: 1.3rem;
-	font-weight:400;line-height:1.4;
-		}
+h1{
+	margin:0 0 1.5rem 0;
+}
 		
 p{
-	margin:2rem 0;
+	margin:1.5rem 0;
 }
 
 p:last-of-type{
-	margin:2rem 0 0;	
+	margin:1.5rem 0 0;	
 }
 
 ol{
@@ -46,44 +46,61 @@ a{
 
 nav{
 	align-items:center;	
+	background:#AEB8CB;
 	display:flex;	
-	height:4.5rem;
-	padding:0 4rem;
+	justify-content:space-between;
+	padding:1rem 5vw;
+}
+
+.nav-logo{
+	font-size:250%;
+	font-family: "Inter";
+	font-weight: 900;
+}
+
+.navbar{
+	display:flex;
+	font-size:95%;
+	gap:1rem;
+}
+
+nav a{
+	align-items:center;	
+	border:1px solid #6685B7;
+	border-radius:2.25rem;
+	display:flex;	
+	gap:0.5rem;
+	padding:0.35rem .7rem;
+}
+
+nav a svg{
+	display:block;
+	height:1.25rem
 }
 
 header{
-	display:flex;
-	column-gap:2rem;
-	justify-content:flex-end;
-	margin:2rem 8rem;
+	background:#AEB8CB;
+	box-shadow:0 0.5rem 0.25rem -0.25rem rgba(0,0,0,0.175);
+	padding:2rem 5vw 0;
 }
 
-header a{
-	background:#B7BFB5;
-	border-radius:1rem;
-	box-shadow: 2px 2px 8px 2px #0003;	
-	display:flex;
-	font-size:90%;
-	gap:0.75rem;
-	padding:0.5rem 1rem;
-	text-decoration: none;
-}
-
-header a svg{
-	width:1.5rem;
+main{
+	padding:0 5vw;
 }
 
 section{
-	margin:4rem 8rem 12rem;
+	margin:0 auto 6rem;
+	max-width:1024px;
+	width:100%;
 }
 
-section:first-of-type{
-	margin:2rem 8rem 4rem;	
+header section{
+	align-items:center;
+	display:grid;
+	grid-template-columns:1fr auto;
+	max-width:1160px;
 }
 
-section:last-of-type{
-	margin:4rem 8rem 4rem;	
-}
 
 footer{
 	border-top:1px solid #B7BFB5;
@@ -91,7 +108,7 @@ footer{
 	margin:auto;
 	margin-bottom:2rem;	
 	max-width:1024px;
-	padding:1rem;
+	padding:1rem 5vw;
 	width:100%;
 	text-align:center;
 }
@@ -100,85 +117,16 @@ footer p{
 	margin:1rem 0;
 }
 
-.default{
-	background: #e7ff6c;
-	border-radius:1.5rem;
-	box-shadow: 2px 2px 8px 2px #0003;
-	padding:3rem;
-	margin-bottom:3rem;
-	width: 65%;
-}
 
-.default:nth-of-type(even){
-	margin-left:35%;
-}
-
-.hero{
-	background:#222;
-	color:#FFF;
-	display:flex;
-	column-gap:3rem;	
-	padding:0;
-	text-transform:uppercase;
-	width:100%;
-}
-
-.hero-text{
-	align-content:center;
-	display:grid;
-	font-family:"Raleway", sans-serif;
-	font-optical-sizing: auto;
-	font-size:450%;	
-	font-style: normal;
-	font-weight: 200;
-	height:35vw;
-	line-height:1;	
-}
-
-.hero-text small{
-	border-bottom:2px solid #e7ff6c;
-	font-size:50%;	
-	font-weight:600;
-	padding-bottom:1.2rem;
-	margin-bottom:1.2rem;
-}
-
-.hero-img{
-	border-radius:1.5rem;
-	margin-top:2vw;
-	height:33vw;	
-}
-
-.carousel-holder{
-	display:grid;
-	gap:4rem;
-	grid-template-columns:repeat(2,1fr);
-}
-
-.carousel{	
-	background:#B7BFB5;
-	border-radius:1rem;
-	box-shadow: 2px 2px 8px 2px #0003;
-	display:grid;
-	gap:2rem;
-	grid-template-columns:1fr 2fr;
-	padding:1.5rem;
-}
-
-.carousel img{
-	display:block;
-	width:100%;
+blockquote{
+	border-left:0.5rem solid rgba(103, 134, 184,0.25);
+	font-family:'Times';
+	font-size:105%;
+	margin:1.5rem 0 1.5rem 2.5rem;
+	padding-left:1rem;
 }
 
 
-.carousel p,
-.carousel p:last-of-type{
-	margin:1rem 0;
-}
-
-#what-i-do{
-	
-}
 
 form{
 	display:grid;
@@ -199,9 +147,9 @@ label{
 }
 
 input,select,textarea{
-	background:rgba(255,255,255,0.15);
+	background:rgba(103, 134, 184,0.075);
 	border:none;
-	border-bottom:1px solid;
+	border-bottom:1px solid #AEB8CB;
 	padding:0.5rem;	
 }
 
@@ -225,44 +173,91 @@ form button[type="submit"]{
 	padding:1rem 2rem;
 }
 
-h2,h3,h4,h5{
-	font-size:450%;
-	font-weight: 900;
+
+.table-container {
+	margin-top:1.5rem;	
+    width: 100%;
+    overflow-x: auto;
 }
 
-@media (max-width:1500px) {
-	section{		
-		margin:4rem 4rem 8rem;
-	}
-
-	.hero{
-		column-gap:2rem;	
-	}
-		
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table caption{
+	margin:0 0 0.5rem;
 }
 
-@media (max-width:1460px) {
 
-	.default{
-		padding:2rem;
-		width:80%;
-	}
-	
-	.hero{
-		padding:0;
-		width:100%;
-	}
-	
-	.default:nth-of-type(even){
-		margin-left:20%;
-	}
-	
-	h2,h5,.hero-text{
-		font-size:350%	
-	}
+thead {
+    background: #AEB8CB;
 }
 
-@media (max-width:1024px) {
+th, td {
+	font-size:85%;
+    padding:0.5rem;
+    border: 1px solid rgba(103, 134, 184,0.25);
+    text-align: left;
+    vertical-align: top;
+}
+
+th{
+	text-align:center;
+}
+
+/* Responsive collapse */
+@media (max-width: 900px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    td {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td::before {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 45%;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    td:nth-of-type(1)::before { content: "Legal Instrument"; }
+    td:nth-of-type(2)::before { content: "Decision & Outcome Traceability"; }
+    td:nth-of-type(3)::before { content: "Identifiable Authorisation"; }
+    td:nth-of-type(4)::before { content: "Recorded Authority"; }
+    td:nth-of-type(5)::before { content: "Basis at Time of Decision"; }
+    td:nth-of-type(6)::before { content: "Legal / Contractual Permission"; }
+}
+
+@media (max-width:1220px) {
+	
+	header section{
+		max-width:1024px;		
+		min-height:unset;
+	}
+
+	header section div{
+		width:100%
+	}
+	
+}
+	
+@media (max-width:1100px) {
 	
 	body{	
 		font-size: 1rem;
@@ -275,48 +270,20 @@ h2,h3,h4,h5{
 p:last-of-type{
 	margin:1.5rem 0 0;	
 }
-
-	header{
-		margin:2rem 6rem;
+	
+	nav{
+		justify-content:center;	
+		flex-wrap:wrap;
 	}
 	
-	section{		
-		margin:2rem 2rem 6rem;
-	}
-	
-	section:first-of-type, 
-	section:last-of-type {
-		margin:2rem 2rem;	
-	}
-
-
-
-	.hero-text{
-		font-size:325%	
-	}
-	
-	.default,
-	.default:nth-of-type(even){
-		margin-bottom:2rem;
-		margin-left:0;
-		padding:1.5rem;
+	.navbar{
+		justify-content:center;	
 		width:100%;
 	}
 	
-	.hero{
-		padding:0;
-		width:100%;
-	}
 	
-	.carousel-holder{
-		display:grid;
-		gap:4rem;
-		grid-template-columns:1fr;
-	}
-	h2,h3,h4,h5{
-		font-size:350%	
-	}
 	
+			
 	form{
 		display:block;
 	}
@@ -330,43 +297,22 @@ p:last-of-type{
 		margin-top:2rem;
 	}
 }
-
-
-@media (max-width:800px) {
-	section,		
-		section:first-of-type, 
-	section:last-of-type {
-		margin:2rem;	
+@media (max-width:1024px) {
+	header{
+		padding:7vw 5vw 0;
 	}
 	
-	header{	
+	header div{
+		padding-bottom:2rem
+	}
+	
+	header img{
 		display:none;
 	}
 	
-	.default{
-		border-radius:.75rem;
-		padding:1rem;
+	section{
+		margin:0 auto 3rem;
 	}
-	.hero{
-		padding:0;
-		width:100%;
-	}
-	.hero-text{
-		font-size:200%	
-	}
-	
-	.hero-text small{
-		padding-bottom:0.75rem;
-		margin-bottom:0.75rem;
-	}
-	.carousel-holder{
-		gap:2rem;
-	}	
-	.carousel{
-		border-radius:.75rem;
-	}
-	
-
 }
 
 @media (max-width:600px) {
@@ -375,15 +321,7 @@ p:last-of-type{
 		font-size: 0.9rem;
 	}
 	
-	section,		
-	section:first-of-type, 
-	section:last-of-type {
-		margin:1rem;	
-	}
-	
-	h2,h3,h4,h5{
-		font-size:200%	
-	}
+		
 	form ul{
 		align-items:start;
 		align-content:start;
