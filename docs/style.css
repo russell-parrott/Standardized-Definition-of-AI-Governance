@@ -27,7 +27,7 @@
 
   /* Layout */
   --max-width: 1024px;
-  --max-width-wide: 1160px;
+  --max-width-wide: 1220px;
 
   /* Effects */
   --shadow-soft: 0 0.5rem 0.25rem -0.25rem rgba(0,0,0,0.175);
@@ -119,7 +119,7 @@ header {
 
 header section {
   display: grid;
-  grid-template-columns: 1fr 350px;
+  grid-template-columns: 1fr 400px;
   align-items: center;
   max-width: var(--max-width-wide);
 }
@@ -127,6 +127,14 @@ header section {
 header img{
 	display:block;
 	width:100%;
+}
+
+header a{
+	background:#1a2a3a;
+	border:none;
+	color:#FFF;
+	font:inherit;
+	padding:0.5rem 1rem;
 }
 
 footer {
@@ -220,10 +228,12 @@ form ul li {
 }
 
 form button[type="submit"] {
-  background: var(--color-highlight);
+  background:#1a2a3a;
   border: none;
-  border-radius: 1rem;
+  border-radius:0;
   box-shadow: 0 4px 4px rgba(0,0,0,0.15);
+  color:#FFF;
+  font:inherit;
   padding: var(--space-sm) var(--space-lg);
   margin-top: var(--space-xs);
 }
