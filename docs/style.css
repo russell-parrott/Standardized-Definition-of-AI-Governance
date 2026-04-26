@@ -119,9 +119,14 @@ header {
 
 header section {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 350px;
   align-items: center;
   max-width: var(--max-width-wide);
+}
+
+header img{
+	display:block;
+	width:100%;
 }
 
 footer {
@@ -340,6 +345,11 @@ tbody tr:nth-child(odd) {
     padding: 7vw 5vw 0;
   }
 
+	header section{
+		  grid-template-columns: 1fr;
+		  padding-bottom: var(--space-lg);
+	}
+	
   header img {
     display: none;
   }
