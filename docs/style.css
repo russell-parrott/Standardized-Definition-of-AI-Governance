@@ -3,8 +3,14 @@
 ========================= */
 
 :root {
-
-
+  /* COLOURS */
+  --background-color:#f8f5e7;
+  --header-background-color:#462d0e;
+  --text-color:#462d0e;
+  --header-text-color:#f8f5e7;
+  --header-border-color:#f8f5e7;
+	--border-color:#462d0e;
+	
   /* Typography */
   --font-body: "Source Sans 3", sans-serif;
   --font-heading: "Inter", sans-serif;
@@ -37,7 +43,8 @@
 }
 
 body {
-  
+  background:var(--background-color);
+  color:var(--text-color);
   font-family: var(--font-body);
   font-size: 1.1rem;
   line-height: 1.4;
@@ -67,7 +74,7 @@ ol {
 ========================= */
 
 h1, h2, h3, h4, h5, h6 {
-  border-left: 0.5rem solid;
+  border-left: 0.5rem solid var(--border-color);
   font-family: var(--font-heading);
   font-size: 175%;
   line-height: 1.2;
@@ -77,11 +84,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+	border-left: 0.5rem solid var(--header-border-color);
   margin-top: 0;
 }
 
 blockquote {
-  border-left: 0.5rem solid #CCC;
+  border-left: 0.5rem solid #e9ddaf;
   font-family: var(--font-serif);
   font-size: 105%;
   margin: var(--space-md) 0 var(--space-md) var(--space-lg);
@@ -104,8 +112,9 @@ section {
 }
 
 header {
-  background: var(--color-secondary);
+  background:var(--header-background-color);
   box-shadow: var(--shadow-soft);
+  color:var(--header-text-color);
   padding: var(--space-lg) 5vw 0;
   
 }

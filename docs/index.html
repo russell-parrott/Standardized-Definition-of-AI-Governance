@@ -1,111 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>AI Accountability | What Can Be Proven After Automated Decisions</title>
-		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-		
-		<meta name="description" content="Explains what can be proven after an automated decision is challenged: what happened, who authorised it, where that authority is recorded, and what legal or contractual basis applied.">
-		<meta name="keywords" content="AI accountability, automated decision making, decision evidence, audit trail, authority records, legal exposure AI, decision traceability, AI governance evidence">
-		
-		<!-- meta dc.rights -->		
-		<meta name="dc.rights" content="CC BY-NC-ND 4.0">		
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The DAREB Test | Can a Single Decision Be Shown?</title>
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta name="description" content="The DAREB Test defines what must be shown when a decision is challenged: the decision, the authority, the record, the evidence, and the basis. Not descriptions. What can actually be produced.">
 
-		<!-- Open Graph -->
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://russellparrott.eu/">
-		<meta property="og:title" content="AI Accountability | What Can Be Proven After Automated Decisions">
-		<meta property="og:description" content="What can be proven after an automated decision is challenged: what happened, who authorised it, where that authority is recorded, and what legal or contractual basis applied.">
-		<meta property="og:image" content="https://russellparrott.eu/your-image.jpg">
+  <meta name="dc.rights" content="CC BY-NC-ND 4.0">
 
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:title" content="AI Accountability | What Can Be Proven After Automated Decisions">
-		<meta name="twitter:description" content="What can be proven after an automated decision is challenged: what happened, who authorised it, where that authority is recorded, and what legal or contractual basis applied.">
-		<meta name="twitter:image" content="https://russellparrott.eu/your-image.jpg">
+  <link rel="canonical" href="https://russellparrott.eu/">
 
-		<!-- Open Graph extras -->
-		<meta property="og:locale" content="en_GB">	
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:site_name" content="The DAREB Test">
+  <meta property="og:url" content="https://russellparrott.eu/">
+  <meta property="og:title" content="The DAREB Test | Can a Single Decision Be Shown?">
+  <meta property="og:description" content="The DAREB Test defines what must be shown when a decision is challenged: the decision, the authority, the record, the evidence, and the basis.">
+  <meta property="og:image" content="https://russellparrott.eu/dareb-cover.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The DAREB Test | Can a Single Decision Be Shown?">
+  <meta name="twitter:description" content="What must be shown for a single decision to stand: the decision, the authority, the record, the evidence, and the basis.">
+  <meta name="twitter:image" content="https://russellparrott.eu/dareb-cover.jpg">
+
+  <!-- Fonts / CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <link href="style.css" rel="stylesheet">
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://russellparrott.eu/#person",
+        "name": "Russell Parrott",
+        "url": "https://russellparrott.eu/",
+        "sameAs": [
+          "https://linkedin.com/in/russell-parrott"
+        ],
+        "description": "Independent writer of plain-English explainers about AI accountability and what can be proven when automated decisions are challenged."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://russellparrott.eu/#website",
+        "url": "https://russellparrott.eu/",
+        "name": "The DAREB Test",
+        "publisher": {
+          "@id": "https://russellparrott.eu/#person"
+        },
+        "inLanguage": "en-GB"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://russellparrott.eu/#webpage",
+        "url": "https://russellparrott.eu/",
+        "name": "The DAREB Test",
+        "isPartOf": {
+          "@id": "https://russellparrott.eu/#website"
+        },
+        "author": {
+          "@id": "https://russellparrott.eu/#person"
+        },
+        "description": "Defines what must be shown when a single decision is challenged.",
+        "inLanguage": "en-GB"
+      }
+    ]
+  }
+  </script>
+</head>
 		
-		<!-- Canonical -->
-		<link rel="canonical" href="https://russellparrott.eu">
-		
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Source+Sans+3:wght@400;600;700&display=swap">
-		<link href="style.css" rel="stylesheet">
-		
-		<script type="application/ld+json">
-		{
-		  "@context": "https://schema.org",
-		  "@graph": [
-			{
-			  "@type": "Person",
-			  "@id": "https://russellparrott.eu/#person",
-			  "name": "Russell Parrott",
-			  "url": "https://russellparrott.eu/",
-			  "email": "mailto:parrott.russell@gmail.com",
-			  "telephone": "+44 785 7148 389",
-			  "address": {
-				"@type": "PostalAddress",
-				"addressLocality": "Agia Efimia",
-				"addressRegion": "Kefalonia",
-				"postalCode": "28081",
-				"addressCountry": "GR"
-			  },
-			  "sameAs": [
-				"https://linkedin.com/in/russell-parrott"
-			  ],
-			  "description": "Independent writer of plain-English explainers about AI accountability, evidence, responsibility and what can be proven when automated decisions are challenged."
-			},
-			{
-			  "@type": "WebSite",
-			  "@id": "https://russellparrott.eu/#website",
-			  "url": "https://russellparrott.eu/",
-			  "name": "Russell Parrott",
-			  "publisher": {
-				"@id": "https://russellparrott.eu/#person"
-			  },
-			  "inLanguage": "en-GB"
-			},
-			{
-			  "@type": "WebPage",
-			  "@id": "https://russellparrott.eu/#webpage",
-			  "url": "https://russellparrott.eu/",
-			  "name": "AI Accountability When Evidence Is Required",
-			  "headline": "AI systems record decisions but cannot prove them - I explain what can be proven.",
-			  "isPartOf": {
-				"@id": "https://russellparrott.eu/#website"
-			  },
-			  "author": {
-				"@id": "https://russellparrott.eu/#person"
-			  },
-			  "publisher": {
-				"@id": "https://russellparrott.eu/#person"
-			  },
-			  "about": [
-				"AI accountability",
-				"automated decision-making",
-				"evidence",
-				"responsibility",
-				"legal exposure",
-				"decision traceability",
-				"algorithmic traceability",
-				"evidence governance",
-				"EU AI Act",
-				"EU Product Liability Directive",
-				"UK GDPR",
-				"US FTC Act",
-				"Title VII"    
-			  ],
-			  "description": "A plain-English explanation of why AI accountability depends on whether evidence can show what a system did, who authorised it, where that authority was recorded and what legal, regulatory or contractual basis applied.",
-			  "inLanguage": "en-GB"
-			}
-		  ]
-		}
-		</script>
-		
-	</head>
+
 	<body>
 		
 		<nav>
