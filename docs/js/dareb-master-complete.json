@@ -1,0 +1,821 @@
+[
+  {
+    "section": "DECISION",
+    "section_description": "What was done, to whom and at what exact time. Not how the system works, but the specific outcome in one real case.",
+    "section_consequence": "The documents, system entries, emails, case notes, or other records linked to the event do not clearly show what decision was made, who it affected, or exactly when it happened. The material may describe how the system usually worked. It may refer to a group of people instead of one identifiable person. It may give an approximate period rather than a clear date and time.\n\nAt first, that may not seem important because the people inside the organisation may already believe they know what happened. Then someone outside the organisation asks to see the decision itself.\n\nThey look through the available material and ask straightforward questions. What exactly was decided? Which person was affected? What changed for them because of that decision? On what day and at what time did it happen? If the documents and records cannot answer those questions directly, the event stops looking fixed and starts looking uncertain.\n\nAt that point, the organisation usually begins explaining rather than showing. Staff describe how the system normally behaved. They connect together partial records and later recollections. They explain what most likely happened based on surrounding information. The difficulty is that explaining an event afterwards is not the same as having captured it clearly when it occurred.\n\nThe person examining the case does not fill in the missing parts themselves. They do not guess which explanation is most likely to be correct. They work with what can actually be shown from the records that exist. If those records never fixed the decision clearly in the first place, then the decision remains uncertain. Something may well have happened, but the organisation cannot fully show what that specific event was.",
+    "questions": [
+      {
+        "id": "D1",
+        "question": "Is there a record of the exact decision that was made in this case?",
+        "what_this_means": "Not a description of how the system works or a summary of the process that ran. The decision itself: what was determined, for whom and as a result of what.",
+        "explanation": "If the exact decision cannot be produced, the organisation may only be able to describe how the system usually behaves rather than what actually happened in this case. Under challenge, that distinction matters immediately. A description of normal operation is not the same thing as a record of one specific outcome affecting one specific person at one specific moment. Once the decision itself is missing, the discussion begins to move away from proof and toward reconstruction.",
+        "sub_questions": [
+          {
+            "id": "D1.1",
+            "question": "Does the record show the actual outcome for this specific person?",
+            "why_this_matters": "If the records do not identify one specific person, it becomes difficult to show who the decision actually affected.",
+            "finding_explanation": "The material does not clearly show one specific person as the recipient of the decision. If the record only points to a group, category, account batch, or general class of people, the decision remains detached from an identifiable individual. In a later challenge, that leaves uncertainty about who actually experienced the outcome being examined.",
+            "regulatory_relevance": "The records may describe a process, a workflow, or a category of affected users, yet still fail to identify the actual person who received the outcome now being challenged. That distinction matters more than many organisations realise. Once the identity of the affected individual becomes uncertain, the decision itself starts to lose definition. An external reviewer may then struggle to connect the outcome being discussed to one identifiable human case.\n\nQuestions like this may become important under the EU AI Act because high-risk AI decisions are expected to remain reviewable after the event. Similar concerns may also arise under Directive (EU) 2024/2853 if somebody later argues that an AI-related system or product contributed to harm. The practical issue is simple: if the organisation cannot clearly show who the decision affected, it becomes harder to prove what actually happened.",
+            "director_exposure": "Directors may later discover that the organisation cannot clearly show which individual actually received the challenged outcome. Once the affected person becomes uncertain, oversight discussions often begin drifting away from one identifiable case and toward general descriptions of system behaviour."
+          },
+          {
+            "id": "D1.2",
+            "question": "Can the decision be separated from all other similar decisions?",
+            "why_this_matters": "If the outcome cannot be separated from similar decisions, the event stops looking fixed and starts looking generic.",
+            "finding_explanation": "This decision cannot be cleanly separated from other similar decisions recorded around the same time or in the same process. That makes the event harder to treat as one fixed occurrence. The organisation may know broadly what happened, but the record does not isolate the precise decision now being relied upon.",
+            "regulatory_relevance": "A common weakness appears when one decision cannot be separated clearly from dozens of similar system events surrounding it. Internally, staff may feel they know exactly which outcome is being discussed. An outside examiner does not have that familiarity. They only see records. If those records blur together, the specific event under challenge may disappear into the wider operational flow.\n\nThat can matter under the EU AI Act and ISO 42001 because both depend heavily on the idea that decisions and system activity should remain reviewable afterwards. The difficulty is not that similar decisions exist. The difficulty is that the organisation may no longer be able to point confidently to the exact one now under examination.",
+            "director_exposure": "A future review may become difficult very quickly if the challenged decision cannot be separated clearly from surrounding operational activity. Senior oversight bodies may then struggle to demonstrate that individual outcomes could be traced and examined reliably."
+          },
+          {
+            "id": "D1.3",
+            "question": "Is the decision recorded directly or inferred afterwards?",
+            "why_this_matters": "A decision reconstructed afterwards is not the same thing as a decision captured when it happened.",
+            "finding_explanation": "The decision appears to be inferred after the event rather than recorded directly when it happened. That distinction matters because later reconstruction depends on interpretation, sequence, and surrounding material. A reconstructed decision may explain what probably occurred, but it does not carry the same weight as a decision captured at the time.",
+            "regulatory_relevance": "Sometimes the decision itself was never captured clearly when it happened. Instead, the organisation later rebuilds the event from surrounding logs, emails, timestamps, or staff explanations. Internally that reconstruction may feel accurate. Under external scrutiny, reconstructed understanding is weaker than a contemporaneous record.\n\nThis may become significant under the EU AI Act where traceability and reviewability are expected for high-risk AI use. Directive (EU) 2024/2853 may also become relevant if later examination turns on how a particular AI-related outcome emerged. The central problem is that the organisation may be explaining the decision rather than showing the decision.",
+            "director_exposure": "Reconstructing decisions after the event can create uncomfortable questions for leadership. External reviewers may ask whether meaningful oversight was ever possible if the organisation now depends mainly on rebuilding the event from fragments and later explanation."
+          },
+          {
+            "id": "D1.4",
+            "question": "Would two independent people identify the same decision from the material available?",
+            "why_this_matters": "If different readers identify different events from the same material, the decision was not clearly fixed in the records.",
+            "finding_explanation": "The available material can be read in more than one way. If two independent readers could identify different decision points from the same records, the decision was not fixed clearly enough. That creates a risk that the organisation is relying on interpretation rather than a single, stable record of what occurred.",
+            "regulatory_relevance": "Two people reviewing the same records should not walk away describing two different decisions. Where that happens, the organisation no longer has a clearly fixed event. It has competing interpretations of what may have occurred.\n\nThe EU AI Act places importance on accountability and human oversight for high-risk AI systems. Those ideas become difficult to demonstrate if the underlying decision itself remains open to interpretation. The practical risk is that the organisation may end up arguing about what the decision actually was before it can even begin defending whether it was appropriate.",
+            "director_exposure": "Two readers reaching different conclusions about the same records can weaken confidence in the organisation’s entire review process. Directors may later face questions about whether important decisions were being captured clearly enough for accountability purposes."
+          },
+          {
+            "id": "D1.5",
+            "question": "Is the record specific enough to show what changed because of the decision?",
+            "why_this_matters": "A record that does not show what changed leaves the effect of the decision uncertain.",
+            "finding_explanation": "The record does not show clearly what changed because of the decision. It may show activity, processing, or movement through a system, but not the specific change produced by the outcome. Without that detail, the decision remains incomplete as a demonstrable event.",
+            "regulatory_relevance": "In some cases the records show that activity occurred but never clearly show what changed because of it. A process completed. A system status altered. A workflow advanced. Yet the practical effect on the person remains unclear.\n\nThat weakness may matter under Directive (EU) 2024/2853 where later disputes may focus on how a decision contributed to harm or loss. Similar concerns may arise under the EU AI Act because high-risk AI outputs are expected to remain reviewable and understandable after deployment. The issue is not whether something happened. It is whether the organisation can demonstrate exactly what outcome followed from the decision.",
+            "director_exposure": "Leadership may struggle to demonstrate meaningful oversight once the practical effect of the decision becomes unclear. Showing that a process occurred is not always enough if the organisation cannot clearly explain what changed for the affected person."
+          }
+        ],
+        "regulatory_relevance": "An inability to clearly identify and isolate challenged decisions may weaken the organisation’s ability to demonstrate traceability, reviewability, and accountable oversight under the EU AI Act, ISO 42001, and related examination contexts associated with Directive (EU) 2024/2853.",
+        "director_exposure": "Where challenged decisions cannot be clearly identified and reconstructed, directors and senior oversight bodies may later struggle to demonstrate that important operational outcomes were subject to meaningful review and accountable governance."
+      },
+      {
+        "id": "D2",
+        "question": "Can the direct effect on the person or outcome be shown from that record?",
+        "what_this_means": "A decision that cannot be connected to a defined consequence for a specific person is not yet fully described. The record needs to show what changed, not only that a process completed.",
+        "explanation": "A decision record on its own may show that something happened, but not what it changed. The effect on the person or outcome must also be visible from the material available. If the consequence cannot be clearly connected to the decision, the organisation may only be able to argue that an effect probably followed. Under scrutiny, assumptions about impact carry far less weight than records showing the effect directly.",
+        "sub_questions": [
+          {
+            "id": "D2.1",
+            "question": "Does the record show what changed for the person?",
+            "why_this_matters": "If the records do not show what changed for the person, the effect of the decision remains unclear.",
+            "finding_explanation": "The records do not clearly show the practical change experienced by the person affected. A decision may have been made, but the material does not show the resulting change in status, access, treatment, entitlement, ranking, payment, refusal, or other outcome. This leaves the effect of the decision uncertain.",
+            "regulatory_relevance": "A decision may appear perfectly clear internally while the effect on the individual remains almost invisible in the records. This happens surprisingly often. The system shows that a workflow completed or that a status changed, but the human consequence is left unstated.\n\nThat gap matters because outside reviewers do not examine systems abstractly. They examine outcomes affecting people. The EU AI Act becomes relevant here because reviewability of high-risk AI decisions depends partly on being able to understand their real-world effects. ISO 42001 also places importance on maintaining information capable of supporting later review. If the effect on the person cannot be clearly seen, the organisation may struggle to show what the decision actually did.",
+            "director_exposure": "A later challenge may expose that the organisation recorded system activity more clearly than human impact. Directors may then find it difficult to demonstrate that decision consequences affecting individuals were being meaningfully reviewed."
+          },
+          {
+            "id": "D2.2",
+            "question": "Can the effect be linked directly to the decision rather than to later events?",
+            "why_this_matters": "If the effect cannot be linked directly to the decision, the connection may depend on assumption rather than evidence.",
+            "finding_explanation": "The effect cannot be tied directly to the decision without relying on assumption. Later actions, separate processes, or surrounding events may also have contributed to the outcome. Where the link is not visible in the records, the organisation is left explaining the connection rather than showing it directly.",
+            "regulatory_relevance": "The organisation may believe the decision directly caused the outcome while the records only show that the two events happened near each other in time. That difference becomes important later. External examination usually asks a narrower question: can the organisation actually demonstrate the connection rather than merely describe it?\n\nDirective (EU) 2024/2853 may matter where questions of harm and causation later arise around AI-related products or systems. The EU AI Act may also become relevant where organisations need to explain and review the effects of high-risk AI outputs. The weakness here is not necessarily that the decision failed to cause the outcome. It is that the evidence may not clearly prove the relationship.",
+            "director_exposure": "Questions about causation can place senior management in a difficult position when the organisation cannot clearly show how a decision produced the outcome now being examined. Oversight becomes harder to defend once the link between action and effect appears uncertain."
+          },
+          {
+            "id": "D2.3",
+            "question": "Is the outcome measurable or only described generally?",
+            "why_this_matters": "A generally described outcome is harder to examine than one that can be clearly identified.",
+            "finding_explanation": "The outcome is described in general terms rather than as a clear and identifiable change. Broad descriptions may help explain the nature of the case, but they are harder to test under scrutiny. A measurable or plainly stated outcome gives a firmer basis than a general description of impact.",
+            "regulatory_relevance": "Broad language often hides uncertainty. Phrases such as 'risk profile changed', 'user affected', or 'decision processed' can sound meaningful while saying very little about what practically happened to the person involved.\n\nThat may become significant during examination under the EU AI Act because reviewers may expect outcomes from high-risk AI systems to remain understandable after the event. Similar concerns appear in ISO 42001 and the NIST AI Risk Management Framework where monitoring and review depend on meaningful operational records. The problem is not that the wording is technically incorrect. The problem is that it may never explain the actual effect clearly enough for somebody outside the organisation to understand.",
+            "director_exposure": "Broad or vague descriptions of outcomes may later create the impression that the organisation monitored processes more carefully than consequences. Directors may struggle to show that real-world effects were visible and reviewable at leadership level."
+          },
+          {
+            "id": "D2.4",
+            "question": "Would an external reader understand the impact without explanation?",
+            "why_this_matters": "If outside readers need explanation to understand the impact, the records may not speak clearly enough on their own.",
+            "finding_explanation": "An external reader would need extra explanation to understand what effect the decision had. That suggests the records do not speak clearly on their own. In a challenge, this creates dependence on later narrative rather than on material that already shows the impact plainly.",
+            "regulatory_relevance": "A record becomes weaker when it only makes sense after somebody explains it verbally. Inside the organisation that explanation may be immediate and obvious. Outside the organisation, the same material may appear incomplete or unclear.\n\nThe EU AI Act may become relevant because review of high-risk AI decisions depends heavily on records that can later be examined and understood. If the practical impact of the decision only emerges through staff explanation, the organisation may end up relying more on narrative than on the records themselves.",
+            "director_exposure": "Reliance on staff explanation to understand decision impact can weaken confidence that the organisation maintained independently understandable records. Senior oversight bodies may later be asked whether challenged outcomes could actually be reviewed from the evidence alone."
+          },
+          {
+            "id": "D2.5",
+            "question": "Is the affected person identifiable within the record set?",
+            "why_this_matters": "If the affected person cannot be clearly identified, the decision becomes difficult to connect to a real outcome.",
+            "finding_explanation": "The affected person is not clearly identifiable within the available record set. This weakens the link between the decision and a real-world effect. If the person cannot be fixed in the material, the outcome may remain too general to support a specific challenged case.",
+            "regulatory_relevance": "One of the most serious weaknesses appears when the organisation cannot clearly connect the outcome to one identifiable person. At that point the decision may stop looking like a fixed event and start looking like a general operational process.\n\nDirective (EU) 2024/2853 may matter if somebody later claims harm linked to an AI-related system or product. The EU AI Act may also become relevant because accountability for high-risk AI use depends partly on understanding who or what the system affected. Without a clearly identifiable recipient, the organisation may struggle to demonstrate that the outcome existed in the form now being described.",
+            "director_exposure": "An inability to identify the person affected by the outcome may later raise wider questions about how effectively the organisation could trace and monitor the human consequences of important operational decisions."
+          }
+        ],
+        "regulatory_relevance": "Where the practical effect of decisions on individuals cannot be clearly demonstrated, the organisation may face difficulty showing how operational outcomes were understood, monitored, and reviewed under the EU AI Act, ISO 42001, and related accountability examination contexts.",
+        "director_exposure": "If the organisation cannot clearly show what changed for affected individuals, leadership may later struggle to demonstrate that the consequences of important operational decisions were meaningfully understood and overseen."
+      },
+      {
+        "id": "D3",
+        "question": "Is the decision placed at a specific date and time in the record?",
+        "what_this_means": "Without a fixed point in time, the state of the system, the data and the authority that applied cannot be established. The timestamp is not a formality. It is the foundation for everything else.",
+        "explanation": "Without a fixed point in time, it becomes difficult to establish which rules, permissions, data or system conditions applied when the decision occurred. Timing is not a minor detail. It is what anchors the entire chain to a real event. If the timing is uncertain, later attempts to explain what applied at that moment become harder to support from evidence alone.",
+        "sub_questions": [
+          {
+            "id": "D3.1",
+            "question": "Is there a clear timestamp attached to the decision?",
+            "why_this_matters": "Without a precise timestamp, the event cannot be fixed securely to a specific moment.",
+            "finding_explanation": "There is no clear timestamp fixing the decision to a specific moment. Without that point in time, it becomes difficult to know which data, rules, permissions, records, or system conditions applied when the event occurred. Timing is not a detail; it is what anchors the decision.",
+            "regulatory_relevance": "A decision without a secure timestamp creates immediate uncertainty around everything surrounding it. Which rules applied? Which version of the system was active? Who held authority at that moment? What information was available then?\n\nThe EU AI Act and ISO 42001 both place importance on records capable of later review. That becomes difficult when the organisation cannot clearly show when the decision occurred. The problem is not administrative neatness. Timing affects whether the entire surrounding context can still be trusted.",
+            "director_exposure": "A missing or uncertain timestamp can create wider accountability problems for leadership because authority, applicable rules, system state, and oversight arrangements may all depend on knowing exactly when the decision occurred."
+          },
+          {
+            "id": "D3.2",
+            "question": "Is the timestamp original or added later?",
+            "why_this_matters": "A timestamp added later may not reliably show when the decision actually occurred.",
+            "finding_explanation": "The timestamp may have been added after the event rather than captured when the decision occurred. That weakens its value as proof of timing. A later timestamp can support an explanation, but it may not show the actual moment at which the decision was made.",
+            "regulatory_relevance": "Later-added timestamps can create a misleading appearance of certainty. A timestamp may accurately show when a record was updated while saying nothing reliable about when the actual decision happened.\n\nThat distinction may become important under the EU AI Act where review of high-risk AI activity depends on trustworthy operational records. Directive (EU) 2024/2853 may also become relevant if later disputes focus on the sequence leading to harm. The practical weakness is that the organisation may possess a time record without possessing the correct time record.",
+            "director_exposure": "Retrospective timestamps may later weaken confidence in the reliability of the organisation’s operational records. Directors could face questions about whether important events were being captured accurately at the time they happened."
+          },
+          {
+            "id": "D3.3",
+            "question": "Can the timing be independently verified?",
+            "why_this_matters": "If timing cannot be independently checked, the sequence of events may remain uncertain.",
+            "finding_explanation": "The timing cannot be checked against independent or supporting material. If no other record confirms when the decision occurred, the chronology remains dependent on the organisation’s own account. That makes the sequence of events less secure under examination.",
+            "regulatory_relevance": "Sometimes the organisation can state confidently when the decision happened, yet no surrounding material independently confirms the timing. At that point the chronology depends heavily on internal assertion.\n\nThe NIST AI Risk Management Framework and ISO 42001 both support reviewable operational records capable of external checking. The practical issue here is whether somebody outside the original process could verify the timeline without simply trusting the organisation's own explanation.",
+            "director_exposure": "External reviewers may become concerned if the organisation cannot independently verify when key decisions occurred. Leadership may then struggle to demonstrate that reliable and reviewable operational records were being maintained."
+          },
+          {
+            "id": "D3.4",
+            "question": "Does the timing match the surrounding records?",
+            "why_this_matters": "Conflicting timings across records weaken confidence in the event chronology.",
+            "finding_explanation": "The timing shown for the decision does not match cleanly with surrounding records. Conflicting dates, times, logs, messages, or system entries make it harder to establish the true sequence of events. This can affect which authority, basis, or evidence applied at the relevant moment.",
+            "regulatory_relevance": "Conflicting timestamps create deeper problems than simple inconsistency. Once the chronology becomes unstable, uncertainty spreads outward into questions of authority, applicable rules, system state, and oversight.\n\nThat may matter under the EU AI Act because later review of high-risk AI decisions depends on understanding what conditions existed when the outcome occurred. If the timeline itself becomes unreliable, much of the surrounding accountability structure may also become uncertain.",
+            "director_exposure": "Conflicting chronology across records can quickly undermine confidence in governance and oversight. Directors may later find it difficult to show that approvals, operational actions, and review processes were being tracked consistently."
+          },
+          {
+            "id": "D3.5",
+            "question": "Could the sequence of events be reconstructed from the timestamps alone?",
+            "why_this_matters": "If the sequence of events cannot be reconstructed from the timestamps, the timeline may depend on later explanation.",
+            "finding_explanation": "The sequence of events cannot be rebuilt from timestamps alone. That means the timeline depends on later explanation to make sense of what happened. A timeline that needs reconstruction is weaker than one that can be followed directly from records created at the time.",
+            "regulatory_relevance": "A strong evidentiary chain allows the sequence of events to emerge naturally from the records themselves. A weak chain forces staff to rebuild the timeline afterwards through explanation and interpretation.\n\nDirective (EU) 2024/2853 may become relevant where later examination focuses on how events unfolded and whether a system contributed to harm. The central weakness here is that the chronology may exist mainly in organisational memory rather than inside the original records.",
+            "director_exposure": "An organisation relying heavily on reconstructed timelines may later face difficult questions about whether contemporaneous oversight was genuinely possible. Once chronology depends mainly on later explanation, accountability becomes harder to demonstrate with confidence."
+          }
+        ],
+        "regulatory_relevance": "Uncertainty around the timing and chronology of decisions may weaken the organisation’s ability to demonstrate reliable operational records, accountable sequencing of events, and reviewable governance conditions under the EU AI Act, ISO 42001, and Directive (EU) 2024/2853.",
+        "director_exposure": "Where the timing of important decisions cannot be reliably established, directors and senior oversight bodies may later face questions about whether governance arrangements, authority structures, and operational controls were genuinely reviewable."
+      }
+    ]
+  },
+  {
+    "section": "AUTHORITY",
+    "section_description": "The named person or body that allowed that outcome to happen at that time. Authority must sit with someone identifiable, not with a system or a general role. ",
+    "section_consequence": "The organisation believes somebody had the power to allow the decision. That may be true. But when the available documents are examined, no clearly identifiable person or named body appears as the holder of that power for this specific case at this specific time.\n\nInstead, the material often contains broader things: organisation charts, committee names, job titles, reporting structures, or descriptions of approval processes. Those may explain how the organisation usually operated. They still do not answer the central question: who had the authority to allow this exact outcome?\n\nThat question matters because permission does not sit inside a process diagram or inside a committee structure by itself. It must belong to a person or body that can be identified from the records connected to the decision. Without that, responsibility becomes difficult to fix to any one point.\n\nThe person examining the case therefore looks for something simple and direct. They look for evidence showing who could approve this type of decision when it happened. If the answer depends mainly on explanation, interpretation, or assumptions about how authority normally worked, then the organisation is no longer showing authority clearly from the records themselves.\n\nGeneral descriptions remain general even under pressure. Saying that “management approved it” or that “the committee oversaw the process” does not identify who actually had the power to permit the outcome. Responsibility cannot be attached securely to a broad description. It must attach to a person or body that can be named and shown from the records.\n\nWithout that, the decision starts to appear ownerless. Something happened, but nobody can be clearly shown to have authorised it.",
+    "questions": [
+      {
+        "id": "A1",
+        "question": "Is there a named person or organisation whose authority permitted this decision to be made?",
+        "what_this_means": "Authority must be traceable to a person or body. A process does not carry authority. A system does not carry authority. The record needs to show who allowed this type of outcome to occur.",
+        "explanation": "If no identifiable authority can be connected to the decision, responsibility becomes difficult to fix to a person or body. Systems and processes may have operated correctly in general terms, but that does not answer who allowed this type of outcome to occur. Under examination, unclear authority often turns responsibility into something broad and diffuse rather than something that can be directly shown.",
+        "sub_questions": [
+          {
+            "id": "A1.1",
+            "question": "Is a specific person or body named?",
+            "why_this_matters": "Authority cannot attach securely to an unnamed person or body.",
+            "finding_explanation": "No specific person or body is clearly named as the holder of authority for the decision. Without a named holder, responsibility remains diffuse. The organisation may describe structures or processes, but it cannot point to the identifiable authority that permitted the outcome in this case.",
+            "regulatory_relevance": "Some organisations can describe the governance structure around a system in great detail yet still fail to identify who actually had authority to allow the specific outcome now under examination. The records may mention teams, committees, oversight functions, or operational owners without ever fixing responsibility to one identifiable holder.\n\nThat distinction matters because external scrutiny usually narrows quickly toward one question: who was permitted to allow this outcome? The EU AI Act becomes relevant here because accountability and human oversight are expected to remain visible for high-risk AI systems. If the organisation cannot clearly identify the authority holder, responsibility may remain structurally blurred even where governance processes existed.",
+            "director_exposure": "A later investigation may eventually narrow to one uncomfortable question: who actually possessed authority to allow the outcome? Directors may struggle to answer clearly if the records describe governance structures generally while never identifying one accountable holder."
+          },
+          {
+            "id": "A1.2",
+            "question": "Is authority attached to an identifiable role or only implied?",
+            "why_this_matters": "Authority that is only implied may later become disputed or unclear.",
+            "finding_explanation": "Authority appears to be implied rather than clearly attached to a named holder. An identifiable role may be mentioned, but implication is not the same as recorded authority. If the authority must be inferred, it becomes easier to dispute who actually had power to permit the decision.",
+            "regulatory_relevance": "Authority is sometimes assumed rather than shown. Staff may believe a person obviously possessed the right to approve the outcome because of seniority, operational involvement, or established practice. The records themselves may never actually state it.\n\nThat can create problems later because implied authority is weaker than demonstrable authority. ISO 42001 and the EU AI Act both place importance on identifiable responsibility structures around AI systems and decision-making. The practical issue is that external reviewers usually work from records rather than organisational assumptions.",
+            "director_exposure": "Organisations often rely heavily on implied authority structures that feel obvious internally but are never written down clearly. Under external scrutiny, leadership may find it difficult to demonstrate that permission existed in a form capable of independent review."
+          },
+          {
+            "id": "A1.3",
+            "question": "Does the material distinguish operational involvement from actual authority?",
+            "why_this_matters": "Being involved in a process is not the same thing as having authority to permit the outcome.",
+            "finding_explanation": "The material does not clearly separate involvement in the process from authority to approve the outcome. A person may have operated, reviewed, monitored, or discussed the decision without having power to permit it. If that distinction is missing, responsibility may be attached to activity rather than authority.",
+            "regulatory_relevance": "Operational involvement and decision authority are not the same thing, although records often blur them together. A person may configure systems, review cases, monitor outputs, or participate in workflows without possessing the authority to permit the final outcome.\n\nThe EU AI Act may become relevant where organisations later need to show meaningful human oversight over high-risk AI decisions. If the records only demonstrate participation rather than permission, the organisation may struggle to identify who actually carried responsibility for allowing the outcome.",
+            "director_exposure": "Participation in a process can easily be mistaken for decision authority once records become unclear. Directors may later face questions about whether the organisation could distinguish between operational involvement and actual permission to allow the outcome."
+          },
+          {
+            "id": "A1.4",
+            "question": "Could different people reasonably claim responsibility for the same decision?",
+            "why_this_matters": "If multiple people could plausibly claim responsibility, no single holder of authority is clearly fixed.",
+            "finding_explanation": "The records leave open more than one possible authority holder. If several people could plausibly be described as responsible, no single point of authority has been fixed. That weakens the organisation’s ability to show who actually permitted the decision.",
+            "regulatory_relevance": "Responsibility becomes unstable when several people or bodies could plausibly claim authority over the same decision. Internally this may feel collaborative. Under scrutiny it can look uncertain.\n\nISO 42001 and the EU AI Act both depend heavily on the ability to identify accountable responsibility structures. The practical difficulty is that shared operational involvement does not automatically produce shared accountability. At some point an external reviewer may ask who ultimately possessed authority to allow the challenged outcome, and the records may not answer clearly.",
+            "director_exposure": "Shared responsibility can become evidentially unstable when nobody can identify who ultimately held authority for the challenged outcome. Senior oversight bodies may later struggle to demonstrate where final accountability actually sat."
+          },
+          {
+            "id": "A1.5",
+            "question": "Is authority tied to this case or only to the system generally?",
+            "why_this_matters": "General responsibility for a system is not automatically authority for this specific case.",
+            "finding_explanation": "The authority appears tied to the system generally rather than to this particular case. General responsibility for a tool, process, or service does not automatically show permission for every outcome it produces. The case-specific link remains uncertain.",
+            "regulatory_relevance": "A person may hold general responsibility for a system without holding authority for every decision the system produces or supports. Organisations often assume those ideas overlap. They do not always.\n\nThat distinction may matter under the EU AI Act where review of high-risk AI systems may focus on who authorised particular forms of use or particular categories of outcome. The weakness here is subtle but important: general ownership of the technology may not prove permission for the specific event now being examined.",
+            "director_exposure": "General ownership of a system may not prove authority over every decision connected to it. Leadership may later discover that broad governance responsibility does not clearly explain who permitted the specific outcome now under examination."
+          }
+        ],
+        "regulatory_relevance": "An inability to identify who held authority for challenged outcomes may weaken demonstrable accountability and oversight under the EU AI Act, ISO 42001, and related governance examination contexts.",
+        "director_exposure": "Where authority holders cannot be clearly identified, leadership may later struggle to demonstrate who possessed responsibility for permitting important operational outcomes."
+      },
+      {
+        "id": "A2",
+        "question": "Did that person or organisation hold the power to allow it at the time the decision was made?",
+        "what_this_means": "Authority must exist at the moment of the decision. A mandate that was assigned later or that had lapsed, does not support the decision that preceded it. The timing of authority matters as much as its existence.",
+        "explanation": "Authority that existed earlier or appeared later does not necessarily support the decision at the moment it occurred. The question is not simply whether authority existed somewhere within the organisation, but whether it existed at that exact time for that exact decision. Once timing becomes uncertain, the link between authority and outcome begins to weaken.",
+        "sub_questions": [
+          {
+            "id": "A2.1",
+            "question": "Can authority be shown to have existed at that exact time?",
+            "why_this_matters": "Authority must exist at the exact time the decision occurred, not only before or afterwards.",
+            "finding_explanation": "The records do not clearly show that the authority existed at the exact time of the decision. Authority before or after the event is not enough. The relevant question is whether the person or body had power when this decision was made.",
+            "regulatory_relevance": "Authority only matters if it existed at the moment the decision occurred. A person appointed later, removed earlier, or inactive at the relevant time may not support the outcome now being defended.\n\nThe EU AI Act and ISO 42001 both rely on the idea that responsibility structures should remain reviewable afterwards. That becomes difficult if the organisation cannot clearly show who possessed authority at the exact time the outcome was produced. The practical issue is chronological, not theoretical.",
+            "director_exposure": "Questions about timing can become highly sensitive once the organisation cannot clearly show who possessed authority at the exact moment the decision occurred. Directors may then struggle to demonstrate that valid oversight arrangements were active when the outcome was produced."
+          },
+          {
+            "id": "A2.2",
+            "question": "Was the authority current and active?",
+            "why_this_matters": "Expired or inactive authority cannot clearly support a later decision.",
+            "finding_explanation": "The authority may not have been current and active when the decision occurred. If the mandate had expired, been suspended, been replaced, or had not yet begun, it cannot clearly support the outcome. That leaves the permission attached to the decision uncertain.",
+            "regulatory_relevance": "An expired or inactive authority creates a strange type of uncertainty. The organisation may genuinely believe the decision was properly authorised while the records show that the formal permission structure no longer applied.\n\nThat may become important under the EU AI Act where accountability for high-risk AI systems depends partly on reviewable oversight arrangements. The weakness is not necessarily misconduct. The weakness is that the authority relied upon may no longer have been valid when the decision happened.",
+            "director_exposure": "An expired or inactive authority can create serious accountability uncertainty even where governance structures appeared strong operationally. Leadership may later face questions about whether the person relied upon actually possessed permission at the relevant time."
+          },
+          {
+            "id": "A2.3",
+            "question": "Had any limits, expiry or replacement already taken effect?",
+            "why_this_matters": "Restrictions or replacements may have changed who could approve the outcome.",
+            "finding_explanation": "Limits, expiry terms, replacements, or changes may have affected the authority before the decision was made. If those conditions are unclear, the organisation cannot easily show whether the authority still covered the outcome at the relevant moment.",
+            "regulatory_relevance": "Authority structures change constantly inside organisations. Roles evolve. Permissions shift. Oversight arrangements are replaced. The difficulty appears when the records cannot clearly show which version applied at the relevant moment.\n\nISO 42001 and the EU AI Act may both become relevant because later review depends on stable and understandable responsibility structures. If the organisation cannot show which authority arrangement existed when the decision occurred, accountability may become difficult to reconstruct reliably.",
+            "director_exposure": "Changing authority arrangements can become difficult to defend once the organisation loses clarity around which structure applied when the challenged decision happened. Directors may struggle to show that accountability remained stable and reviewable over time."
+          },
+          {
+            "id": "A2.4",
+            "question": "Does the timing of the authority match the timing of the decision?",
+            "why_this_matters": "If the timing of authority and decision do not align, the permission becomes uncertain.",
+            "finding_explanation": "The timing of the authority and the timing of the decision do not align clearly. Where those two points cannot be matched, the organisation may struggle to show that the right person or body had power at the time the outcome occurred.",
+            "regulatory_relevance": "A mismatch between the timing of the authority and the timing of the decision weakens the evidentiary chain immediately. Even strong governance structures become less persuasive if they cannot be linked clearly to the actual event.\n\nThe EU AI Act may matter because high-risk AI decisions are expected to remain accountable and reviewable afterwards. The practical problem is straightforward: authority cannot safely be projected backwards or forwards in time to fit the challenged outcome.",
+            "director_exposure": "A mismatch between authority timing and decision timing may weaken confidence in the organisation’s entire oversight framework. External reviewers may ask whether accountability structures were genuinely connected to operational decision-making at the time."
+          },
+          {
+            "id": "A2.5",
+            "question": "Is the authority demonstrated from records created before the challenge arose?",
+            "why_this_matters": "Authority demonstrated only after challenge appears weaker than authority already visible in existing records.",
+            "finding_explanation": "The authority is shown mainly through records created or emphasised after the challenge arose. That makes the authority appear less firmly established beforehand. Records already in place before the dispute carry a stronger evidentiary position than material assembled later.",
+            "regulatory_relevance": "Sometimes authority only becomes visible after scrutiny begins. The organisation locates documents, identifies role holders, or reconstructs oversight structures in response to the challenge itself.\n\nThat can weaken confidence in the evidentiary position under the EU AI Act and Directive (EU) 2024/2853 because external examination often focuses on what existed at the time rather than what can later be assembled. The practical concern is that retrospective clarification may begin to look different from contemporaneous authority.",
+            "director_exposure": "Authority identified mainly after scrutiny begins can create the appearance that governance structures are being reconstructed retrospectively. Directors may later find it difficult to demonstrate that accountability arrangements were already visible before the challenge emerged."
+          }
+        ],
+        "regulatory_relevance": "Uncertainty around whether authority existed at the relevant time may affect the organisation’s ability to demonstrate accountable governance, valid oversight arrangements, and reviewable operational control under the EU AI Act and ISO 42001.",
+        "director_exposure": "If authority structures cannot be connected clearly to the timing of challenged decisions, directors may later face questions about whether effective oversight existed when outcomes were produced."
+      },
+      {
+        "id": "A3",
+        "question": "Did that authority extend to this specific type of decision?",
+        "what_this_means": "General authority to oversee a system is not the same as specific authority to permit the kind of outcome that occurred. The scope of the mandate needs to cover the case in question, not just the system that produced it.",
+        "explanation": "General oversight of a system is not automatically authority for every possible outcome produced by that system. A person may have been responsible for supervision, operation or approval in broad terms without holding authority for the specific decision under examination. When the scope of authority is unclear, the organisation may struggle to show that the outcome actually sat within the powers that had been granted.",
+        "sub_questions": [
+          {
+            "id": "A3.1",
+            "question": "Is the type of decision clearly covered?",
+            "why_this_matters": "Authority that does not clearly cover this type of outcome may not support the decision.",
+            "finding_explanation": "The records do not clearly show that this type of decision was covered by the authority granted. A person may have had authority in general terms but not for this category of outcome. Without a clear match, the decision may sit outside the demonstrable scope of permission.",
+            "regulatory_relevance": "Authority may exist in a broad sense while still failing to cover the specific type of outcome now under examination. Organisations often discover this only after a challenge begins.\n\nThe EU AI Act may become relevant where oversight and accountability for high-risk AI outputs need to be demonstrated clearly. The key issue is scope. Permission to oversee a system does not automatically mean permission existed for every possible decision produced through it.",
+            "director_exposure": "A later review may expose that authority existed only in broad terms and never clearly covered the type of outcome now being challenged. Leadership may then struggle to demonstrate that the organisation understood the limits of its own approval structures."
+          },
+          {
+            "id": "A3.2",
+            "question": "Are the limits of authority written down?",
+            "why_this_matters": "Unwritten limits are harder to demonstrate under examination.",
+            "finding_explanation": "The limits of authority are not written down clearly. If the boundary of the authority cannot be seen from the records, it becomes difficult to know whether the decision fell inside or outside that boundary. The scope remains open to argument.",
+            "regulatory_relevance": "Unwritten limits create evidentiary problems later because nobody can clearly show where authority stopped. Internally, staff may understand the boundaries through culture or practice. External reviewers cannot rely on unwritten assumptions.\n\nISO 42001 and the EU AI Act both place importance on reviewable governance and accountability structures. The weakness here is not necessarily operational confusion. It is the inability to demonstrate the actual boundaries of authority afterwards.",
+            "director_exposure": "Unclear or unwritten authority boundaries can create difficult oversight questions for directors because external reviewers may no longer be able to identify where permission stopped and unauthorised action potentially began."
+          },
+          {
+            "id": "A3.3",
+            "question": "Could the scope be interpreted in different ways?",
+            "why_this_matters": "If different readers interpret authority differently, responsibility becomes less certain.",
+            "finding_explanation": "The scope of authority could reasonably be read in different ways. That weakens certainty because the organisation cannot show one clear meaning from the records alone. Under challenge, competing readings may emerge about what the authority actually allowed.",
+            "regulatory_relevance": "A strong authority structure should produce roughly the same interpretation regardless of who reads it. Where different readers could plausibly reach different conclusions about scope, accountability becomes unstable.\n\nThe EU AI Act may matter because human oversight and responsibility for high-risk AI use depend on clearly understandable authority arrangements. The practical problem is that interpretation begins replacing demonstrable permission.",
+            "director_exposure": "Different interpretations of authority scope can weaken confidence that accountability arrangements were stable and consistently understood across the organisation. Directors may later struggle to show that operational permissions were sufficiently clear."
+          },
+          {
+            "id": "A3.4",
+            "question": "Does the authority refer to the system generally or this category of outcome specifically?",
+            "why_this_matters": "General authority over a system may not include permission for this category of decision.",
+            "finding_explanation": "The authority refers to the system or process generally, rather than to this category of outcome specifically. General oversight may explain who watched the system, but it does not necessarily show who could permit this particular kind of decision.",
+            "regulatory_relevance": "General responsibility for a system often sounds impressive until somebody asks whether it covered this exact category of outcome. At that point broad governance language may suddenly appear much narrower.\n\nThe EU AI Act may become relevant because review of high-risk AI decisions may focus on whether identifiable authority existed for the specific use in question. The issue is not whether governance existed somewhere. The issue is whether it clearly covered this outcome.",
+            "director_exposure": "Broad responsibility for a system may later prove insufficient once reviewers focus on one specific category of outcome. Leadership may find it difficult to demonstrate that governance arrangements clearly covered the challenged decision itself."
+          },
+          {
+            "id": "A3.5",
+            "question": "Would an external reader conclude that this decision clearly fell inside the authorised scope?",
+            "why_this_matters": "If outside readers would disagree about the scope, the authority was not clearly fixed.",
+            "finding_explanation": "An external reader may not conclude that the decision clearly fell within the authorised scope. If that conclusion depends on internal explanation, the authority is not fully visible from the records themselves. The organisation is left arguing scope rather than showing it plainly.",
+            "regulatory_relevance": "Authority becomes weaker when an outside reader cannot easily see how it applies to the challenged decision. If the organisation must rely heavily on explanation, interpretation, or contextual argument, the permission structure may no longer appear clearly demonstrable.\n\nISO 42001 and the EU AI Act both support the idea that governance and accountability arrangements should remain understandable during later review. The practical weakness is that authority requiring extensive explanation may appear less secure than authority visible directly from the records.",
+            "director_exposure": "Authority requiring extensive explanation can become difficult to defend under external scrutiny. Directors may later face questions about whether accountability structures were genuinely understandable from the records alone or mainly dependent on interpretation after the event."
+          }
+        ],
+        "regulatory_relevance": "Where the limits and scope of authority remain unclear, the organisation may struggle to demonstrate that challenged decisions fell within identifiable and reviewable governance arrangements under the EU AI Act and related accountability frameworks.",
+        "director_exposure": "Unclear authority boundaries may later weaken the ability of leadership to demonstrate that operational permissions, responsibilities, and accountability structures were sufficiently defined."
+      }
+    ]
+  },
+  {
+    "section": "RECORD",
+    "section_description": "Where that authority is written down and can be produced. If it is not written and available, it cannot be relied on.",
+    "section_consequence": "People inside the organisation may understand perfectly well who normally approved certain decisions. Managers may believe responsibilities were obvious. Staff may describe the process honestly and clearly. None of that, by itself, creates a usable written record.\n\nThe person examining the case asks to see the actual document that existed before the decision was made. This may be an approval policy, a signed delegation, a board paper, a responsibility register, or some other written document showing who could permit this kind of outcome.\n\nSometimes no such document can be found. Sometimes the document exists but was written after problems were raised. Sometimes it speaks only in broad terms and never clearly covers the situation now being examined.\n\nWhen that happens, the organisation begins describing how authority worked instead of showing where authority was written down beforehand. That difference matters. A good explanation is still only an explanation. The examination is not testing whether staff sound believable or sincere. It is testing whether the organisation can produce records that already existed and clearly set out who could approve the decision before it happened.\n\nIf those records are missing, unclear, or written later, a gap appears. The organisation may continue insisting that authority existed in practice. The person examining the case does not fill that gap with trust or assumption. They remain focused on what can actually be produced.\n\nWithout a clear written record created before the event, the organisation cannot fully show that the authority it describes was formally established at the time.",
+    "questions": [
+      {
+        "id": "R1",
+        "question": "Is the authority written down in a document that can be produced?",
+        "what_this_means": "Authority that exists in practice but not in writing is not demonstrable. The record must be something that can be shown, not something that can only be described.",
+        "explanation": "Authority that cannot be produced from a record exists largely as an assertion. People may describe who was responsible or who approved a process, but under challenge the question becomes whether that authority can actually be shown from a document that existed independently of the dispute. If it cannot, the organisation may only be able to rely on explanation rather than demonstrable record.",
+        "sub_questions": [
+          {
+            "id": "R1.1",
+            "question": "Is the document identifiable and available?",
+            "why_this_matters": "A document that cannot be produced cannot support the authority being claimed.",
+            "finding_explanation": "The document relied upon to show authority cannot be clearly identified or produced. If the document is missing, inaccessible, or uncertain, the authority remains a claim rather than something that can be examined. The chain of demonstration weakens at the point where the written source should appear.",
+            "regulatory_relevance": "A claimed authority becomes difficult to defend once the organisation cannot actually produce the document said to support it. Staff may describe the policy, remember the approval, or refer to earlier governance arrangements, yet the underlying record itself may no longer exist or cannot be located.\n\nThat matters because external examination usually depends more on available material than on organisational memory. ISO 42001 and the EU AI Act both place importance on documented and reviewable accountability structures around AI systems. The practical problem is simple: a document that cannot be produced may no longer function as evidence at all.",
+            "director_exposure": "Leadership may later face uncomfortable questions once the organisation cannot actually produce the document said to support the authority or governance arrangement being relied upon. At that point the issue stops being policy design and becomes evidentiary absence."
+          },
+          {
+            "id": "R1.2",
+            "question": "Does it clearly name the authority holder?",
+            "why_this_matters": "If the authority holder is not clearly named, responsibility remains uncertain.",
+            "finding_explanation": "The document does not clearly name the person or body holding the authority. Without that name, the record cannot securely connect permission to an identifiable holder. Responsibility remains uncertain even if the document describes processes or responsibilities in general terms.",
+            "regulatory_relevance": "Some records describe processes, governance structures, or operational controls in considerable detail while never clearly naming the person or body holding authority. Internally this may feel sufficient because everyone already knows who the responsible parties were. Under scrutiny, that shared understanding may disappear.\n\nThe EU AI Act may become relevant because accountability and oversight for high-risk AI systems are expected to remain identifiable after the event. The weakness here is not the absence of governance language. It is the absence of a clearly named authority holder inside the record itself.",
+            "director_exposure": "A governance record that never clearly identifies the authority holder can weaken confidence in the organisation’s accountability structure. Directors may later struggle to demonstrate who was actually responsible for permitting the challenged outcome."
+          },
+          {
+            "id": "R1.3",
+            "question": "Is the document complete rather than partial or informal?",
+            "why_this_matters": "Partial or informal material may not reliably establish authority.",
+            "finding_explanation": "The document appears partial, informal, incomplete, or otherwise insufficient to establish authority on its own. Informal material may help explain practice, but it may not be enough to show that authority was formally fixed before the decision occurred.",
+            "regulatory_relevance": "A document can exist without being strong enough to support the authority now being claimed from it. Fragmented emails, incomplete meeting notes, informal guidance, or partially drafted records may describe surrounding activity while still failing to establish reliable authority.\n\nISO 42001 may become relevant because documented information supporting AI governance is expected to remain usable and reviewable afterwards. The practical issue is evidentiary strength. Some material explains context without securely proving permission.",
+            "director_exposure": "Fragmented or incomplete records may create the impression that governance arrangements existed operationally without ever being captured strongly enough for reliable later review. Leadership may then struggle to defend the quality of organisational record-keeping."
+          },
+          {
+            "id": "R1.4",
+            "question": "Can the document be linked directly to the decision in question?",
+            "why_this_matters": "A document unrelated to the decision does not clearly support the case being examined.",
+            "finding_explanation": "The document cannot be linked directly to the decision under examination. It may describe governance or authority in general, but its connection to this case remains unclear. A record that cannot be tied to the event leaves a gap between authority and outcome.",
+            "regulatory_relevance": "Organisations often possess large amounts of governance documentation that cannot actually be connected clearly to the decision under challenge. A record may demonstrate that governance existed generally while saying nothing reliable about the specific event now under examination.\n\nThe EU AI Act may matter because later review of high-risk AI outcomes depends partly on connecting governance structures to actual operational decisions. The weakness is that general governance documentation does not automatically prove authority for one specific outcome.",
+            "director_exposure": "General governance documentation may appear persuasive until reviewers ask how it connects to one specific decision. Directors may later discover that broad organisational records do not clearly support the challenged event itself."
+          },
+          {
+            "id": "R1.5",
+            "question": "Would the document stand on its own without verbal explanation?",
+            "why_this_matters": "If verbal explanation is required, the document may not stand as clear evidence on its own.",
+            "finding_explanation": "The document needs verbal explanation before its relevance can be understood. That weakens its value as a standalone record. A strong record should show the authority clearly enough for an outside reader to understand its relevance without relying on later interpretation.",
+            "regulatory_relevance": "Records become weaker when they only make sense after somebody explains them verbally. Staff who created the documents may understand them immediately because they already possess the missing context. External reviewers usually do not.\n\nISO 42001 and the EU AI Act both support the idea that accountability material should remain understandable during later examination. The practical problem is that a document requiring extensive explanation may no longer stand securely on its own as evidence.",
+            "director_exposure": "Records that only make sense after verbal explanation can weaken confidence that important governance material was independently understandable. Senior oversight bodies may later face questions about whether accountability depended too heavily on organisational interpretation."
+          }
+        ],
+        "regulatory_relevance": "An inability to produce reliable governance and authority records may weaken demonstrable accountability, reviewability, and evidentiary support under the EU AI Act, ISO 42001, and related governance examination contexts.",
+        "director_exposure": "Where supporting governance records cannot be clearly produced or relied upon, directors may later struggle to demonstrate that important accountability arrangements were properly documented."
+      },
+      {
+        "id": "R2",
+        "question": "Did that record exist before the decision was made?",
+        "what_this_means": "A document created after a challenge arises is a response, not a record. The authority needs to have been established and written down before the decision occurred, not in reaction to a question about it.",
+        "explanation": "A document created after scrutiny begins may help explain events, but it does not establish that the authority existed beforehand. Under examination, retrospective records are often treated differently from records that already existed at the time. The closer a document appears to the moment of challenge, the more attention is likely to fall on whether it records prior reality or later reconstruction.",
+        "sub_questions": [
+          {
+            "id": "R2.1",
+            "question": "Can the creation date of the document be shown?",
+            "why_this_matters": "Without a clear creation date, the timing of the record becomes uncertain.",
+            "finding_explanation": "The creation date of the document cannot be clearly shown. This leaves uncertainty about whether it existed before the decision or was created afterwards. If timing cannot be established, the document may not prove prior authority.",
+            "regulatory_relevance": "The timing of a document can matter almost as much as its contents. A policy, approval, or authority record may appear persuasive until somebody asks whether it actually existed before the challenged decision occurred.\n\nThe EU AI Act and ISO 42001 both place importance on reviewable records connected to real operational conditions. If the organisation cannot clearly establish when the document was created, uncertainty begins spreading into questions about whether the authority existed at the relevant time or emerged later in response to scrutiny.",
+            "director_exposure": "The timing of governance documents can become a major accountability issue once nobody can clearly show whether the material actually existed before the challenged decision occurred. Leadership may then struggle to demonstrate that oversight arrangements were already in place at the relevant time."
+          },
+          {
+            "id": "R2.2",
+            "question": "Was the document active at the time of the decision?",
+            "why_this_matters": "A document not active at the time may not support the decision.",
+            "finding_explanation": "The document does not clearly appear active at the time of the decision. It may have been expired, superseded, draft, withdrawn, or not yet in force. In that situation, the record may not support the authority claimed for the event.",
+            "regulatory_relevance": "A document may remain technically valid inside organisational archives while no longer being active when the decision occurred. That distinction becomes important later because inactive governance material may not support the authority structure being claimed.\n\nThe EU AI Act may become relevant where review of high-risk AI systems focuses on the controls and oversight arrangements actually operating at the relevant moment. The weakness here is temporal rather than administrative: the record may exist, yet still fail to prove active authority at the time.",
+            "director_exposure": "An inactive or outdated governance record may weaken confidence that the organisation maintained effective oversight structures during the period now under examination. Directors could later face questions about whether operational controls remained current and usable."
+          },
+          {
+            "id": "R2.3",
+            "question": "Has the document been revised since the event?",
+            "why_this_matters": "Later revisions may make it unclear what existed when the event occurred.",
+            "finding_explanation": "The document has changed since the event, and the records do not clearly show what version existed at the time. Later revisions can blur the evidentiary position because they may not reflect the wording, scope, or authority that applied when the decision occurred.",
+            "regulatory_relevance": "Documents evolve constantly inside organisations. Policies are revised. Responsibilities are updated. Approval structures change. The difficulty appears when later reviewers cannot clearly determine which version existed when the challenged decision happened.\n\nISO 42001 may become relevant because reviewable governance records depend on version clarity and historical continuity. The practical issue is that today's document may not prove yesterday's authority conditions.",
+            "director_exposure": "Changing document versions can create difficult review problems once the organisation cannot clearly identify which version applied when the decision occurred. Leadership may later struggle to demonstrate stable governance conditions over time."
+          },
+          {
+            "id": "R2.4",
+            "question": "Is there evidence the document was relied upon before the challenge?",
+            "why_this_matters": "A document relied upon only after challenge appears weaker than one used beforehand.",
+            "finding_explanation": "There is limited evidence that the document was relied upon before the challenge arose. If it only becomes important after scrutiny begins, it may look like a later explanation rather than a record that actually governed the decision at the time.",
+            "regulatory_relevance": "A document may genuinely predate the event while still showing little evidence of operational use before the challenge arose. Under scrutiny that distinction can matter. Reviewers may begin asking whether the document actually formed part of the decision environment or simply existed somewhere in the background.\n\nThe EU AI Act and Directive (EU) 2024/2853 may both become relevant where later examination focuses on what governance conditions truly existed at the time. The weakness is not necessarily fabrication. The weakness is evidentiary distance between the document and the operational reality.",
+            "director_exposure": "A document may exist historically while showing little evidence that it was actively used before the challenge emerged. Directors may later face questions about whether governance arrangements were genuinely operational or largely theoretical."
+          },
+          {
+            "id": "R2.5",
+            "question": "Could the document reasonably appear retrospective?",
+            "why_this_matters": "Records appearing retrospective may be treated as reconstruction rather than contemporaneous evidence.",
+            "finding_explanation": "The document could reasonably appear retrospective because of when it was created, surfaced, revised, or relied upon. A retrospective-looking record may still explain the organisation’s position, but it is weaker as proof that authority existed before the decision.",
+            "regulatory_relevance": "Retrospective records often create a misleading appearance of certainty. A document produced after the challenge may describe authority structures accurately while still failing to prove that those structures were visible, active, or relied upon when the decision occurred.\n\nISO 42001 and the EU AI Act both place importance on records capable of supporting later review from material already in existence. The practical concern is that retrospective clarification may not carry the same evidentiary weight as contemporaneous documentation.",
+            "director_exposure": "Retrospective records can weaken confidence in organisational accountability because they may appear designed to explain decisions after scrutiny begins rather than demonstrate controls that already existed at the time."
+          }
+        ],
+        "regulatory_relevance": "Uncertainty surrounding the timing, status, or historical continuity of governance records may weaken the organisation’s ability to demonstrate reviewable oversight conditions under the EU AI Act, ISO 42001, and Directive (EU) 2024/2853.",
+        "director_exposure": "If governance documents cannot be reliably connected to the period in which challenged decisions occurred, leadership may later face questions about whether effective oversight structures genuinely existed at the relevant time."
+      },
+      {
+        "id": "R3",
+        "question": "Does that record clearly cover the situation this decision involved?",
+        "what_this_means": "A general governance document that could be interpreted to cover the case is not the same as a record that clearly applies to it. The closer the match between what the record says and what the decision involved, the stronger the position.",
+        "explanation": "A broad governance statement is not the same as a record that clearly applies to the case being examined. General language may appear to cover many situations without actually identifying this one. If the connection between the document and the decision depends heavily on interpretation, the organisation may find itself arguing that the case fits within the wording rather than being able to show that it plainly does.",
+        "sub_questions": [
+          {
+            "id": "R3.1",
+            "question": "Does the wording directly match the type of decision involved?",
+            "why_this_matters": "If the wording does not clearly match the decision, the connection becomes uncertain.",
+            "finding_explanation": "The wording of the record does not clearly match the type of decision involved. If the decision must be fitted into the wording by argument, the record is not plainly connected to the case. That weakens confidence that the authority clearly covered the outcome.",
+            "regulatory_relevance": "Broad governance wording often appears stronger than it really is. A document may discuss oversight, operational control, or accountability in general terms while never clearly covering the specific type of outcome now under examination.\n\nThe EU AI Act may become relevant where organisations later need to demonstrate governance arrangements around particular categories of high-risk AI use. The issue is not whether governance language exists. The issue is whether the wording actually applies to the challenged decision.",
+            "director_exposure": "Broad governance wording may later prove insufficient once reviewers focus on whether the document actually covered the challenged decision. Leadership may struggle to demonstrate that important operational outcomes fell clearly within recorded oversight arrangements."
+          },
+          {
+            "id": "R3.2",
+            "question": "Is the affected situation explicitly covered?",
+            "why_this_matters": "If the situation is not explicitly covered, applicability may depend on interpretation.",
+            "finding_explanation": "The situation involved in the decision is not explicitly covered by the record. This leaves the organisation relying on interpretation to show applicability. An explicit match would be stronger than a broad statement that might or might not include the case.",
+            "regulatory_relevance": "A surprising number of governance records rely on implication rather than explicit coverage. Staff may assume the situation obviously falls within scope while the document itself never actually says so.\n\nISO 42001 and the EU AI Act both support reviewable and understandable governance arrangements. The weakness here is that interpretation begins replacing direct documentary support. Once that happens, different readers may start reaching different conclusions about applicability.",
+            "director_exposure": "Reliance on implied coverage rather than explicit wording can create uncertainty around what governance documents were actually intended to permit. Directors may later face questions about whether accountability boundaries were ever clearly fixed."
+          },
+          {
+            "id": "R3.3",
+            "question": "Would different readers interpret the scope consistently?",
+            "why_this_matters": "Different interpretations weaken confidence that the record clearly applied.",
+            "finding_explanation": "Different readers could interpret the record’s scope differently. That creates uncertainty about whether the record clearly applied to the decision. If the scope is not stable, the authority behind the decision becomes harder to demonstrate.",
+            "regulatory_relevance": "Documents become evidentially unstable when multiple interpretations of scope remain plausible. One reader may see clear authority. Another may see only broad organisational aspiration.\n\nThe EU AI Act may become relevant because accountability for high-risk AI systems depends partly on responsibilities remaining understandable after the event. The practical problem is that the organisation may first need to defend its interpretation of the document before it can defend the decision itself.",
+            "director_exposure": "Different interpretations of the same governance document can undermine confidence in organisational oversight. Senior management may later struggle to demonstrate that responsibilities and permissions were consistently understood."
+          },
+          {
+            "id": "R3.4",
+            "question": "Does the document rely on broad language rather than precise conditions?",
+            "why_this_matters": "Broad language leaves more room for disagreement about scope.",
+            "finding_explanation": "The document relies on broad language rather than precise conditions. Broad wording can create the appearance of coverage while leaving the exact boundary unclear. Under scrutiny, that can lead to disagreement about whether the decision was actually covered.",
+            "regulatory_relevance": "General wording can appear effective until a single challenged decision forces somebody to apply the document precisely. At that moment vague language often stops functioning as reassurance and starts functioning as uncertainty.\n\nISO 42001 may become relevant because documented governance arrangements are expected to support meaningful review rather than broad aspiration alone. The weakness is not necessarily poor drafting. It is the inability of broad language to anchor one specific outcome securely.",
+            "director_exposure": "General language often appears strong until a single challenged decision forces the organisation to apply the document precisely. Directors may then discover that broad governance wording leaves important accountability questions unresolved."
+          },
+          {
+            "id": "R3.5",
+            "question": "Is the connection to the case clear without explanation?",
+            "why_this_matters": "If explanation is needed to connect the record to the case, the link may not be clear enough.",
+            "finding_explanation": "The link between the record and the case is not clear without additional explanation. If the document does not show its own relevance to the decision, the organisation becomes dependent on later interpretation to bridge the gap.",
+            "regulatory_relevance": "A record should not require extensive interpretation before an outside reviewer can understand why it applies to the challenged case. Once applicability depends mainly on explanation, the evidentiary value of the document begins weakening.\n\nThe EU AI Act may matter because later review of high-risk AI decisions depends heavily on records remaining understandable beyond the original operational context. The practical issue is that explanation may gradually replace demonstrable documentary linkage.",
+            "director_exposure": "Documents requiring extensive interpretation before they can be connected to the challenged decision may weaken confidence that governance arrangements were sufficiently clear and reviewable from the records themselves."
+          }
+        ],
+        "regulatory_relevance": "Where governance records do not clearly apply to challenged decisions, the organisation may struggle to demonstrate reviewable operational authority and accountable oversight under the EU AI Act and ISO 42001.",
+        "director_exposure": "If governance documents require extensive interpretation before they can be linked to challenged outcomes, directors may later struggle to demonstrate that accountability arrangements were sufficiently clear and operationally meaningful."
+      }
+    ]
+  },
+  {
+    "section": "EVIDENCE",
+    "section_description": "What shows that the decision and its effect actually happened.",
+    "section_consequence": "The organisation's explanation of events may be internally consistent. Staff may agree about what happened. The account may even be completely true. That still does not automatically create proof that the decision produced the outcome now being described.\n\nThe person examining the case therefore looks for material created at the time that supports the organisation's account. This could be a system log, a timestamped entry, a message sent to the affected person, a communication from another organisation, or some other record that exists independently of later explanation.\n\nIf nothing like that exists, then the organisation's own description becomes the main support for its version of events. In effect, the organisation is asking the examiner to accept that the event happened because the organisation says it happened.\n\nThat creates a problem during examination not because the organisation is automatically treated as dishonest, but because one party describing its own actions is not the same thing as independent proof. A clear and consistent account can still be impossible to verify from outside material.\n\nThe examiner therefore separates two different questions. One question is whether the organisation's explanation could be true. The other is whether the explanation can actually be shown from records and evidence that exist outside the organisation's own later account.\n\nThose are different things.\n\nWhere no independent material exists, the link between the decision and its claimed effect becomes harder to prove. The organisation may continue insisting that events occurred exactly as described. Under examination, insistence alone is not enough.",
+    "questions": [
+      {
+        "id": "E1",
+        "question": "Is there evidence that the decision happened in the way it is now described?",
+        "what_this_means": "A consistent account of events is not the same as evidence. The record must show what happened, not simply reflect what someone says happened. The distinction becomes critical when an account is disputed.",
+        "explanation": "A consistent account of events is not enough on its own. The account must be supported by evidence captured at the time. Once the evidence becomes incomplete or indirect, the description of events may begin to depend more heavily on memory, interpretation or later explanation. Under challenge, the difference between what can be shown and what can only be described becomes increasingly important.",
+        "sub_questions": [
+          {
+            "id": "E1.1",
+            "question": "What material was captured when the event occurred?",
+            "why_this_matters": "If little material was captured at the time, later accounts may dominate the explanation.",
+            "finding_explanation": "Little or no material appears to have been captured when the event occurred. This leaves later accounts carrying much of the explanatory burden. Where contemporaneous material is thin, the organisation may struggle to show the event independently of recollection or narrative.",
+            "regulatory_relevance": "Some organisations discover too late that almost nothing was actually captured when the event occurred. Staff may remember what happened clearly. System behaviour may feel obvious internally. Yet the records themselves contain very little capable of independently showing the decision, the surrounding conditions, or the resulting outcome.\n\nThat weakness may become important under Directive (EU) 2024/2853 where later disputes may focus on whether an AI-related product or system contributed to harm. The EU AI Act may also become relevant because review of high-risk AI use depends heavily on records created during operation rather than explanations assembled afterwards. The practical problem is that memory and reconstruction may gradually replace evidence captured at the time.",
+            "director_exposure": "A later challenge may expose that very little reliable evidence was actually captured when the event occurred. Directors may then struggle to demonstrate that the organisation maintained records capable of supporting meaningful review of important operational decisions."
+          },
+          {
+            "id": "E1.2",
+            "question": "Does the evidence support the current description directly?",
+            "why_this_matters": "Evidence that does not directly support the account leaves room for competing interpretations.",
+            "finding_explanation": "The evidence does not directly support the way the event is now described. It may be related to the event, but not confirm the specific account being given. This leaves room for alternative explanations or dispute about what the evidence actually proves.",
+            "regulatory_relevance": "Evidence does not become reliable simply because it exists somewhere near the event being discussed. A common problem appears when the organisation possesses large amounts of surrounding material yet very little that directly supports the specific account now being presented.\n\nThe EU AI Act may become relevant where organisations later need to demonstrate how high-risk AI outputs emerged and were handled. The practical issue is evidentiary linkage. Material that merely sits near the decision may not prove the decision itself.",
+            "director_exposure": "Large volumes of surrounding material can create a false sense of evidentiary strength. Leadership may later discover that the organisation possesses extensive records generally while lacking evidence that directly supports the specific account now being defended."
+          },
+          {
+            "id": "E1.3",
+            "question": "Are there gaps between the evidence and the explanation now given?",
+            "why_this_matters": "Gaps between evidence and explanation weaken confidence in the account being presented.",
+            "finding_explanation": "There are gaps between the evidence and the explanation now being presented. Those gaps matter because each missing link must be filled by interpretation. The more the account depends on bridging gaps, the less it rests on direct evidentiary support.",
+            "regulatory_relevance": "Gaps between the records and the explanation create hidden evidentiary risk. Staff often bridge those gaps naturally because they already understand the surrounding process. External reviewers cannot rely on internal familiarity.\n\nDirective (EU) 2024/2853 may become relevant if later examination focuses on how an AI-related outcome occurred and whether the available evidence actually supports that account. The weakness is subtle but serious: interpretation may begin filling spaces where direct evidence is missing.",
+            "director_exposure": "Gaps between the evidence and the organisation’s explanation can create difficult accountability questions for senior oversight bodies. Directors may later face concerns that interpretation and assumption were quietly filling spaces where direct evidence was missing."
+          },
+          {
+            "id": "E1.4",
+            "question": "Could the same evidence support a different interpretation?",
+            "why_this_matters": "If evidence supports multiple explanations, the exact event may remain uncertain.",
+            "finding_explanation": "The same evidence could support more than one account of what happened. That means the material does not settle the event clearly. In a challenge, the organisation may need to argue why its interpretation should be preferred rather than simply pointing to proof.",
+            "regulatory_relevance": "Strong evidence usually narrows interpretation. Weak evidence often allows several competing explanations to remain plausible at the same time. Once that happens, the organisation may struggle to show why its account should be treated as the correct one.\n\nThe EU AI Act and the NIST AI Risk Management Framework both support later review and examination of AI-related outcomes. That review becomes far more difficult when the available evidence can support multiple contradictory narratives.",
+            "director_exposure": "Confidence in organisational oversight can weaken quickly once the same evidence appears capable of supporting several competing explanations. Leadership may then struggle to demonstrate that the organisation could reliably determine what actually happened."
+          },
+          {
+            "id": "E1.5",
+            "question": "Is the account dependent on memory or retrospective explanation?",
+            "why_this_matters": "Accounts dependent mainly on memory or later interpretation are harder to verify independently.",
+            "finding_explanation": "The account depends heavily on memory, later explanation, or retrospective interpretation. Those sources may be honest and accurate, but they are weaker than records captured at the time. The event becomes harder to verify independently.",
+            "regulatory_relevance": "An organisation relying mainly on memory, recollection, or verbal explanation may still believe its account is accurate. The difficulty appears later when somebody asks whether the account can actually be demonstrated from independently existing records.\n\nDirective (EU) 2024/2853 may matter where later disputes involve questions of harm, causation, or system behaviour. The EU AI Act may also become relevant because accountable AI use depends heavily on records capable of supporting review after the event. The practical issue is not honesty. It is whether recollection has quietly replaced evidence.",
+            "director_exposure": "Heavy reliance on recollection or later explanation may later create the impression that important operational events were not being evidenced strongly enough at the time they occurred. Directors could face questions about whether memory gradually replaced demonstrable records."
+          }
+        ],
+        "regulatory_relevance": "Weaknesses in the capture and preservation of evidence may reduce the organisation’s ability to demonstrate reliable reviewability, traceability, and operational accountability under the EU AI Act, ISO 42001, and Directive (EU) 2024/2853.",
+        "director_exposure": "Where reliable evidence was not captured clearly at the time events occurred, leadership may later struggle to demonstrate that important operational decisions were meaningfully reviewable."
+      },
+      {
+        "id": "E2",
+        "question": "Is there evidence that connects the decision directly to the outcome for that person?",
+        "what_this_means": "The link between the decision and its effect on an individual must be demonstrable, not inferred. Where that link is missing from the record, it will need to be argued rather than shown.",
+        "explanation": "The link between a decision and its effect must be visible rather than assumed. It is not always enough to show that a decision occurred and that a person later experienced an outcome. The connection between the two must also be demonstrable. Where that link is weak or indirect, the organisation may only be able to suggest causation rather than clearly establish it.",
+        "sub_questions": [
+          {
+            "id": "E2.1",
+            "question": "Is the connection recorded directly?",
+            "why_this_matters": "An indirect connection is harder to prove than one clearly shown in the records.",
+            "finding_explanation": "The connection between the decision and the outcome is not recorded directly. Without a direct link, the organisation must rely on surrounding evidence to explain how one led to the other. That makes the connection more vulnerable to challenge.",
+            "regulatory_relevance": "A decision and an outcome may both appear clearly inside the records while the connection between them remains surprisingly weak. Organisations often assume causation where the material only shows sequence.\n\nDirective (EU) 2024/2853 may become especially important if later examination focuses on whether a system or product contributed to harm. The practical problem is that the organisation may be able to show both events separately while still struggling to demonstrate how one actually led to the other.",
+            "director_exposure": "A future review may become difficult once the organisation can show the decision and the outcome separately but cannot clearly demonstrate how one produced the other. Leadership may then struggle to defend the organisation’s understanding of operational causation."
+          },
+          {
+            "id": "E2.2",
+            "question": "Can the outcome be traced step-by-step from the decision?",
+            "why_this_matters": "If the outcome cannot be followed step-by-step from the decision, causation becomes weaker.",
+            "finding_explanation": "The outcome cannot be followed step by step from the decision through the available records. If the path is broken or unclear, the causal relationship becomes harder to demonstrate. The organisation may know the link exists, but the material does not fully show it.",
+            "regulatory_relevance": "A reliable evidentiary chain should allow somebody outside the organisation to follow the path from decision to outcome step by step. Where those steps become unclear, missing, or inferential, the explanation may begin depending more on interpretation than direct proof.\n\nThe EU AI Act may become relevant because review of high-risk AI decisions depends partly on being able to understand how outcomes emerged. Directive (EU) 2024/2853 may also matter where later disputes focus on causation and operational sequence.",
+            "director_exposure": "An incomplete chain between decision and outcome can weaken confidence that the organisation was capable of tracing how important operational effects emerged. Directors may later face questions about whether meaningful review of downstream consequences was genuinely possible."
+          },
+          {
+            "id": "E2.3",
+            "question": "Are there intervening actions that weaken the link?",
+            "why_this_matters": "Additional actions between decision and outcome may weaken the claimed connection.",
+            "finding_explanation": "Other actions occurred between the decision and the outcome. These intervening steps may not break the connection, but they make it harder to prove that the decision itself produced the result. Each additional step creates another point that may need explanation.",
+            "regulatory_relevance": "Outcomes rarely occur in isolation. Human intervention, later processing, operational adjustments, or surrounding system activity may all sit between the original decision and the final effect. The more intervening activity exists, the harder direct causation may become to prove.\n\nDirective (EU) 2024/2853 may become relevant where later examination asks whether a particular AI-related decision actually caused the harm being claimed. The practical issue is not whether the decision contributed. It is whether the records clearly demonstrate the contribution.",
+            "director_exposure": "Intervening actions and surrounding operational activity can make accountability harder to demonstrate if the organisation cannot clearly separate the contribution of the original decision. Leadership may later struggle to explain where responsibility actually sits."
+          },
+          {
+            "id": "E2.4",
+            "question": "Could the same outcome have occurred for another reason?",
+            "why_this_matters": "If the same outcome could have occurred for other reasons, the decision may not clearly explain it.",
+            "finding_explanation": "The same outcome could have happened for reasons other than the decision being examined. That weakens certainty about causation. If another process, human action, or external event could explain the result, the decision may not clearly account for the outcome on its own.",
+            "regulatory_relevance": "One of the hardest evidentiary problems appears when the same outcome could plausibly have emerged for several different reasons. Under those conditions, the challenged decision may stop looking like a clear cause and start looking like one possible explanation among many.\n\nDirective (EU) 2024/2853 may matter where liability disputes later focus on whether a system output produced a harmful effect. The weakness here is evidentiary uncertainty rather than operational certainty. Internally the organisation may feel convinced. The records themselves may remain less decisive.",
+            "director_exposure": "Once several different causes remain plausible, confidence in the organisation’s explanation may weaken significantly. Directors may later face questions about whether oversight arrangements were capable of distinguishing between correlation, contribution, and direct causation."
+          },
+          {
+            "id": "E2.5",
+            "question": "Does the evidence distinguish correlation from direct effect?",
+            "why_this_matters": "Correlation alone does not necessarily show direct cause and effect.",
+            "finding_explanation": "The evidence does not clearly distinguish direct effect from mere association. Two events may occur close together without one clearly causing the other. If the records show correlation rather than cause, the link remains open to challenge.",
+            "regulatory_relevance": "Records sometimes demonstrate correlation while being mistaken for proof of causation. Two events occur together. A decision precedes an outcome. A system output appears near a later consequence. None of those things automatically proves one caused the other.\n\nDirective (EU) 2024/2853 may become relevant where later examination turns on whether a product-related system contributed materially to harm. The EU AI Act may also matter where organisations are expected to support meaningful review of high-risk AI behaviour. The practical issue is whether the evidence shows causal linkage or merely operational proximity.",
+            "director_exposure": "Operational proximity can easily be mistaken for proof of causation when evidence is weak or incomplete. Leadership may later struggle to demonstrate that the organisation could reliably distinguish between events occurring together and events genuinely causing one another."
+          }
+        ],
+        "regulatory_relevance": "An inability to demonstrate clear links between decisions and outcomes may weaken evidentiary reconstruction and causation analysis under Directive (EU) 2024/2853, the EU AI Act, and related accountability examination contexts.",
+        "director_exposure": "If the organisation cannot clearly show how decisions produced operational outcomes, directors may later face questions about whether meaningful oversight of downstream effects was possible."
+      },
+	  {
+  "id": "E3",
+  "question": "Was the evidence captured at or close to the time the decision and outcome occurred?",
+  "what_this_means": "Evidence created only after a challenge arises is not the same as evidence captured when events took place. The closer the evidence sits to the original decision and outcome, the less it depends on later reconstruction or explanation.",
+  "explanation": "The timing of evidence capture matters critically. Evidence created after scrutiny begins may still be accurate, but it carries less weight than material captured when the event occurred. Under examination, later-created evidence often raises questions about reconstruction, memory, or selective documentation. The organisation may find itself explaining why evidence was not captured at the time rather than showing what happened from contemporaneous records.",
+  "regulatory_relevance": "The EU AI Act places importance on logs and records created during operation, not explanations constructed afterwards. Directive (EU) 2024/2853 may also become relevant where later examination focuses on whether evidence of a harmful outcome was captured contemporaneously or only after disputes arose. The practical issue is that evidence created later may appear defensive rather than operational.",
+  "director_exposure": "Where evidence was not captured at the time events occurred, directors may later face questions about whether the organisation maintained adequate operational records or only began documenting after problems emerged.",
+  "sub_questions": [
+    {
+      "id": "E3.1",
+      "question": "When was the evidence created relative to the event?",
+      "why_this_matters": "The closer to the event, the stronger the evidence.",
+      "finding_explanation": "The evidence appears to have been created significantly after the event occurred. This raises questions about whether it was reconstructed or influenced by later knowledge. Contemporaneous capture would have been stronger.",
+      "regulatory_relevance": "Evidence created long after an event may be treated as narrative rather than proof. Under scrutiny, the timing of capture becomes almost as important as content.",
+      "director_exposure": "Leaders may struggle to explain why important operational evidence was only created after problems emerged rather than at the time of the event."
+    },
+    {
+      "id": "E3.2",
+      "question": "Is there evidence of when the record was created?",
+      "why_this_matters": "Without a creation timestamp, contemporaneity cannot be established.",
+      "finding_explanation": "The record lacks a clear creation timestamp or the timestamp cannot be trusted. This makes it impossible to know whether the evidence existed before the challenge or was produced afterwards.",
+      "regulatory_relevance": "Untimestamped or untrustworthy timestamps undermine the evidentiary value of the entire record. Reviewers cannot distinguish between contemporaneous capture and later reconstruction.",
+      "director_exposure": "Untimestamped records may create the appearance that the organisation only documented events after they became problematic."
+    },
+    {
+      "id": "E3.3",
+      "question": "Could the evidence have been influenced by later events or knowledge?",
+      "why_this_matters": "Evidence created later may unconsciously incorporate hindsight.",
+      "finding_explanation": "The evidence was created after other events had occurred, meaning the person capturing it may have had knowledge of consequences, outcomes, or disputes that did not exist when the original decision happened. That knowledge can influence what was recorded.",
+      "regulatory_relevance": "Hindsight bias in evidence creation is difficult to detect but can significantly affect reliability. External reviewers may treat later-created evidence as less trustworthy than contemporaneous records.",
+      "director_exposure": "Organisations that only document decisions after problems arise may face scepticism about whether records reflect what actually happened or what the organisation wishes had happened."
+    }
+  ]
+},
+      {
+        "id": "E4",
+        "question": "Is that evidence independent of the organisation's own statement that it happened?",
+        "what_this_means": "Evidence that depends entirely on the organisation's own account of events carries limited weight under examination. Where independent evidence exists, it should be identified. Where it does not, that is itself a vulnerability in the position.",
+        "explanation": "Where all evidence comes from the organisation itself, scrutiny often shifts toward reliability and independence. This does not automatically make the evidence wrong, but it may affect how strongly it is treated when challenged. Independent material, where it exists, can support the account in ways that internal explanation alone often cannot.",
+        "sub_questions": [
+          {
+            "id": "E4.1",
+            "question": "Does any evidence come from outside the organisation?",
+            "why_this_matters": "Outside evidence can support the account independently of the organisation's own description.",
+            "finding_explanation": "No evidence from outside the organisation appears to support the account. This means the organisation’s own records and statements carry the main evidentiary weight. External material is not always required, but its absence may reduce independent support for the account.",
+            "regulatory_relevance": "Evidence becomes harder to defend when every part of the account originates from the organisation itself. Internal records may still be accurate and honest, yet the absence of any outside confirmation can weaken confidence during external scrutiny.\n\nDirective (EU) 2024/2853 may matter where later disputes involve questions of harm, causation, or product behaviour. The practical issue is not distrust. It is that independently originating evidence often carries greater weight because it is less dependent on organisational control.",
+            "director_exposure": "An evidentiary position relying entirely on internally controlled material may later attract scrutiny around independence and verification. Directors may then struggle to demonstrate that important operational events could be reviewed beyond the organisation’s own account."
+          },
+          {
+            "id": "E4.2",
+            "question": "Can the evidence be independently checked?",
+            "why_this_matters": "Evidence that cannot be independently checked may carry less weight under scrutiny.",
+            "finding_explanation": "The evidence cannot be checked independently. If only the organisation can confirm, interpret, or validate the material, the account depends more heavily on internal acceptance. That may reduce confidence during external examination.",
+            "regulatory_relevance": "Reviewable evidence should normally allow somebody outside the original process to examine and test the account being presented. Where the evidence cannot be independently checked, the organisation may gradually become the only source capable of explaining what happened.\n\nISO 42001 and the NIST AI Risk Management Framework both support reliable and reviewable operational evidence around AI systems. The weakness here is not necessarily that the records are false. It is that their reliability may depend too heavily on trusting the organisation itself.",
+            "director_exposure": "Evidence that cannot be independently checked may weaken confidence in the organisation’s review and oversight capability. Leadership may later face questions about whether accountability depended too heavily on trusting internal explanations."
+          },
+          {
+            "id": "E4.3",
+            "question": "Is the evidence automatically generated or manually described?",
+            "why_this_matters": "Manually described evidence may depend more heavily on interpretation than automatically captured records.",
+            "finding_explanation": "The evidence appears manually described rather than automatically captured. Manual descriptions may be accurate, but they often carry more room for judgement, omission, or interpretation. Automatically captured records may provide a stronger contemporaneous account where they exist.",
+            "regulatory_relevance": "Manual evidence capture often introduces hidden uncertainty because the record reflects both the event and the person describing it. Later reviewers may struggle to separate observation from interpretation.\n\nThe EU AI Act may become relevant where logs, operational records, and system monitoring support later examination of high-risk AI outputs. The practical issue is not that manual records are unusable. It is that manually described evidence may require stronger surrounding support to remain persuasive.",
+            "director_exposure": "Manually created evidence can introduce uncertainty around interpretation, consistency, and reliability. Directors may later struggle to demonstrate that important operational records reflected events accurately rather than retrospective understanding."
+          },
+          {
+            "id": "E4.4",
+            "question": "Would the account remain supportable without internal explanation?",
+            "why_this_matters": "If the account collapses without internal explanation, the underlying evidence may be weak.",
+            "finding_explanation": "The account would not remain well supported without internal explanation. That suggests the underlying evidence may not stand on its own. If the records need the organisation’s narrative to become meaningful, the evidentiary position is weaker.",
+            "regulatory_relevance": "A dangerous evidentiary shift occurs when the organisation's explanation begins carrying more weight than the records themselves. Internally this may go unnoticed because staff already understand the operational context. Externally it can appear as though the evidence only becomes coherent once somebody narrates it.\n\nDirective (EU) 2024/2853 may matter where outside parties later examine whether an AI-related system contributed to harm. The practical problem is that the explanation may be doing the work the evidence should have done.",
+            "director_exposure": "A difficult accountability problem emerges once organisational explanation begins carrying more weight than the underlying records themselves. Leadership may later face questions about whether the evidence was ever strong enough to stand independently."
+          },
+          {
+            "id": "E4.5",
+            "question": "Is there any contemporaneous evidence from the affected person or a third party?",
+            "why_this_matters": "Independent material from other parties can strengthen confidence that the event occurred as described.",
+            "finding_explanation": "There is no contemporaneous material from the affected person or a third party supporting the event. Such material can help confirm that the decision and its effect were visible beyond the organisation’s own account. Its absence leaves the position more internally dependent.",
+            "regulatory_relevance": "Sometimes every available record originates from inside the organisation while the affected individual, external systems, or third parties contribute nothing capable of supporting or challenging the account. That absence does not automatically make the organisation wrong, but it may reduce the overall strength of the evidentiary position.\n\nDirective (EU) 2024/2853 and the EU AI Act may both become relevant where later scrutiny focuses on whether the organisation can independently demonstrate what happened. The practical issue is evidentiary balance. External confirmation often strengthens confidence that the internal account reflects reality accurately.",
+            "director_exposure": "The absence of external or third-party supporting material may weaken confidence that the organisation could independently demonstrate what happened during the challenged event. Directors may later struggle to show that the evidentiary position extended beyond internally controlled records."
+          }
+        ],
+        "regulatory_relevance": "Where evidence cannot be independently verified or reviewed beyond internally controlled explanations, the organisation may face difficulty demonstrating reliable accountability and evidentiary robustness under the EU AI Act, ISO 42001, and the NIST AI Risk Management Framework.",
+        "director_exposure": "Heavy reliance on internally controlled evidence may later weaken the ability of leadership to demonstrate that challenged events could be independently examined and verified."
+      }
+    ]
+  },
+  {
+    "section": "BASIS",
+    "section_description": "The specific rule, law or agreement that made that decision allowed at that moment. It must have been in place then, not formed afterwards.",
+    "section_consequence": "The people involved in the decision may have believed they were acting reasonably and properly at the time. That still does not show that a clear permission existed allowing the decision when it was made.\n\nThe person examining the case asks a simple question: what exact rule, agreement, legal requirement, contract term, policy statement, or written condition allowed this decision to happen at that moment?\n\nBroad references to “company policy,” “compliance,” or “normal practice” are usually not enough because they do not identify the exact thing that permitted this specific outcome. The examiner is not asking whether the decision now appears sensible in hindsight. They are asking what specifically allowed it at the time.\n\nThe problem becomes more serious when the explanation only appears after the decision has already been challenged. At that stage, the organisation begins explaining why the outcome should have been acceptable. That is different from showing that a clear basis already existed before the event took place.\n\nThe examiner therefore separates two different things. One is a later justification explaining why the decision might have made sense. The other is a pre-existing permission that can be shown from documents, agreements, rules, or policies already in place when the decision occurred.\n\nIf the organisation cannot produce that earlier basis clearly, then permission itself was never fully demonstrated. The organisation is left arguing that the decision ought to have been allowed rather than showing that it actually was allowed under a clearly identifiable rule or condition at the time.",
+    "questions": [
+      {
+        "id": "B1",
+        "question": "Is there a recorded reason why this decision was permitted at the time it was made?",
+        "what_this_means": "A decision that can be shown to have occurred is not the same as a decision that can be shown to have been justified. The basis on which it was permitted must also be present in the record.",
+        "explanation": "Showing that a decision occurred is not the same as showing why it was allowed. A decision may be visible in the record while the justification behind it remains unclear or absent. Under examination, the absence of a recorded reason can shift attention toward whether the basis for allowing the outcome existed at all or was only assembled later.",
+        "sub_questions": [
+          {
+            "id": "B1.1",
+            "question": "Is the reason written down contemporaneously?",
+            "why_this_matters": "A reason recorded at the time is stronger than one assembled later.",
+            "finding_explanation": "The reason for permitting the decision was not clearly written down at the time. A later explanation may describe why the decision seemed acceptable, but it does not show what basis was relied upon when the event occurred.",
+            "regulatory_relevance": "A decision may appear operationally routine while the actual reason permitting it was never written down at the time. Organisations often assume the basis was obvious because staff understood the surrounding process internally. Under challenge, unrecorded reasoning becomes much harder to demonstrate.\n\nThe EU AI Act may become relevant where high-risk AI decisions later need to be explained, reviewed, and connected to identifiable oversight conditions. The practical issue is not whether the organisation can invent a reasonable explanation afterwards. It is whether the original basis can still be shown from material that already existed when the decision occurred.",
+            "director_exposure": "A later review may expose that the organisation never clearly recorded why the challenged decision was allowed at the time it occurred. Directors may then struggle to demonstrate that important operational outcomes were supported by identifiable reasoning rather than retrospective explanation."
+          },
+          {
+            "id": "B1.2",
+            "question": "Does the reason relate directly to the specific outcome?",
+            "why_this_matters": "A general reason may not clearly justify the specific outcome being examined.",
+            "finding_explanation": "The stated reason does not relate clearly to the specific outcome under examination. A broad reason may explain general policy or intent, but it may not justify this decision. The basis therefore remains too general to support the case securely.",
+            "regulatory_relevance": "A broad explanation may describe why a system exists while still failing to justify one specific outcome produced through it. That distinction often only becomes visible after a challenge begins.\n\nISO 42001 and the EU AI Act both place importance on reviewable governance and accountability structures around AI systems. The weakness here is that the stated reason may explain the surrounding programme, workflow, or operational objective without actually supporting the decision now under examination.",
+            "director_exposure": "Broad organisational objectives can appear persuasive internally while failing to justify one specific outcome under scrutiny. Leadership may later face questions about whether the organisation could clearly distinguish between general purpose and decision-specific justification."
+          },
+          {
+            "id": "B1.3",
+            "question": "Is the explanation specific or generic?",
+            "why_this_matters": "Generic explanations are harder to connect directly to the decision.",
+            "finding_explanation": "The explanation is generic rather than specific to the decision. Generic wording can make a decision appear reasonable in broad terms while leaving unclear why this particular outcome was permitted. That weakens the link between basis and event.",
+            "regulatory_relevance": "Generic reasoning becomes fragile under scrutiny because it can usually be applied to almost any decision. Phrases such as 'risk reduction', 'operational efficiency', or 'policy alignment' may sound persuasive while saying very little about why this exact outcome was permitted.\n\nThe EU AI Act may become relevant because high-risk AI decisions are expected to remain understandable and reviewable afterwards. The practical problem is that broad justification language may stop short of explaining the specific decision affecting the individual case.",
+            "director_exposure": "Generic justification language may weaken confidence that the organisation properly examined the circumstances of the individual case. Directors may later struggle to demonstrate that meaningful reasoning existed beyond broad operational slogans or policy statements."
+          },
+          {
+            "id": "B1.4",
+            "question": "Can the stated reason be connected to the decision evidence?",
+            "why_this_matters": "If the stated reason cannot be connected to the evidence, the justification becomes weaker.",
+            "finding_explanation": "The stated reason cannot be connected clearly to the evidence of the decision. If the reason and the decision evidence sit separately, the organisation may struggle to show that the reason actually supported the outcome at the time.",
+            "regulatory_relevance": "A justification becomes difficult to defend once it can no longer be connected clearly to the underlying evidence. The organisation may possess a plausible explanation while lacking records showing that the explanation actually reflected the facts available at the time.\n\nDirective (EU) 2024/2853 may become relevant if later disputes involve questions of causation, harm, or operational reasoning linked to an AI-related system or product. The EU AI Act may also matter where review of high-risk AI use depends on understanding the basis for outcomes. The practical issue is that justification unsupported by evidence can begin looking retrospective.",
+            "director_exposure": "A justification that cannot be connected clearly to the available evidence may create the impression that the organisation’s reasoning was reconstructed after the event. Leadership may later face difficult questions about whether decisions were genuinely grounded in demonstrable facts at the time."
+          },
+          {
+            "id": "B1.5",
+            "question": "Would the reason still make sense without later interpretation?",
+            "why_this_matters": "Reasons requiring later interpretation may not clearly show what justified the decision at the time.",
+            "finding_explanation": "The reason requires later interpretation before it can be understood as supporting the decision. That weakens its value as a contemporaneous basis. A basis that only becomes clear after explanation may appear reconstructed rather than relied upon at the time.",
+            "regulatory_relevance": "Some justifications only become coherent after extensive explanation by staff familiar with the process. To outsiders reviewing the records later, the original reasoning may appear incomplete, vague, or reconstructed.\n\nISO 42001 and the EU AI Act both support governance arrangements capable of meaningful later review. The weakness here is not necessarily that the justification is wrong. It is that the reasoning may no longer stand clearly on its own without interpretive support from the organisation.",
+            "director_exposure": "Reasoning that only becomes understandable after extensive staff explanation can weaken confidence that important decisions were independently reviewable from the records themselves. Directors may later struggle to demonstrate that the basis for operational outcomes was captured clearly enough for accountability purposes."
+          }
+        ],
+        "regulatory_relevance": "An inability to clearly demonstrate why challenged decisions were permitted may weaken reviewable accountability and operational justification under the EU AI Act, ISO 42001, and related governance examination contexts.",
+        "director_exposure": "Where the reasoning behind important operational outcomes cannot be clearly shown, directors may later struggle to demonstrate that meaningful justification and oversight existed at the time decisions were made."
+      },
+      {
+        "id": "B2",
+        "question": "Which specific rule, law or agreement applied and is that identified in the record?",
+        "what_this_means": "A general reference to compliance or policy is not sufficient. The specific instrument that permitted the decision needs to be identified. If it cannot be named, the basis cannot be shown.",
+        "explanation": "General references to policy or compliance do not show the precise basis relied upon in the case. The specific rule, law or agreement must be identifiable from the material available. If the basis remains broad or undefined, the organisation may struggle to show exactly what permitted the decision at the moment it was made.",
+        "sub_questions": [
+          {
+            "id": "B2.1",
+            "question": "Is the specific instrument named?",
+            "why_this_matters": "If the specific rule or agreement cannot be named, the basis remains unclear.",
+            "finding_explanation": "The specific rule, law, agreement, policy term, or condition permitting the decision cannot be named. Without a named basis, the organisation is left with general justification rather than a clear source of permission for the outcome.",
+            "regulatory_relevance": "An organisation may confidently state that the decision was allowed while still being unable to identify the actual rule, policy, agreement, or condition relied upon. Once that happens, the basis for the outcome begins drifting away from demonstrable authority and toward assumption.\n\nThe EU AI Act may become relevant where organisations later need to show the conditions governing high-risk AI use and oversight. The practical issue is straightforward: a decision claimed to be authorised should normally be traceable back to something identifiable that permitted it.",
+            "director_exposure": "An organisation claiming that a decision was permitted while being unable to identify the actual rule, policy, agreement, or condition relied upon may later create serious accountability concerns for leadership. Directors could struggle to demonstrate what formally allowed the outcome."
+          },
+          {
+            "id": "B2.2",
+            "question": "Is the relevant section or condition identifiable?",
+            "why_this_matters": "Without a clearly identifiable section or condition, applicability becomes uncertain.",
+            "finding_explanation": "The relevant section, clause, condition, or operative part of the basis cannot be identified. Naming a document or policy in general is weaker than identifying the precise provision that permitted the decision in this case.",
+            "regulatory_relevance": "Naming a document is not always enough. A policy, agreement, or governance record may be identified generally while the exact section, clause, or condition relied upon remains unclear.\n\nISO 42001 may become relevant because reviewable governance depends partly on documented conditions being understandable and usable afterwards. The weakness here is precision. External reviewers may struggle to determine exactly what part of the document supposedly authorised the outcome.",
+            "director_exposure": "Naming governance documents generally may not be enough once reviewers ask which exact section or condition supported the challenged decision. Leadership may later face questions about whether the organisation could identify the operative basis with sufficient precision."
+          },
+          {
+            "id": "B2.3",
+            "question": "Does the record show how it applied to this case?",
+            "why_this_matters": "The record should show how the basis related to this exact case.",
+            "finding_explanation": "The record does not show how the basis applied to the specific case. The organisation may be able to name a rule or agreement, but the link between that basis and the actual decision remains unclear without case-specific application.",
+            "regulatory_relevance": "A basis may exist somewhere within the organisational environment while still remaining disconnected from the challenged case itself. Under scrutiny, that separation can become highly significant.\n\nThe EU AI Act may matter where high-risk AI outcomes later need to be reviewed against the conditions that permitted them. The practical issue is that the organisation may be able to point to governance material generally without showing how it actually applied to this decision.",
+            "director_exposure": "A basis existing somewhere within the governance environment may still fail to support the specific decision now under examination. Directors may later struggle to demonstrate that important operational outcomes were clearly connected to identifiable approval conditions."
+          },
+          {
+            "id": "B2.4",
+            "question": "Could multiple different rules be claimed after the fact?",
+            "why_this_matters": "Multiple possible bases claimed afterwards may suggest the original basis was never clearly fixed.",
+            "finding_explanation": "Several possible bases could be claimed after the fact. That may indicate that the original basis was not clearly fixed when the decision was made. Multiple later explanations can weaken confidence in what actually permitted the outcome at the time.",
+            "regulatory_relevance": "Multiple explanations emerging after the event often indicate that the original basis was never fixed clearly at the time. Staff may begin searching across policies, contracts, governance records, and operational practices looking for support after the challenge has already started.\n\nDirective (EU) 2024/2853 may become relevant where later examination focuses on how and why a harmful outcome emerged. The practical concern is not simply inconsistency. It is that shifting justifications may weaken confidence that a stable basis existed beforehand.",
+            "director_exposure": "Multiple justifications emerging after the event can weaken confidence that a stable basis existed when the decision was originally made. Leadership may later face concerns that the organisation searched for support retrospectively once scrutiny began."
+          },
+          {
+            "id": "B2.5",
+            "question": "Would an external reader know exactly which basis was relied upon?",
+            "why_this_matters": "Outside readers should be able to identify exactly what permitted the decision.",
+            "finding_explanation": "An external reader would not be able to identify exactly which basis was relied upon from the records alone. If the basis must be explained later, the organisation cannot show plainly what permitted the decision when it occurred.",
+            "regulatory_relevance": "A basis that cannot be understood by somebody outside the original process becomes difficult to defend later. Internal familiarity may make the reasoning feel obvious while external reviewers see only fragmented or unclear support.\n\nISO 42001 and the EU AI Act both support governance arrangements capable of meaningful external review. The weakness here is that the basis may exist operationally yet remain invisible evidentially.",
+            "director_exposure": "An unclear or inaccessible basis may create the impression that accountability depended heavily on internal familiarity rather than demonstrable governance conditions. Directors may later struggle to show that important decisions were understandable beyond the immediate operational context."
+          }
+        ],
+        "regulatory_relevance": "Uncertainty surrounding the identifiable basis relied upon for challenged decisions may weaken demonstrable governance conditions and accountable operational control under the EU AI Act and ISO 42001.",
+        "director_exposure": "If the organisation cannot clearly identify the rules, policies, agreements, or conditions supporting challenged decisions, leadership may later face questions about the reliability of governance oversight."
+      },
+      {
+        "id": "B3",
+        "question": "Was that basis in place before the decision was made, not identified or constructed after?",
+        "what_this_means": "A justification assembled after a challenge arises is an argument, not a basis. The rule, law or agreement that permitted the decision must have existed and applied at the moment the decision was made.",
+        "explanation": "A justification formed later may explain a decision, but it does not show what permitted it at the time. Under challenge, there is an important difference between relying on a basis that already existed and assembling one retrospectively once questions arise. Where that distinction becomes unclear, the credibility of the chain itself may begin to weaken.",
+        "sub_questions": [
+          {
+            "id": "B3.1",
+            "question": "Can the existence of the basis at the time be demonstrated?",
+            "why_this_matters": "A basis that cannot be shown to have existed at the time may appear retrospective.",
+            "finding_explanation": "The existence of the basis at the time of the decision cannot be demonstrated clearly. If the basis cannot be shown to have existed then, it may appear to have been identified later to support the outcome after questions arose.",
+            "regulatory_relevance": "The existence of a justification today does not automatically prove the justification existed when the decision was made. That difference becomes critical once the organisation is asked to demonstrate what conditions actually applied at the relevant moment.\n\nThe EU AI Act may become relevant because accountability for high-risk AI use depends partly on showing what rules, permissions, and oversight conditions existed during operation. The practical issue is chronological: later reasoning may not prove earlier permission.",
+            "director_exposure": "A justification identified only after the event may weaken confidence that the organisation possessed a clearly established basis when the decision actually occurred. Directors may later face questions about whether governance conditions existed contemporaneously or emerged retrospectively."
+          },
+          {
+            "id": "B3.2",
+            "question": "Was the basis active and applicable then?",
+            "why_this_matters": "Inactive or irrelevant permissions may not support the decision.",
+            "finding_explanation": "The basis may not have been active, applicable, or relevant when the decision occurred. A rule or agreement that existed somewhere in the organisation is not enough if it did not apply to this case at that moment.",
+            "regulatory_relevance": "A basis that was inactive, expired, suspended, or no longer applicable at the time of the decision may not support the outcome now being defended. Internally the organisation may still view the arrangement as broadly valid. Under scrutiny, timing becomes much stricter.\n\nISO 42001 and the EU AI Act both rely on governance arrangements remaining reviewable against the actual conditions operating at the time. The weakness here is not conceptual. It is temporal.",
+            "director_exposure": "An inactive or outdated basis can create significant accountability uncertainty once reviewers focus on what conditions were genuinely in force at the relevant time. Leadership may later struggle to demonstrate that operational decisions rested on active and applicable authority."
+          },
+          {
+            "id": "B3.3",
+            "question": "Has the basis changed since the event?",
+            "why_this_matters": "Later changes may make it unclear what permission existed when the event occurred.",
+            "finding_explanation": "The basis has changed since the event, making it unclear what permission existed when the decision was made. Later wording may not reflect the conditions that applied at the relevant time, so the original basis remains uncertain.",
+            "regulatory_relevance": "Governance conditions change constantly. Policies are revised. Contracts evolve. Operational permissions are updated. The difficulty appears later when the organisation cannot clearly show which version of the basis existed when the challenged decision occurred.\n\nDirective (EU) 2024/2853 may become relevant where later examination focuses on the conditions surrounding a harmful or disputed outcome. The practical problem is that current documentation may not reliably demonstrate historical justification.",
+            "director_exposure": "Changing policies, agreements, or governance conditions can become difficult to defend if the organisation cannot clearly show which version applied when the challenged outcome occurred. Directors may later face questions about the stability and reliability of operational oversight."
+          },
+          {
+            "id": "B3.4",
+            "question": "Is there evidence it was relied upon before the challenge?",
+            "why_this_matters": "A basis relied upon only after challenge may appear weaker than one used contemporaneously.",
+            "finding_explanation": "There is limited evidence that the basis was relied upon before the challenge arose. If the basis appears only after questions are asked, it may look like a later justification rather than the permission actually used at the time.",
+            "regulatory_relevance": "A basis may genuinely predate the challenge while still showing little evidence that it actually formed part of the decision process at the time. External reviewers often look for signs that the basis was operationally active rather than merely available somewhere in the background.\n\nThe EU AI Act and ISO 42001 may both become relevant because reviewable governance depends partly on showing that documented conditions were genuinely connected to operational decisions. The weakness is evidentiary distance between the basis and the actual event.",
+            "director_exposure": "A basis that existed historically while showing little evidence of operational use may weaken confidence that governance arrangements were genuinely influencing decision-making in practice. Leadership may later struggle to demonstrate that formal conditions were actively connected to operational outcomes."
+          },
+          {
+            "id": "B3.5",
+            "question": "Could the justification appear retrospective rather than contemporaneous?",
+            "why_this_matters": "A justification appearing retrospective may be treated as explanation rather than prior permission.",
+            "finding_explanation": "The justification could reasonably appear retrospective rather than contemporaneous. It may explain why the decision is now defended, but it does not clearly show that permission existed and was relied upon when the decision occurred.",
+            "regulatory_relevance": "Retrospective justification creates one of the most difficult evidentiary problems in accountability review. A later explanation may sound entirely reasonable while still failing to prove that the same reasoning existed before the decision was challenged.\n\nDirective (EU) 2024/2853 may matter where later disputes examine whether a product-related decision contributed to harm and whether the surrounding conditions justified the outcome. The EU AI Act may also become relevant because accountability for high-risk AI systems depends on reviewable operational reasoning. The central issue is that explanation after the event is not the same thing as demonstrable basis at the time.",
+            "director_exposure": "Retrospective justification can create one of the most difficult accountability problems for senior oversight bodies because explanation after scrutiny begins may not prove what reasoning genuinely existed beforehand. Directors may later face questions about whether the organisation’s governance framework was demonstrable at the time rather than reconstructed afterwards."
+          }
+        ],
+        "regulatory_relevance": "Where the timing and operational applicability of decision justifications cannot be clearly demonstrated, the organisation may struggle to support accountable review and evidentiary examination under the EU AI Act, Directive (EU) 2024/2853, and ISO 42001.",
+        "director_exposure": "Retrospective or uncertain justification structures may later weaken the ability of directors and senior oversight bodies to demonstrate that challenged decisions rested on clearly established governance conditions at the relevant time."
+      }
+    ]
+  }
+]
