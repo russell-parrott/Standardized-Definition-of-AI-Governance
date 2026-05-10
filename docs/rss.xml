@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+
+<title>Russell Parrott</title>
+<link>https://russellparrott.eu/</link>
+<description>
+Plain-English writing on AI accountability, evidential responsibility, and what can actually be shown after automated decisions are challenged.
+</description>
+
+<language>en-gb</language>
+<lastBuildDate>Sun, 10 May 2026 12:00:00 GMT</lastBuildDate>
+<generator>Manual RSS Feed</generator>
+
+<item>
+<title>Why DAREB Matters | Can One Decision Be Shown?</title>
+<link>https://russellparrott.eu/articles/the_importance_of_dareb.html
+</link>
+<guid>
+https://russellparrott.eu/articles/the_importance_of_dareb.html
+</guid>
+<pubDate>Sun, 10 May 2026 12:00:00 GMT</pubDate>
+<description>
+DAREB matters because accountability is ultimately tested through one specific decision, not through governance claims in general. Most organisations can describe policies, oversight structures, approval processes, and responsible roles, but far fewer can show one challenged decision from beginning to end using records and evidence that already exist.
+</description>
+</item>
+
+<item>
+<title>Who Can Be Shown to Be Responsible?</title>
+<link>
+https://russellparrott.eu/articles/who_can_be_shown_to_be_responsible.html
+</link>
+<guid>
+https://russellparrott.eu/articles/who_can_be_shown_to_be_responsible.html
+</guid>
+<pubDate>Sat, 09 May 2026 12:00:00 GMT</pubDate>
+<description>
+This article examines how DAREB changes accountability from a broad organisational claim into a specific evidential question. It explores the difference between assigning responsibility in governance structures and being able to demonstrate who actually held the authority for one challenged decision at the moment it occurred.
+</description>
+</item>
+
+<item>
+<title>The D-A-R-E-B Test</title>
+<link>https://russellparrott.eu/dareb-test.html</link>
+<guid>
+https://russellparrott.eu/dareb-test.html
+</guid>
+<pubDate>Fri, 08 May 2026 12:00:00 GMT</pubDate>
+<description>
+DAREB defines five things that must be capable of being shown when a single automated or AI-assisted decision is challenged: the decision, the authority, the record, the evidence, and the basis.
+</description>
+</item>
+
+</channel>
+</rss>
