@@ -51,6 +51,33 @@
   "inLanguage": "en-GB"
 }
 	</script>
+	
+	<script>
+		async function loadArticles() {
+			try {
+				const response = await fetch("./articles/articles.json");				
+				if (!response.ok) {
+					throw new Error(`Failed to load JSON: ${response.status}`);
+				}
+				let sections = await response.json();
+				let b = document.getElementById('blog-posts')
+				sections.forEach((section,sectionIndex) => {
+					let a = document.createElement('div');
+					let p = document.createElement('div');
+					let t = document.createElement('a')
+					t.href = section.url;
+					t.innerHTML = section.title;
+					p.innerHTML = section.description
+					a.appendChild(t)
+					a.appendChild(p)
+					b.appendChild(a)
+				})
+			} catch (error) {
+				console.error(error);
+			}
+		}
+		loadArticles();
+	</script>
 	</head>
 	<body>
 		
@@ -83,14 +110,7 @@
 		</header>
 		
 		<main>
-			<section>
-				<div>
-					Most AI governance material describes structures, principles and oversight in general terms. These articles examine something narrower and far more difficult: whether one real decision can actually be shown afterwards.
-					<p>
-					Each piece explores the chain between governance, authority, records, evidence and accountability through the lens of a single practical question: what can be proved when an automated decision is challenged.
-				</div>				
-			</section>			
-			
+			<section id="blog-posts"></section>			
 		</main>	
 		
 		<footer>
