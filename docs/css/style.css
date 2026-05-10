@@ -187,7 +187,10 @@ footer {
   text-align: center;
 }
 
-
+#blog-menu a{
+	display:block;
+	margin-bottom:0.5rem; 
+}
 /* =========================
    NAVIGATION
 ========================= */
