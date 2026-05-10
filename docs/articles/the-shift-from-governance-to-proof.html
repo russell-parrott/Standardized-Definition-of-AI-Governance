@@ -72,7 +72,27 @@
   "inLanguage": "en-GB"
 }
 </script>
-
+	<script>
+		async function loadArticles() {
+			try {
+				const response = await fetch("./articles.json");				
+				if (!response.ok) {
+					throw new Error(`Failed to load JSON: ${response.status}`);
+				}
+				let sections = await response.json();
+				let b = document.getElementById('blog-menu')
+				sections.forEach((section,sectionIndex) => {
+					let t = document.createElement('a')
+					t.href = section.url.replace('articles/','');
+					t.innerHTML = section.title;
+					b.appendChild(t)
+				})
+			} catch (error) {
+				console.error(error);
+			}
+		}
+		loadArticles();
+	</script>
 	</head>
 	<body>
 
@@ -102,7 +122,7 @@
 		</header>
 		<main>			
 			<section class="grid-blog">
-				<div>re6yert</div>
+				<div id="blog-menu"></div>
 				<div>
 				Regulators, and in some areas courts, are becoming less interested in whether governance existed in broad terms and more interested in whether a specific decision can actually be reconstructed from records and evidence that already exist. That distinction matters because it changes the level at which scrutiny operates. Instead of examining governance as a general organisational condition, scrutiny increasingly focuses on one outcome affecting one person at one point in time.
 <p>

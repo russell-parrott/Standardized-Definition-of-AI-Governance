@@ -66,6 +66,28 @@
 }
 </script>
 
+	<script>
+		async function loadArticles() {
+			try {
+				const response = await fetch("./articles.json");				
+				if (!response.ok) {
+					throw new Error(`Failed to load JSON: ${response.status}`);
+				}
+				let sections = await response.json();
+				let b = document.getElementById('blog-menu')
+				sections.forEach((section,sectionIndex) => {
+					let t = document.createElement('a')
+					t.href = section.url.replace('articles/','');
+					t.innerHTML = section.title;
+					b.appendChild(t)
+				})
+			} catch (error) {
+				console.error(error);
+			}
+		}
+		loadArticles();
+	</script>
+
 	</head>
 	<body>
 
@@ -96,7 +118,7 @@ DAREB changes that assumption completely.
 		</header>
 		<main>			
 			<section class="grid-blog">
-				<div>re6yert</div>
+				<div id="blog-menu"></div>
 				<div>
 It changes the question from “Who is responsible?” to “Who can actually be shown to have been responsible for this specific decision from records and evidence that already exist?”
 <p>

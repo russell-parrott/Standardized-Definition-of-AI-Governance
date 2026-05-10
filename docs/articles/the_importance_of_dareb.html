@@ -65,7 +65,28 @@
   "inLanguage": "en-GB"
 }
 </script>
-
+		
+		<script>
+		async function loadArticles() {
+			try {
+				const response = await fetch("./articles.json");				
+				if (!response.ok) {
+					throw new Error(`Failed to load JSON: ${response.status}`);
+				}
+				let sections = await response.json();
+				let b = document.getElementById('blog-menu')
+				sections.forEach((section,sectionIndex) => {
+					let t = document.createElement('a')
+					t.href = section.url.replace('articles/','');
+					t.innerHTML = section.title;
+					b.appendChild(t)
+				})
+			} catch (error) {
+				console.error(error);
+			}
+		}
+		loadArticles();
+	</script>
 	</head>
 	<body>
 
@@ -93,7 +114,7 @@
 		</header>
 		<main>			
 			<section class="grid-blog">
-				<div>re6yert</div>
+				<div id="blog-menu"></div>
 				<div>
 				That is the point at which DAREB becomes important. It asks a much narrower and much harder question than most governance approaches ask. Instead of examining structures in general terms, it asks whether one specific decision can actually be shown from beginning to end using records and evidence that already exist. The focus is not the organisation’s intentions, governance philosophy or stated commitment to responsible practice. The focus is the decision itself: what was done, to whom, when it happened, who allowed it, what evidence survives and what basis permitted it at that moment.
 				<p>
