@@ -132,6 +132,23 @@ section {
 	margin-top:0;
 }
 
+.grid-blog{
+	display: grid;
+	gap:2rem;
+	grid-template-columns:280px 1fr;
+	align-items: start;
+}
+
+#blog-posts{
+	display: grid;
+	column-gap:3rem;
+	grid-template-columns:repeat(auto-fill,minmax(400px,1fr));
+	align-items: start;
+	row-gap:1.5rem;
+}
+
+
+
 header {
   background:var(--header-background-color);
   box-shadow: var(--shadow-soft);
