@@ -13,6 +13,33 @@ Plain-English writing on AI accountability, evidential responsibility, and what 
 <lastBuildDate>Sun, 10 May 2026 12:00:00 GMT</lastBuildDate>
 <generator>Manual RSS Feed</generator>
 
+
+<item>
+<title>The shift from governance to reconstruction</title>
+<link>https://russellparrott.eu/articles/the_shift_from_governance_to_reconstruction.html
+</link>
+<guid>
+https://russellparrott.eu/articles/the_shift_from_governance_to_reconstruction.html
+</guid>
+<pubDate>Mon, 11 May 2026 11:00:00 GMT</pubDate>
+<description>
+For a long time, most organisations expected accountability to depend mainly on explanation. If something went wrong, they described the process, referred to policies, pointed to oversight structures, and explained what was supposed to happen. In many cases that was enough, because very little else survived. Decisions disappeared into meetings, conversations, emails, reports and human recollection. The institution’s account of events carried most of the weight because there was often no practical way to reconstruct the event itself in detail afterwards.
+</description>
+</item>
+
+<item>
+<title>The Output Is Not the Proof | When Machine Output Starts Looking Like Evidence</title>
+<link>https://russellparrott.eu/articles/when-machine-output-starts-looking-like-evidence.html
+</link>
+<guid>
+https://russellparrott.eu/articles/when-machine-output-starts-looking-like-evidence.html
+</guid>
+<pubDate>Mon, 11 May 2026 11:00:00 GMT</pubDate>
+<description>
+Responsibility is one of the most overused and least examined ideas in governance. Organisations regularly describe who is responsible for systems, who owns operational risk, who supervises controls, who approves deployments, and who oversees compliance. Governance documents are filled with accountable executives, designated roles, delegated authority structures, approval committees, and reporting lines. The existence of these structures is often treated as proof that accountability exists.
+</description>
+</item>
+
 <item>
 <title>The shift from governance to proof</title>
 <link>https://russellparrott.eu/articles/the-shift-from-governance-to-proof.html
@@ -22,10 +49,9 @@ https://russellparrott.eu/articles/the-shift-from-governance-to-proof.html
 </guid>
 <pubDate>Sun, 10 May 2026 12:00:00 GMT</pubDate>
 <description>
-This article examines the growing shift from broad governance claims toward evidential scrutiny of individual decisions. It explores how regulators and courts are increasingly asking what can actually be shown in a specific case: what happened, who allowed it, what records existed at the time, what evidence survives, and what basis permitted the outcome. Using examples from financial regulation, data protection enforcement and emerging AI traceability obligations, the piece explains why accountability increasingly depends on whether one decision can be reconstructed from records and evidence that already exist.
+When a regulator, court or insurer examines a disputed outcome the discussion narrows very quickly. Broad descriptions of governance stop mattering on their own. The focus shifts to one decision affecting one person at one point in time. What happened, who allowed it, what records existed before it occurred, what evidence shows the outcome actually took place and what basis permitted it at that moment.
 </description>
 </item>
-
 
 <item>
 <title>Why DAREB Matters | Can One Decision Be Shown?</title>
