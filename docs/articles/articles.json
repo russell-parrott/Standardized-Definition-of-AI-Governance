@@ -3,15 +3,21 @@
 	"url":"articles/the_importance_of_dareb.html",
 	"title":"DAREB Test | Can One Challenged Decision Actually Be Shown?",
 	"description":"DAREB matters because accountability is ultimately tested through one specific decision, not through governance claims in general. Most organisations can describe policies, oversight structures, approval processes and responsible roles, but far fewer can show one challenged decision from beginning to end using records and evidence that already exist. DAREB reduces accountability to five observable elements: the decision itself, the authority behind it, the record of that authority, the evidence that the outcome occurred and the basis that permitted it at the time. In doing so, it shifts accountability away from organisational assertion and toward demonstrable proof."
-},
-{
+},{
 	"url":"articles/who_can_be_shown_to_be_responsible.html",
 	"title":"Who can be shown to be responsible?",
 	"description":"This article examines how DAREB changes accountability from a broad organisational claim into a specific evidential question. It explores the difference between assigning responsibility in governance structures and being able to demonstrate who actually held the authority for one challenged decision at the moment it occurred. The article explains why accountability depends not on titles, committees or organisational charts, but on records and evidence that can connect a specific outcome to a named authority in a specific case."
 },{
 	"url":"articles/the-shift-from-governance-to-proof.html",
 	"title":"The shift from governance to proof",
-	"description":"This article examines the growing shift from broad governance claims toward evidential scrutiny of individual decisions. It explores how regulators and courts are increasingly asking what can actually be shown in a specific case: what happened, who allowed it, what records existed at the time, what evidence survives, and what basis permitted the outcome. Using examples from financial regulation, data protection enforcement and emerging AI traceability obligations, the piece explains why accountability increasingly depends on whether one decision can be reconstructed from records and evidence that already exist."
+	"description":"When a regulator, court or insurer examines a disputed outcome the discussion narrows very quickly. Broad descriptions of governance stop mattering on their own. The focus shifts to one decision affecting one person at one point in time. What happened, who allowed it, what records existed before it occurred, what evidence shows the outcome actually took place and what basis permitted it at that moment."
+},{
+	"url":"articles/the_shift_from_governance_to_reconstruction.html",
+	"title":"The shift from governance to Reconstruction",
+	"description":"For a long time, most organisations expected accountability to depend mainly on explanation. If something went wrong, they described the process, referred to policies, pointed to oversight structures, and explained what was supposed to happen. In many cases that was enough, because very little else survived. Decisions disappeared into meetings, conversations, emails, reports and human recollection. The institution’s account of events carried most of the weight because there was often no practical way to reconstruct the event itself in detail afterwards."
+},{
+	"url":"articles/when-machine-output-starts-looking-like-evidence.html",
+	"title":"When machine output starts looking like evidence",
+	"description":"Responsibility is one of the most overused and least examined ideas in governance. Organisations regularly describe who is responsible for systems, who owns operational risk, who supervises controls, who approves deployments, and who oversees compliance. Governance documents are filled with accountable executives, designated roles, delegated authority structures, approval committees, and reporting lines. The existence of these structures is often treated as proof that accountability exists."
 }
-
 ]
