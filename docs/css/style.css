@@ -147,7 +147,23 @@ section {
 	row-gap:1.5rem;
 }
 
+.tdo{
+	display: grid;
+	column-gap:2rem;
+	grid-template-columns:repeat(auto-fill,minmax(400px,1fr));	
+	 max-width: var(--max-width-wide);
+	row-gap:1.5rem;
+}
 
+.tdo div{
+	border:1px solid;
+	padding:1.5rem;
+}
+
+.tdo h2{
+	font-size:110%;
+	margin-top:0;
+}
 
 header {
   background:var(--header-background-color);
@@ -341,6 +357,22 @@ ul.pricing-list li{
 ul.pricing-list li h3{
 	border-left:none;
 	margin-top:0px;
+	padding-left:0;
+}
+
+#references{
+	list-style:none;
+	margin:1.5rem 0;	
+}
+
+#references li{
+	margin-bottom:0.75rem
+}
+
+#references li h3{
+	border-left:none;
+	font-size:105%;
+	margin:0px;
 	padding-left:0;
 }
 
