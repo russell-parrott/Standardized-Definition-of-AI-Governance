@@ -156,7 +156,8 @@ section {
 }
 
 .tdo div{
-	border:1px solid;
+	background:#EEE6C4;
+	border:1px solid #DECB8C;
 	padding:1.5rem;
 }
 
