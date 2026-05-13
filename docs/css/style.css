@@ -428,7 +428,7 @@ ul.pricing-list li h3{
 	border:none;
 	border-top:1px solid var(--border-color);
 	border-bottom:1px solid var(--border-color);
-	color:var(--border-color);
+	color:var(--text-color);
 	display:block;
 	font:inherit;
 	height:4rem;
