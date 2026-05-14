@@ -9,7 +9,8 @@
   --text-color:#111315;
   --header-text-color:#E9ECEC;
   --header-border-color:#7F8F94;
-	--border-color:#7F8F94;
+	--border-color:#7F8F94;	
+	--carousel-background:#EBB43D;
 	
   /* Typography */
   --font-body: "Source Sans 3", sans-serif;
@@ -166,6 +167,20 @@ section {
 	margin-top:0;
 }
 
+.carousel{
+	display: grid;
+	column-gap:2rem;
+	grid-template-columns:repeat(auto-fill,minmax(350px,1fr));
+	row-gap:1.5rem;
+}
+
+.carousel div{
+	background: var(--carousel-background);
+	font-size:105%;
+	max-width: var(--max-width-wide);
+	padding:1.5rem 2rem;
+}
+
 header {
   background:var(--header-background-color);
   box-shadow: var(--shadow-soft);
@@ -194,6 +209,18 @@ header a{
 	font:inherit;
 	padding:0.5rem 1rem;
 }
+
+a.link-buy{
+	background:var(--carousel-background);
+	box-shadow: var(--shadow-soft);
+	color:var(--text-color);
+	font-weight:600;
+	line-height:2.5;
+	padding:0.75rem 1rem;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
 
 footer {
   border-top: 1px solid #7F8F94;
@@ -522,16 +549,37 @@ button[data-direction]{
 	justify-content:center;
 	padding-top:1rem;
 }
+
+.bi-quote{
+	opacity:0.35;
+	transform: scale(2);
+}
+
+.bi-quote:last-of-type{
+	
+	transform: scaleX(-1)scale(1.8);
+}
    
 /* =========================
    BREAKPOINTS
 ========================= */
-@media (max-width: 1340px) {
+@media (max-width: 1220px) {
+	
+	  nav {
+		flex-wrap:wrap;
+		justify-content:space-between;
+		padding:0;
+  }
+  
+	.nav-logo{
+		margin-left:5vw;	
+	}
 	
 	label[for="menu"]{
 		align-items:center;
 		aspect-ratio:1/1;
 		border:1px solid;
+		border-bottom:none;
 		display:flex;
 		justify-content:center;
 		margin-top:0;
@@ -544,13 +592,18 @@ button[data-direction]{
 	}
  
 	#menu:checked + .navbar {
-		display:block;
+		border-top:1px solid;
+		display:flex;
+		flex-wrap:wrap;
+		column-gap:0.5rem;
+		justify-content:flex-end;
 		padding-bottom:0.5rem;
 		padding-top:0.5rem;
+		width:100%
 	}
 	
 	 .navbar a{		 
-		display:inline-block;
+		
 		margin-bottom:0.5rem;
 	 }
 }
@@ -574,11 +627,7 @@ button[data-direction]{
 
 @media (max-width: 1024px) {
   
-  nav {
-    justify-content:space-between;
-	padding:0 0 0 5vw;
-	
-  }
+
   
 	
 	 
@@ -619,9 +668,13 @@ button[data-direction]{
   
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   body { font-size: 0.9rem; }
 
+#menu:checked + .navbar {
+		justify-content:center;
+}
+		
 	h1,h2,h3,h4{
 		font-size: 150%;
 	}
