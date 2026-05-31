@@ -1,96 +1,75 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Russell Parrott | AI Accountability &amp; Evidence</title>
+    <link>https://russellparrott.eu/</link>
+    <description>Isolate algorithmic corporate liability. Evidentiary testing frameworks, books, and insights mapping 21st-century software to strict liability and human decision-making trails.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 May 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://russellparrott.eu/rss.xml" rel="self" type="application/rss+xml" />
 
-<channel>
+    <!-- 1. The DAREB Test -->
+    <item>
+      <title>The DAREB Test</title>
+      <link>https://russellparrott.eu/dareb-test.html</link>
+      <guid isPermaLink="true">https://russellparrott.eu/dareb-test.html</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description>Evidentiary AI accountability framework and diagnostic testing.</description>
+    </item>
 
-<title>Russell Parrott</title>
-<link>https://russellparrott.eu/</link>
-<description>
-Plain-English writing on AI accountability, evidential responsibility, and what can actually be shown after automated decisions are challenged.
-</description>
+    <!-- 2. Director Accountability Test -->
+    <item>
+      <title>Director Accountability Test</title>
+      <link>https://russellparrott.eu/director-accountability-test.html</link>
+      <guid isPermaLink="true">https://russellparrott.eu/director-accountability-test.html</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description>Evaluating human responsibility and corporate liability gaps in automated systems.</description>
+    </item>
 
-<language>en-gb</language>
-<lastBuildDate>Sun, 10 May 2026 12:00:00 GMT</lastBuildDate>
-<generator>Manual RSS Feed</generator>
+    <!-- 3. D&O Insurance Risk -->
+    <item>
+      <title>D&amp;O Insurance and AI Liability Risk</title>
+      <link>https://russellparrott.eu/do-insurance-ai-liability-risk.html</link>
+      <guid isPermaLink="true">https://russellparrott.eu/do-insurance-ai-liability-risk.html</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description>How corporate accountability gaps impact Directors and Officers insurance coverage.</description>
+    </item>
 
+    <!-- 4. Forensic AI Audit Trail Requirements -->
+    <item>
+      <title>Forensic AI Audit Trail Requirements</title>
+      <link>https://russellparrott.eu/forensic-ai-audit-trail-requirements.html</link>
+      <guid isPermaLink="true">https://russellparrott.eu/forensic-ai-audit-trail-requirements.html</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description>Establishing evidence trails and human decision-making maps within software governance.</description>
+    </item>
 
-<item>
-<title>The shift from governance to reconstruction</title>
-<link>https://russellparrott.eu/articles/the_shift_from_governance_to_reconstruction.html
-</link>
-<guid>
-https://russellparrott.eu/articles/the_shift_from_governance_to_reconstruction.html
-</guid>
-<pubDate>Mon, 11 May 2026 11:00:00 GMT</pubDate>
-<description>
-For a long time, most organisations expected accountability to depend mainly on explanation. If something went wrong, they described the process, referred to policies, pointed to oversight structures, and explained what was supposed to happen. In many cases that was enough, because very little else survived. Decisions disappeared into meetings, conversations, emails, reports and human recollection. The institution’s account of events carried most of the weight because there was often no practical way to reconstruct the event itself in detail afterwards.
-</description>
-</item>
+    <!-- 5. PLD AI Disclosure Evidence Trap -->
+    <item>
+      <title>The PLD AI Disclosure and Evidence Trap</title>
+      <link>https://russellparrott.eu/pld-ai-disclosure-evidence-trap.html</link>
+      <guid isPermaLink="true">https://russellparrott.eu/pld-ai-disclosure-evidence-trap.html</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description>Analysing strict liability and corporate disclosure gaps under the Product Liability Directive.</description>
+    </item>
 
-<item>
-<title>The Output Is Not the Proof | When Machine Output Starts Looking Like Evidence</title>
-<link>https://russellparrott.eu/articles/when-machine-output-starts-looking-like-evidence.html
-</link>
-<guid>
-https://russellparrott.eu/articles/when-machine-output-starts-looking-like-evidence.html
-</guid>
-<pubDate>Mon, 11 May 2026 11:00:00 GMT</pubDate>
-<description>
-Responsibility is one of the most overused and least examined ideas in governance. Organisations regularly describe who is responsible for systems, who owns operational risk, who supervises controls, who approves deployments, and who oversees compliance. Governance documents are filled with accountable executives, designated roles, delegated authority structures, approval committees, and reporting lines. The existence of these structures is often treated as proof that accountability exists.
-</description>
-</item>
+    <!-- 6. Why AI Compliance Checklists Fail -->
+    <item>
+      <title>Why AI Compliance Checklists Fail</title>
+      <link>https://russellparrott.eu/why-ai-compliance-checklists-fail.html</link>
+      <guid isPermaLink="true">https://russellparrott.eu/why-ai-compliance-checklists-fail.html</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description>The structural disconnect between standardised checklists and legal litigation environments.</description>
+    </item>
 
-<item>
-<title>The shift from governance to proof</title>
-<link>https://russellparrott.eu/articles/the-shift-from-governance-to-proof.html
-</link>
-<guid>
-https://russellparrott.eu/articles/the-shift-from-governance-to-proof.html
-</guid>
-<pubDate>Sun, 10 May 2026 12:00:00 GMT</pubDate>
-<description>
-When a regulator, court or insurer examines a disputed outcome the discussion narrows very quickly. Broad descriptions of governance stop mattering on their own. The focus shifts to one decision affecting one person at one point in time. What happened, who allowed it, what records existed before it occurred, what evidence shows the outcome actually took place and what basis permitted it at that moment.
-</description>
-</item>
+    <!-- 7. Why AI Governance Frameworks Fail -->
+    <item>
+      <title>Why AI Governance Frameworks Fail</title>
+      <link>https://russellparrott.eu/why-ai-governance-frameworks-fail.html</link>
+      <guid isPermaLink="true">https://russellparrott.eu/why-ai-governance-frameworks-fail.html</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description>Examining how systemic gaps in corporate structures drop individual responsibility.</description>
+    </item>
 
-<item>
-<title>Why DAREB Matters | Can One Decision Be Shown?</title>
-<link>https://russellparrott.eu/articles/the_importance_of_dareb.html
-</link>
-<guid>
-https://russellparrott.eu/articles/the_importance_of_dareb.html
-</guid>
-<pubDate>Sun, 10 May 2026 12:00:00 GMT</pubDate>
-<description>
-DAREB matters because accountability is ultimately tested through one specific decision, not through governance claims in general. Most organisations can describe policies, oversight structures, approval processes, and responsible roles, but far fewer can show one challenged decision from beginning to end using records and evidence that already exist.
-</description>
-</item>
-
-<item>
-<title>Who Can Be Shown to Be Responsible?</title>
-<link>
-https://russellparrott.eu/articles/who_can_be_shown_to_be_responsible.html
-</link>
-<guid>
-https://russellparrott.eu/articles/who_can_be_shown_to_be_responsible.html
-</guid>
-<pubDate>Sat, 09 May 2026 12:00:00 GMT</pubDate>
-<description>
-This article examines how DAREB changes accountability from a broad organisational claim into a specific evidential question. It explores the difference between assigning responsibility in governance structures and being able to demonstrate who actually held the authority for one challenged decision at the moment it occurred.
-</description>
-</item>
-
-<item>
-<title>The D-A-R-E-B Test</title>
-<link>https://russellparrott.eu/dareb-test.html</link>
-<guid>
-https://russellparrott.eu/dareb-test.html
-</guid>
-<pubDate>Fri, 08 May 2026 12:00:00 GMT</pubDate>
-<description>
-DAREB defines five things that must be capable of being shown when a single automated or AI-assisted decision is challenged: the decision, the authority, the record, the evidence, and the basis.
-</description>
-</item>
-
-</channel>
+  </channel>
 </rss>
