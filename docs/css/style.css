@@ -114,10 +114,11 @@ nav{
 }
 
 .nav-logo {
-  font-size: 250%;
+  font-size: 225%;
   font-family: var(--font-heading);
   font-weight: 900;
   text-decoration:none;
+  text-transform:uppercase
 }
 
 .navbar {
@@ -145,6 +146,7 @@ label[for="menu"]{
 
 header{
 	box-shadow: var(--shadow-soft);
+	margin-bottom:var(--space-xl);
 	padding:var(--space-lg) var(--space-xxl) 0;
 }
 
@@ -161,11 +163,17 @@ header section.wider{
 }
 
 main{
-	padding:var(--space-xl) var(--space-xxl);
+	
 }
 
 main section{
+	margin:var(--space-xl) var(--space-xxl);
 	margin-bottom:var(--space-xl);
+}
+
+main .dark{
+	background: var(--header-text-color);
+	padding:var(--space-sm) 0;
 }
 
 section.narrow{
@@ -177,6 +185,7 @@ section.narrow{
 blockquote{
 	margin:1.5rem 0
 }
+
 .grid{
 	display:grid;
 	gap:var(--space-lg);
@@ -184,12 +193,16 @@ blockquote{
 }
 
 .grid-div{
-	background:linear-gradient(to bottom,#F9F9F9,#EDEDED);
+	background:linear-gradient(to bottom,#F9F9F9,var(--header-text-color));
 	
 	box-shadow: var(--shadow-soft);
 }
 .grid-div div{
 	padding:0 var(--space-lg) var(--space-md) ;
+}
+
+main .dark .grid-div{
+	background:#FFF
 }
 
 /* =========================
@@ -312,8 +325,11 @@ td{
 	header{		
 		padding:var(--space-md) var(--space-xl) 0;
 	}
-	
-	main,
+		
+	main section{
+		margin:var(--space-md) var(--space-xl);
+	}
+
 	footer{
 		padding:var(--space-md) var(--space-xl);
 	}
@@ -358,6 +374,32 @@ td{
 	header section img{	
 		display:none
 	}
+	
+	.nav-logo{
+		font-size:200%
+	}
+	
+	main section{
+		margin:0;
+	}
+
+	main section{
+		padding:var(--space-md) var(--space-xl);
+	}
+	
+	footer{
+		margin:0 var(--space-md);	
+	}
+	.grid{
+		grid-template-columns:repeat(auto-fill,minmax(350px,1fr));
+	}
+	
+	.bk-link{
+		 padding: 0.5rem var(--space-md);
+	}
+	form {
+		gap: var(--space-md);
+	}
 }
 
 @media (max-width: 768px) {
@@ -370,13 +412,51 @@ td{
 		 padding:var(--space-sm) var(--space-md);
 	}
 	
+		
 	header,
-	main,
 	footer{
 		padding:var(--space-md);
 	}
+	
+	
 	.grid{
+		
 		grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+	}
+	
+	main section{
+		margin:0;
+	}
+
+	main section{
+		padding:var(--space-md);
+	}
+	
+	form {
+
+  grid-template-columns:1fr;
+  gap: var(--space-md);
+}
+
+form ul {
+  margin-left: 0;
+  padding-left:0;
 }
 	
+}
+
+
+@media (max-width: 650px) {
+	nav{
+		display:block;
+		text-align:center;
+	}
+	
+	.nav-logo{
+		font-size:175%
+	}
+	
+	.navbar{
+		justify-content:center
+	}
 }
