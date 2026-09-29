@@ -1,6 +1,6 @@
-User-agent: *
-Allow: /
+RewriteEngine On
 
-Sitemap: https://russellparrott.eu/sitemap.xml
+RewriteCond %{HTTP_HOST} ^(www\.)?russellparrott\.eu$ [NC]
+RewriteRule ^$ https://russellparrott.co.uk/ [R=301,L]
 
 # Last updated: 2026-05-10
