@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^(www\.)?russellparrott\.eu$ [NC]
-RewriteRule ^.*$ https://russellparrott.co.uk/ [R=301,L]
